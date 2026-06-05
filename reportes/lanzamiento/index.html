@@ -1,1 +1,714 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BRUNN — Calendario Editorial v4</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --black: #0A0A0A; --warm: #EDECEA; --surface: #141414; --surface2: #1C1C1C;
+    --border: #222; --muted: #5A5A5A; --faint: #2E2E2E; --orange: #FF721C;
+  }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; background: var(--black); color: var(--warm); font-size: 13px; line-height: 1.65; padding-bottom: 80px; }
+
+  .header { max-width: 940px; margin: 0 auto; padding: 52px 40px 36px; border-bottom: 0.5px solid var(--border); }
+  .eyebrow { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); margin-bottom: 14px; }
+  .header h1 { font-size: 20px; font-weight: 500; letter-spacing: -0.01em; margin-bottom: 4px; }
+  .header-sub { font-size: 13px; color: var(--muted); margin-bottom: 24px; }
+  .header-grid { display: flex; gap: 28px; flex-wrap: wrap; }
+  .hs { }
+  .hs-l { font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
+  .hs-v { font-size: 13px; color: var(--warm); }
+
+  /* MIX LEGEND */
+  .mix-legend { max-width: 940px; margin: 0 auto; padding: 20px 40px; border-bottom: 0.5px solid var(--border); display: flex; gap: 24px; align-items: center; flex-wrap: wrap; }
+  .mix-item { display: flex; align-items: center; gap: 8px; }
+  .mix-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .dot-id { background: #888; }
+  .dot-mo { background: var(--warm); }
+  .dot-re { background: var(--orange); }
+  .mix-label { font-size: 11px; color: var(--muted); }
+  .mix-pct { font-size: 12px; color: var(--warm); font-weight: 500; }
+
+  /* MONTH */
+  .month-block { max-width: 940px; margin: 32px auto 0; padding: 0 40px; }
+  .month-label { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); padding-bottom: 10px; border-bottom: 0.5px solid var(--border); }
+
+  .weeks { max-width: 940px; margin: 0 auto; padding: 0 40px; }
+  details { border-bottom: 0.5px solid var(--border); }
+  summary { display: flex; align-items: baseline; gap: 16px; padding: 20px 0; cursor: pointer; list-style: none; user-select: none; }
+  summary::-webkit-details-marker { display: none; }
+  .s-num { font-size: 10px; letter-spacing: 0.15em; color: var(--muted); min-width: 44px; }
+  .s-name { font-size: 14px; font-weight: 500; letter-spacing: -0.01em; flex: 1; }
+  .s-sub { font-size: 11px; color: var(--muted); font-style: italic; }
+  .s-dates { font-size: 11px; color: var(--faint); margin-right: 6px; }
+  .s-arr { font-size: 12px; color: var(--muted); transition: transform 0.15s; }
+  details[open] .s-arr { transform: rotate(180deg); }
+
+  .wbody { padding: 0 0 28px; }
+
+  /* MIX BAR */
+  .mix-bar { display: flex; gap: 3px; height: 3px; border-radius: 2px; overflow: hidden; margin-bottom: 16px; }
+  .mb-id { background: #555; }
+  .mb-mo { background: #999; }
+  .mb-re { background: var(--orange); }
+
+  /* GRID */
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px; }
+  .col-full { grid-column: 1 / -1; }
+  .col-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-bottom: 8px; }
+
+  .cblock { background: var(--surface); border: 0.5px solid var(--border); border-radius: 5px; padding: 14px 16px; }
+  .cblock-head { display: flex; align-items: center; gap: 8px; margin-bottom: 11px; padding-bottom: 9px; border-bottom: 0.5px solid var(--border); }
+
+  /* CATEGORY TAGS */
+  .ctag { font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase; padding: 2px 6px; border-radius: 2px; font-weight: 500; }
+  .ctag-id { color: #888; border: 0.5px solid #444; }
+  .ctag-mo { color: #aaa; border: 0.5px solid #555; }
+  .ctag-re { color: var(--orange); border: 0.5px solid #553311; }
+  .ctag-cam { color: #7aadcc; border: 0.5px solid #1a3344; }
+
+  .cblock-head h4 { font-size: 11px; font-weight: 400; color: var(--muted); }
+
+  .citem { margin-bottom: 13px; padding-bottom: 13px; border-bottom: 0.5px solid var(--border); }
+  .citem:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+  .citem-date { font-size: 10px; color: var(--muted); margin-bottom: 2px; }
+  .citem-title { font-size: 12px; font-weight: 500; color: var(--warm); margin-bottom: 4px; line-height: 1.4; }
+  .citem-body { font-size: 12px; color: #666; line-height: 1.55; }
+
+  .copy-preview { background: var(--surface2); border: 0.5px solid var(--faint); border-left: 1.5px solid #444; border-radius: 0 4px 4px 0; padding: 9px 12px; margin-top: 7px; }
+  .cp-label { font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+  .cp-text { font-size: 12px; color: #aaa; line-height: 1.55; font-style: italic; }
+
+  .frow { display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
+  .fcard { flex: 1; min-width: 150px; background: var(--surface); border: 0.5px solid var(--border); border-radius: 5px; padding: 11px 14px; }
+  .fc-l { font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+  .fc-v { font-size: 12px; color: #666; line-height: 1.5; }
+
+  .prow { display: flex; align-items: center; gap: 10px; margin-top: 14px; padding-top: 12px; border-top: 0.5px solid var(--border); }
+  .pl { font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+  .ptag { font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 8px; border-radius: 3px; border: 0.5px solid var(--faint); color: var(--muted); }
+  .ptag.max { border-color: var(--orange); color: var(--orange); }
+  .ptag.alta { border-color: #888; color: #888; }
+  .ptag.media { border-color: var(--faint); color: var(--muted); }
+  .pnote { font-size: 11px; color: var(--muted); }
+
+  /* BANK */
+  .bank { max-width: 940px; margin: 40px auto 0; padding: 0 40px; }
+  .bank h2 { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); padding-bottom: 10px; border-bottom: 0.5px solid var(--border); margin-bottom: 16px; }
+  .bank-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+  .bc { background: var(--surface); border: 0.5px solid var(--border); border-radius: 5px; padding: 15px 17px; }
+  .bc h3 { font-size: 11px; font-weight: 500; margin-bottom: 12px; }
+  .bc h3.id { color: #888; }
+  .bc h3.mo { color: #bbb; }
+  .bc h3.re { color: var(--orange); }
+  .bc ul { padding-left: 14px; }
+  .bc li { font-size: 12px; color: #666; margin-bottom: 6px; line-height: 1.5; font-style: italic; }
+
+  .footer-note { max-width: 940px; margin: 28px auto 0; padding: 14px 40px 0; border-top: 0.5px solid var(--border); }
+  .footer-note p { font-size: 10px; color: var(--muted); }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="eyebrow">BRUNN — Producción Interna</div>
+  <h1>Calendario Editorial de Lanzamiento — v4</h1>
+  <p class="header-sub">Julio – Agosto 2026 · Mix constante · Sin fases · 3 feed + 2 reels + 3 stories + 1 LinkedIn / semana</p>
+  <div class="header-grid">
+    <div class="hs"><div class="hs-l">Período</div><div class="hs-v">1 jul – 24 ago</div></div>
+    <div class="hs"><div class="hs-l">Estructura</div><div class="hs-v">Mix 30/40/30 constante</div></div>
+    <div class="hs"><div class="hs-l">Ads</div><div class="hs-v">Activos desde S3</div></div>
+  </div>
+</div>
+
+<div class="mix-legend">
+  <div class="mix-item"><div class="mix-dot dot-id"></div><span class="mix-pct">30%</span><span class="mix-label">Identidad — quiénes somos, qué creemos</span></div>
+  <div class="mix-item"><div class="mix-dot dot-mo"></div><span class="mix-pct">40%</span><span class="mix-label">Mostrar — cómo la identidad llega al mercado</span></div>
+  <div class="mix-item"><div class="mix-dot dot-re"></div><span class="mix-pct">30%</span><span class="mix-label">Resultados — autoridad desde la evidencia concreta</span></div>
+</div>
+
+<!-- JULIO -->
+<div class="month-block"><div class="month-label">Julio</div></div>
+<div class="weeks">
+
+<!-- S1 -->
+<details open>
+<summary>
+  <span class="s-num">S 01</span>
+  <span class="s-name">Primera presencia</span>
+  <span class="s-sub">Sin revelar marca todavía. Plantamos la semilla.</span>
+  <span class="s-dates">1 – 6 julio</span>
+  <span class="s-arr">▾</span>
+</summary>
+<div class="wbody">
+  <div class="mix-bar"><div class="mb-id" style="flex:3"></div><div class="mb-mo" style="flex:4"></div><div class="mb-re" style="flex:3"></div></div>
+
+  <div class="col-3">
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-id">Identidad</span><h4>Feed 1 — Mar 1 jul</h4></div>
+      <div class="citem">
+        <div class="citem-title">Pieza tipográfica — sin logo</div>
+        <div class="citem-body">Negro total. Una sola línea. Sin contexto, sin marca visible todavía. La ausencia de explicación ya dice algo.</div>
+        <div class="copy-preview"><div class="cp-label">Copy</div><div class="cp-text">"El pozo siempre tiene agua. El trabajo es encontrarla."</div></div>
+      </div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-mo">Mostrar</span><h4>Feed 2 — Jue 3 jul</h4></div>
+      <div class="citem">
+        <div class="citem-title">Carrusel — Por qué los mejores negocios no son los que más se anuncian (5 slides)</div>
+        <div class="citem-body">Educativo. Sin marca visible todavía o logo muy pequeño al pie. Instala un criterio de pensamiento antes de revelar quién habla.</div>
+        <div class="copy-preview"><div class="cp-label">Portada</div><div class="cp-text">"Ser bueno en lo que hacés no alcanza. El mercado necesita entender por qué."</div></div>
+      </div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-re">Resultados</span><h4>Feed 3 — Sáb 5 jul</h4></div>
+      <div class="citem">
+        <div class="citem-title">Dato de impacto — tipográfico</div>
+        <div class="citem-body">Un número que confronta. Sin fuente inventada — usar dato real o reformular como observación propia del mercado.</div>
+        <div class="copy-preview"><div class="cp-label">Copy</div><div class="cp-text">"La mayoría de los negocios no puede explicar su diferencial en menos de 30 segundos. Ese número cuesta todos los días."</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cols">
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-mo">Mostrar</span><h4>Reel texto — Mié 2 jul</h4></div>
+      <div class="citem">
+        <div class="citem-title">Tipografía animada. Una idea que se despliega.</div>
+        <div class="copy-preview"><div class="cp-label">Texto en pantalla</div><div class="cp-text">"Visibilidad sin claridad es ruido. / Claridad sin visibilidad es desperdicio. / Los dos juntos / son crecimiento."</div></div>
+      </div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-id">Identidad</span><h4>Reel atmósfera — Vie 4 jul</h4></div>
+      <div class="citem">
+        <div class="citem-title">B-roll editorial. Sin texto. Solo material y composición.</div>
+        <div class="citem-body">Arquitectura, profundidad, superficie. La sensación de algo construyéndose desde adentro. 15 seg.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="frow">
+    <div class="fcard"><div class="fc-l">Stories 3x</div><div class="fc-v">Lun: "Algo está por llegar." / Mié: Poll "¿Tu negocio sabe exactamente qué lo hace mejor que el resto?" / Vie: Frase suelta sin contexto.</div></div>
+    <div class="fcard"><div class="fc-l">LinkedIn — Mar 1</div><div class="fc-v">Reflexión desarrollada sobre por qué los negocios con mejor oferta no siempre ganan. Sin mencionar BRUNN. Tono: observación de mercado con criterio propio.</div></div>
+    <div class="fcard"><div class="fc-l">CTA</div><div class="fc-v">Ninguno todavía. El CTA es la curiosidad.</div></div>
+  </div>
+  <div class="prow"><span class="pl">Prioridad</span><span class="ptag alta">Alta</span><span class="pnote">Las primeras piezas definen el tono de todo. La tipográfica de identidad y el carrusel deben estar perfectos antes de publicar.</span></div>
+</div>
+</details>
+
+<!-- S2 -->
+<details>
+<summary>
+  <span class="s-num">S 02</span>
+  <span class="s-name">Instalando criterio</span>
+  <span class="s-sub">Confrontación directa. Primera aparición sutil de marca.</span>
+  <span class="s-dates">7 – 13 julio</span>
+  <span class="s-arr">▾</span>
+</summary>
+<div class="wbody">
+  <div class="mix-bar"><div class="mb-id" style="flex:3"></div><div class="mb-mo" style="flex:4"></div><div class="mb-re" style="flex:3"></div></div>
+
+  <div class="col-3">
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-mo">Mostrar</span><h4>Feed 1 — Lun 7 jul</h4></div>
+      <div class="citem">
+        <div class="citem-title">Frase tipográfica — confrontación al mercado</div>
+        <div class="copy-preview"><div class="cp-label">Copy</div><div class="cp-text">"El posicionamiento no es lo que decís de vos mismo. Es lo que el mercado concluye cuando no estás."</div></div>
+      </div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-mo">Mostrar</span><h4>Feed 2 — Mié 9 jul</h4></div>
+      <div class="citem">
+        <div class="citem-title">Carrusel — 5 señales de que tu posicionamiento no trabaja para vos</div>
+        <div class="citem-body">Concreto y reconocible. Primer logo pequeño al pie — primera aparición de marca.</div>
+        <div class="copy-preview"><div class="cp-label">Señales</div><div class="cp-text">1. Competís por precio aunque tenés más para dar. / 2. Cada propuesta empieza de cero. / 3. Los referidos llegan, el marketing no. / 4. No podés explicar tu diferencial en dos oraciones. / 5. Tus mejores clientes no saben describir exactamente qué hacés.</div></div>
+      </div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-re">Resultados</span><h4>Feed 3 — Vie 11 jul</h4></div>
+      <div class="citem">
+        <div class="citem-title">Historia de resultado corta — sin revelar cliente</div>
+        <div class="copy-preview"><div class="cp-label">Copy</div><div class="cp-text">"Una empresa reposicionó su oferta sin cambiar nada del producto. En 90 días, el ticket promedio subió 60%. El trabajo fue nombrar lo que ya tenía."</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cols">
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-re">Resultados</span><h4>Reel texto — Mar 8 jul</h4></div>
+      <div class="citem">
+        <div class="citem-title">Dos negocios, misma industria, resultados opuestos</div>
+        <div class="copy-preview"><div class="cp-label">Texto en pantalla</div><div class="cp-text">"Dos negocios. / Mismo producto. Mismo precio. / Uno crece. / El otro se estanca. / La diferencia no está en lo que hacen. / Está en lo que el mercado entiende sobre lo que son."</div></div>
+      </div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-id">Identidad</span><h4>Reel texto — Jue 10 jul</h4></div>
+      <div class="citem">
+        <div class="citem-title">Quiénes somos — teaser antes de la revelación</div>
+        <div class="copy-preview"><div class="cp-label">Texto en pantalla</div><div class="cp-text">"No llegamos con soluciones. / Llegamos con preguntas. / Y casi siempre / la respuesta ya estaba adentro."</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="frow">
+    <div class="fcard"><div class="fc-l">Stories 3x</div><div class="fc-v">Lun: "¿Podés describir en dos oraciones por qué vos y no otro?" / Mié: Preview del carrusel. / Vie: "La semana que viene, presentamos algo."</div></div>
+    <div class="fcard"><div class="fc-l">LinkedIn — Mié 9</div><div class="fc-v">Caso anónimo desarrollado. El negocio, el problema de posicionamiento, la intervención, el resultado numérico. Tono: análisis honesto.</div></div>
+    <div class="fcard"><div class="fc-l">CTA</div><div class="fc-v">"Guardá esto." Sin más por ahora.</div></div>
+  </div>
+  <div class="prow"><span class="pl">Prioridad</span><span class="ptag alta">Alta</span><span class="pnote">El carrusel de las 5 señales es la pieza más importante — instala el problema que BRUNN resuelve antes de presentarse.</span></div>
+</div>
+</details>
+
+<!-- S3 -->
+<details>
+<summary>
+  <span class="s-num">S 03</span>
+  <span class="s-name">Revelación</span>
+  <span class="s-sub">BRUNN se presenta. Primera cámara. Ads activos.</span>
+  <span class="s-dates">14 – 20 julio</span>
+  <span class="s-arr">▾</span>
+</summary>
+<div class="wbody">
+  <div class="mix-bar"><div class="mb-id" style="flex:3"></div><div class="mb-mo" style="flex:4"></div><div class="mb-re" style="flex:3"></div></div>
+
+  <div class="cols">
+    <div class="cblock col-full">
+      <div class="cblock-head"><span class="ctag ctag-id">Identidad</span><h4>Feed 1 — Lun 14 jul · Post de revelación — pieza más importante del ciclo</h4></div>
+      <div class="citem">
+        <div class="citem-title">Logo BRUNN completo + caption institucional</div>
+        <div class="citem-body">Composición limpia, espacio negativo amplio. La revelación se siente como una llegada, no como un anuncio.</div>
+        <div class="copy-preview"><div class="cp-label">Caption</div><div class="cp-text">"Hay negocios que tienen todo para ganar y pierden porque nadie — incluso ellos — sabe exactamente qué tienen. / BRUNN existe para eso. / Trabajamos desde el fondo, no desde la superficie. / Nombramos lo que un negocio tiene. Construimos los sistemas que lo convierten en crecimiento. / BRUNN — Growth Strategies."</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-3">
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-mo">Mostrar</span><h4>Feed 2 — Mié 16 jul</h4></div>
+      <div class="citem">
+        <div class="citem-title">Carrusel — Qué es BRUNN y qué no es (6 slides)</div>
+        <div class="copy-preview"><div class="cp-label">Portada / Cierre</div><div class="cp-text">Portada: "Hay un tipo de firma que el mercado latinoamericano no conoce todavía." / Cierre: "El que sabe lo que vale no compite. Se posiciona."</div></div>
+      </div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-re">Resultados</span><h4>Feed 3 — Vie 18 jul</h4></div>
+      <div class="citem">
+        <div class="citem-title">Primer resultado concreto publicado con marca visible</div>
+        <div class="copy-preview"><div class="cp-label">Copy</div><div class="cp-text">"No cambiamos nada del producto. Cambiamos cómo se entendía. En 90 días, resultados que no habían logrado en 3 años."</div></div>
+      </div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-cam">Cámara</span><h4>Reel — Jue 17 jul · Primera aparición</h4></div>
+      <div class="citem">
+        <div class="citem-title">Founder — pensando en voz alta, no presentando</div>
+        <div class="citem-body">45-60 seg. Fondo simple. Primera vez que hay una cara detrás de las frases de S1 y S2.</div>
+        <div class="copy-preview"><div class="cp-label">Apertura</div><div class="cp-text">"Empecé BRUNN porque vi el mismo problema en todos los negocios con los que trabajé. No era un problema de marketing. Era que nadie — ni ellos mismos — podía explicar qué los hacía distintos. Y eso cuesta carísimo todos los días."</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cols">
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-id">Identidad</span><h4>Reel texto — Mar 15 jul · Manifesto</h4></div>
+      <div class="copy-preview"><div class="cp-label">Texto en pantalla</div><div class="cp-text">"No construimos marcas bonitas. / Construimos marcas que el mercado entiende al primer golpe. / No gestionamos presencia. / Diseñamos identidad. / No inventamos valor. / Lo sacamos a la superficie. / BRUNN."</div></div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-re">Ads — C1</span><h4>Se activan esta semana</h4></div>
+      <div class="citem">
+        <div class="citem-body">Creatividad: post de revelación o reel manifesto. Copy: "Hay negocios que tienen todo para ganar y no saben qué tienen. BRUNN existe para eso." Público: Founders, directores B2B. LATAM. Objetivo: Brand Awareness.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="frow">
+    <div class="fcard"><div class="fc-l">Stories 3x</div><div class="fc-v">Lun: "Ya está acá." / Mié: Proceso — cómo arrancamos con un cliente. / Vie: Link en bio.</div></div>
+    <div class="fcard"><div class="fc-l">LinkedIn — Lun 14</div><div class="fc-v">Post institucional. Por qué nace BRUNN, qué resuelve, para quién. Largo, con convicción. Sin sobre-explicar.</div></div>
+    <div class="fcard"><div class="fc-l">CTA</div><div class="fc-v">"Conocé BRUNN." Link a perfil o landing.</div></div>
+  </div>
+  <div class="prow"><span class="pl">Prioridad</span><span class="ptag max">Máxima</span><span class="pnote">Post de revelación + primer reel a cámara son las piezas más críticas del ciclo entero.</span></div>
+</div>
+</details>
+
+<!-- S4 -->
+<details>
+<summary>
+  <span class="s-num">S 04</span>
+  <span class="s-name">Enseñando en voz alta</span>
+  <span class="s-sub">Carrusel profundo + reels a cámara + primer caso.</span>
+  <span class="s-dates">21 – 27 julio</span>
+  <span class="s-arr">▾</span>
+</summary>
+<div class="wbody">
+  <div class="mix-bar"><div class="mb-id" style="flex:3"></div><div class="mb-mo" style="flex:4"></div><div class="mb-re" style="flex:3"></div></div>
+
+  <div class="col-3">
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-mo">Mostrar</span><h4>Feed 1 — Lun 21 jul</h4></div>
+      <div class="citem">
+        <div class="citem-title">Carrusel evergreen — Por qué algunas marcas cobran el doble</div>
+        <div class="citem-body">5-6 slides. La cadena completa: identidad clara → confianza → valor percibido → decisión → crecimiento. Pieza de referencia permanente.</div>
+        <div class="copy-preview"><div class="cp-label">Portada</div><div class="cp-text">"Cuando la identidad está clara, el marketing se vuelve obvio."</div></div>
+      </div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-re">Resultados</span><h4>Feed 2 — Mié 23 jul</h4></div>
+      <div class="citem">
+        <div class="citem-title">Caso de estudio #1 — Carrusel narrativo (6 slides)</div>
+        <div class="citem-body">S1: Portada con resultado. S2: Situación inicial. S3: Lo que BRUNN encontró. S4: Qué se construyó. S5: Qué cambió, con número. S6: Lección transferible.</div>
+        <div class="copy-preview"><div class="cp-label">Portada</div><div class="cp-text">"Tenían el producto. Les faltaba saber cómo nombrarlo. Esto es lo que pasó."</div></div>
+      </div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-id">Identidad</span><h4>Feed 3 — Vie 25 jul</h4></div>
+      <div class="citem">
+        <div class="citem-title">Frase tipográfica — quiénes somos en una línea</div>
+        <div class="copy-preview"><div class="cp-label">Copy</div><div class="cp-text">"Somos el partner que pelea por lo que ya tenés, no el que te vende lo que cree que te falta."</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cols">
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-cam">Cámara</span><h4>Reel — Mar 22 jul</h4></div>
+      <div class="citem">
+        <div class="citem-title">"Una cosa que aprendí trabajando con negocios que crecieron"</div>
+        <div class="citem-body">Una observación concreta. 45 seg. Tono: alguien que piensa, no que presenta.</div>
+        <div class="copy-preview"><div class="cp-label">Apertura</div><div class="cp-text">"Hay una cosa que tienen en común todos los negocios con los que trabajé que realmente crecieron. No es el marketing, no es el producto. Es que saben — con precisión — qué hacen mejor que nadie. Y lo pueden decir en una oración."</div></div>
+      </div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-cam">Cámara</span><h4>Reel — Jue 24 jul</h4></div>
+      <div class="citem">
+        <div class="citem-title">"El 80% de los problemas de marketing son problemas de identidad"</div>
+        <div class="citem-body">Una tesis, 60 seg. Ejemplos concretos sin revelar clientes.</div>
+        <div class="copy-preview"><div class="cp-label">Apertura</div><div class="cp-text">"Cuando un negocio me dice que su marketing no funciona, lo primero que hago es no hablar de marketing. Porque casi siempre el problema es anterior."</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="frow">
+    <div class="fcard"><div class="fc-l">Stories 3x</div><div class="fc-v">Lun: Preview del carrusel. / Mié: Dato del caso. / Vie: "¿Cuándo fue la última vez que revisaste tu diferencial?" DM abierto.</div></div>
+    <div class="fcard"><div class="fc-l">LinkedIn — Mar 22</div><div class="fc-v">Desarrollar la tesis del reel. "El 80% de los problemas de marketing..." con ejemplos y estructura de argumento. Cierra con pregunta que invita a reflexión.</div></div>
+    <div class="fcard"><div class="fc-l">Ads — C2</div><div class="fc-v">Consideración activa: carrusel evergreen adaptado a paid. Retargeting de interacciones S3.</div></div>
+  </div>
+  <div class="prow"><span class="pl">Prioridad</span><span class="ptag alta">Alta</span><span class="pnote">El caso #1 es la primera evidencia real. El carrusel evergreen queda como pieza de referencia permanente.</span></div>
+</div>
+</details>
+
+</div><!-- /weeks julio -->
+
+<!-- AGOSTO -->
+<div class="month-block" style="margin-top:32px;"><div class="month-label">Agosto</div></div>
+<div class="weeks">
+
+<!-- S5 -->
+<details>
+<summary>
+  <span class="s-num">S 05</span>
+  <span class="s-name">La evidencia acumula</span>
+  <span class="s-sub">Segundo caso + proceso en cámara + autoridad desde los números.</span>
+  <span class="s-dates">28 jul – 3 agosto</span>
+  <span class="s-arr">▾</span>
+</summary>
+<div class="wbody">
+  <div class="mix-bar"><div class="mb-id" style="flex:2"></div><div class="mb-mo" style="flex:4"></div><div class="mb-re" style="flex:4"></div></div>
+
+  <div class="col-3">
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-re">Resultados</span><h4>Feed 1 — Lun 28 jul</h4></div>
+      <div class="citem">
+        <div class="citem-title">Pieza con número — impacto visual directo</div>
+        <div class="copy-preview"><div class="cp-label">Copy</div><div class="cp-text">"3 meses. Precio promedio x2. Mismo producto, nuevo posicionamiento."</div></div>
+      </div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-re">Resultados</span><h4>Feed 2 — Mié 30 jul</h4></div>
+      <div class="citem">
+        <div class="citem-title">Caso de estudio #2 — industria distinta al primero</div>
+        <div class="citem-body">Misma estructura narrativa. Industria diferente — demuestra que el método aplica a cualquier negocio con valor real adentro.</div>
+        <div class="copy-preview"><div class="cp-label">Portada</div><div class="cp-text">"No cambiamos el producto. Cambiamos cómo el mercado lo entendía. En 6 meses, los mejores clientes empezaron a llegar solos."</div></div>
+      </div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-mo">Mostrar</span><h4>Feed 3 — Vie 1 ago</h4></div>
+      <div class="citem">
+        <div class="citem-title">Frase sobre la brecha de valor</div>
+        <div class="copy-preview"><div class="cp-label">Copy</div><div class="cp-text">"La diferencia entre lo que tu negocio vale y lo que el mercado cree que vale — esa brecha tiene nombre y tiene solución."</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cols">
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-cam">Cámara</span><h4>Reel — Mar 29 jul</h4></div>
+      <div class="citem">
+        <div class="citem-title">"Lo que encontramos cuando entramos a un negocio por primera vez"</div>
+        <div class="copy-preview"><div class="cp-label">Apertura</div><div class="cp-text">"Cuando arrancamos con un negocio, siempre hay un momento en la primera hora en el que el cliente dice algo y nosotros nos miramos. Porque justo ahí está lo que nadie había nombrado todavía."</div></div>
+      </div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-mo">Mostrar</span><h4>Reel texto — Jue 31 jul</h4></div>
+      <div class="citem">
+        <div class="citem-title">Una marca bien posicionada hace el trabajo antes que el vendedor</div>
+        <div class="copy-preview"><div class="cp-label">Texto en pantalla</div><div class="cp-text">"El cierre se acelera / cuando el cliente llega convencido. / Eso pasa cuando / el posicionamiento trabaja / antes que el vendedor."</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="frow">
+    <div class="fcard"><div class="fc-l">Stories 3x</div><div class="fc-v">Lun: El número del caso #2. / Mié: Preview del caso. / Vie: CTA: "¿Querés saber qué hay en tu negocio que todavía no nombraste?"</div></div>
+    <div class="fcard"><div class="fc-l">LinkedIn — Mié 30</div><div class="fc-v">Caso #2 desarrollado. Con número al cierre. Aprendizaje transferible para cualquier negocio.</div></div>
+    <div class="fcard"><div class="fc-l">Ads — C3</div><div class="fc-v">Prueba social activa. Caso adaptado. Objetivo: primeros leads. Retargeting S1–S4.</div></div>
+  </div>
+  <div class="prow"><span class="pl">Prioridad</span><span class="ptag alta">Alta</span><span class="pnote">Dos casos de industrias distintas demuestran que el método no fue suerte. Ese es el argumento de esta semana.</span></div>
+</div>
+</details>
+
+<!-- S6 -->
+<details>
+<summary>
+  <span class="s-num">S 06</span>
+  <span class="s-name">El proceso visible</span>
+  <span class="s-sub">Cómo trabaja BRUNN. Educación + resultado + cámara directa.</span>
+  <span class="s-dates">4 – 10 agosto</span>
+  <span class="s-arr">▾</span>
+</summary>
+<div class="wbody">
+  <div class="mix-bar"><div class="mb-id" style="flex:2"></div><div class="mb-mo" style="flex:4"></div><div class="mb-re" style="flex:4"></div></div>
+
+  <div class="col-3">
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-mo">Mostrar</span><h4>Feed 1 — Lun 4 ago</h4></div>
+      <div class="citem">
+        <div class="citem-title">Carrusel — Así trabaja BRUNN (5 slides)</div>
+        <div class="citem-body">Entender → Nombrar → Diseñar → Construir → Operar. En lenguaje real. Sin jerga.</div>
+        <div class="copy-preview"><div class="cp-label">Portada</div><div class="cp-text">"Antes de diseñar cualquier estrategia, hacemos esto primero."</div></div>
+      </div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-re">Resultados</span><h4>Feed 2 — Mié 6 ago</h4></div>
+      <div class="citem">
+        <div class="citem-title">Caso de estudio #3 — o reencuadre del caso más fuerte</div>
+        <div class="citem-body">Si hay tercer caso: publicarlo. Si no: un ángulo nuevo del mejor caso anterior — qué aprendimos nosotros del proceso.</div>
+      </div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-mo">Mostrar</span><h4>Feed 3 — Vie 8 ago</h4></div>
+      <div class="citem">
+        <div class="citem-title">Frase sobre comunicación y valor</div>
+        <div class="copy-preview"><div class="cp-label">Copy</div><div class="cp-text">"Una marca que no puede explicar por qué existe no puede justificar lo que cobra."</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cols">
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-cam">Cámara</span><h4>Reel — Mar 5 ago</h4></div>
+      <div class="citem">
+        <div class="citem-title">"La pregunta que hace BRUNN antes de cualquier diagnóstico"</div>
+        <div class="copy-preview"><div class="cp-label">Apertura</div><div class="cp-text">"La primera pregunta que le hacemos a un negocio no es sobre su mercado, ni sobre su competencia. Es: ¿qué hacés mejor que nadie — y cómo lo probás?"</div></div>
+      </div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-cam">Cámara</span><h4>Reel — Jue 7 ago</h4></div>
+      <div class="citem">
+        <div class="citem-title">"La diferencia entre trabajar con una agencia y trabajar con BRUNN"</div>
+        <div class="copy-preview"><div class="cp-label">Apertura</div><div class="cp-text">"Una agencia te pregunta qué querés comunicar. Nosotros te preguntamos qué sos. No es lo mismo."</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="frow">
+    <div class="fcard"><div class="fc-l">Stories 3x</div><div class="fc-v">Lun: FAQ "¿Cómo empezamos?" / Mié: Dato del caso #3. / Vie: Link a diagnóstico.</div></div>
+    <div class="fcard"><div class="fc-l">LinkedIn — Mar 5</div><div class="fc-v">"Por qué diseñamos antes de ejecutar." Argumento de negocio del diagnóstico previo. No descripción de proceso — razón comercial.</div></div>
+    <div class="fcard"><div class="fc-l">Ads — C4</div><div class="fc-v">Conversión directa: "¿Sabés lo que vale tu negocio?" Objetivo: leads. Fondo de funnel.</div></div>
+  </div>
+  <div class="prow"><span class="pl">Prioridad</span><span class="ptag alta">Alta</span><span class="pnote">Tres casos publicados acumulan evidencia que ninguna promesa reemplaza.</span></div>
+</div>
+</details>
+
+<!-- S7 -->
+<details>
+<summary>
+  <span class="s-num">S 07</span>
+  <span class="s-name">La conversación directa</span>
+  <span class="s-sub">CTA sin desesperación. El paso siguiente es obvio.</span>
+  <span class="s-dates">11 – 17 agosto</span>
+  <span class="s-arr">▾</span>
+</summary>
+<div class="wbody">
+  <div class="mix-bar"><div class="mb-id" style="flex:3"></div><div class="mb-mo" style="flex:4"></div><div class="mb-re" style="flex:3"></div></div>
+
+  <div class="col-3">
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-mo">Mostrar</span><h4>Feed 1 — Lun 11 ago</h4></div>
+      <div class="citem">
+        <div class="citem-title">Carrusel — ¿Tiene sentido trabajar con BRUNN? (5 slides)</div>
+        <div class="citem-body">5 señales honestas. No venta — criterio real. Último slide con CTA directo sin urgencia fabricada.</div>
+        <div class="copy-preview"><div class="cp-label">Cierre</div><div class="cp-text">"Si reconocés dos o más, deberíamos hablar."</div></div>
+      </div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-re">Resultados</span><h4>Feed 2 — Mié 13 ago</h4></div>
+      <div class="citem">
+        <div class="citem-title">Resumen de evidencia — los tres casos en una pieza</div>
+        <div class="citem-body">No un carrusel largo — una pieza estática o de 2-3 slides que muestra los tres resultados juntos. El patrón se vuelve claro.</div>
+        <div class="copy-preview"><div class="cp-label">Copy</div><div class="cp-text">"Tres negocios distintos. Tres industrias distintas. El mismo patrón: el valor ya estaba adentro."</div></div>
+      </div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-id">Identidad</span><h4>Feed 3 — Vie 15 ago</h4></div>
+      <div class="citem">
+        <div class="citem-title">Frase de convicción — CTA implícito</div>
+        <div class="copy-preview"><div class="cp-label">Copy</div><div class="cp-text">"Trabajamos desde el fondo. No desde la superficie. Si eso es lo que necesitás, sabemos exactamente cómo empezar."</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cols">
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-cam">Cámara</span><h4>Reel — Mar 12 ago</h4></div>
+      <div class="citem">
+        <div class="citem-title">"Lo que pasa en la primera sesión con BRUNN"</div>
+        <div class="copy-preview"><div class="cp-label">Apertura</div><div class="cp-text">"En la primera sesión no presentamos nada. Preguntamos. Y casi siempre, en la primera hora, aparece algo que el negocio tenía y nunca había puesto en palabras."</div></div>
+      </div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-cam">Cámara</span><h4>Reel — Jue 14 ago · CTA directo</h4></div>
+      <div class="citem">
+        <div class="citem-title">20 segundos. Una pregunta. Un paso.</div>
+        <div class="copy-preview"><div class="cp-label">Copy completo</div><div class="cp-text">"¿Tu negocio está siendo entendido como realmente vale? Si la respuesta no es clara, eso es exactamente de lo que trabajamos. Link en bio."</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="frow">
+    <div class="fcard"><div class="fc-l">Stories 3x</div><div class="fc-v">Lun: "Disponibilidad para diagnóstico — agosto." / Mié: Link directo. / Vie: "Si todavía no diste el paso, este es el momento."</div></div>
+    <div class="fcard"><div class="fc-l">LinkedIn — Mié 13</div><div class="fc-v">"Si reconocés alguno de estos patrones, deberíamos hablar." Las señales + disponibilidad real para diagnóstico. Directo sin desesperación.</div></div>
+    <div class="fcard"><div class="fc-l">Ads — C4+C5</div><div class="fc-v">C4 al máximo. C5 retargeting: todos los que interactuaron sin convertir en últimas 4 semanas.</div></div>
+  </div>
+  <div class="prow"><span class="pl">Prioridad</span><span class="ptag alta">Alta</span><span class="pnote">Esta semana convierte. El resumen de los tres casos es la pieza más poderosa — el patrón repetido vale más que cualquier promesa.</span></div>
+</div>
+</details>
+
+<!-- S8 -->
+<details>
+<summary>
+  <span class="s-num">S 08</span>
+  <span class="s-name">Cierre y proyección</span>
+  <span class="s-sub">Identidad instalada. Manifesto definitivo. Teaser Q4.</span>
+  <span class="s-dates">18 – 24 agosto</span>
+  <span class="s-arr">▾</span>
+</summary>
+<div class="wbody">
+  <div class="mix-bar"><div class="mb-id" style="flex:4"></div><div class="mb-mo" style="flex:3"></div><div class="mb-re" style="flex:3"></div></div>
+
+  <div class="col-3">
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-id">Identidad</span><h4>Feed 1 — Lun 18 ago</h4></div>
+      <div class="citem">
+        <div class="citem-title">Manifesto definitivo — la pieza que define a BRUNN para siempre</div>
+        <div class="citem-body">Versión final del manifesto. Diseño impecable. Para quedarse en el feed como pieza de referencia.</div>
+        <div class="copy-preview"><div class="cp-label">Copy</div><div class="cp-text">"No construimos marcas bonitas. / Construimos marcas que el mercado entiende al primer golpe. / No gestionamos presencia. / Diseñamos identidad. / No inventamos valor. / Lo sacamos a la superficie. / BRUNN."</div></div>
+      </div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-re">Resultados</span><h4>Feed 2 — Mié 20 ago</h4></div>
+      <div class="citem">
+        <div class="citem-title">Reflexión sobre el lanzamiento — honesta, con números</div>
+        <div class="citem-body">Qué confirmamos, qué nos sorprendió. Sin triunfalismo. Los datos del ciclo si los hay. Genera más confianza que el autoelogio.</div>
+        <div class="copy-preview"><div class="cp-label">Portada</div><div class="cp-text">"Dos meses. Lo que aprendimos."</div></div>
+      </div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-mo">Mostrar</span><h4>Feed 3 — Vie 22 ago</h4></div>
+      <div class="citem">
+        <div class="citem-title">Frase de cierre + teaser de Q4</div>
+        <div class="copy-preview"><div class="cp-label">Copy</div><div class="cp-text">"Los negocios que saben lo que son construyen algo que dura. Los que no, repiten el mismo año muchas veces."</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cols">
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-cam">Cámara</span><h4>Reel — Mar 19 ago</h4></div>
+      <div class="citem">
+        <div class="citem-title">Cierre de ciclo — perspectiva real del founder</div>
+        <div class="citem-body">Qué validamos, qué fue sorpresa, qué sigue. Honesto. 60-75 seg.</div>
+      </div>
+    </div>
+    <div class="cblock">
+      <div class="cblock-head"><span class="ctag ctag-id">Cámara</span><h4>Reel — Jue 21 ago · Teaser Q4</h4></div>
+      <div class="citem">
+        <div class="citem-title">20-30 seg. Una idea. Suficiente para generar expectativa.</div>
+        <div class="copy-preview"><div class="cp-label">Copy</div><div class="cp-text">"Esto fue julio y agosto. Septiembre es diferente. Seguí el perfil."</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="frow">
+    <div class="fcard"><div class="fc-l">Stories 3x</div><div class="fc-v">Lun: Agradecimiento a la comunidad. Cálido, sin efusividad. / Mié: Compartir. / Vie: Teaser Q4.</div></div>
+    <div class="fcard"><div class="fc-l">LinkedIn — Mar 19</div><div class="fc-v">Post de cierre de ciclo. Qué validamos, qué sigue. Tono: founder compartiendo perspectiva real con la comunidad.</div></div>
+    <div class="fcard"><div class="fc-l">Ads</div><div class="fc-v">Mantener C4+C5. Evaluar ciclo. Definir estrategia paid Q4.</div></div>
+  </div>
+  <div class="prow"><span class="pl">Prioridad</span><span class="ptag media">Media</span><span class="pnote">Calidad sobre velocidad. El manifesto definitivo es la pieza más cuidada del ciclo — la que queda.</span></div>
+</div>
+</details>
+
+</div><!-- /weeks -->
+
+<!-- BANCO DE COPY -->
+<div class="bank">
+  <h2>Banco de copy — organizado por categoría</h2>
+  <div class="bank-grid">
+    <div class="bc">
+      <h3 class="id">Identidad — 30%</h3>
+      <ul>
+        <li>"El pozo siempre tiene agua. El trabajo es encontrarla."</li>
+        <li>"Llegamos con preguntas, no con soluciones."</li>
+        <li>"Trabajamos desde el fondo. No desde la superficie."</li>
+        <li>"Somos el partner que pelea por lo que ya tenés."</li>
+        <li>"No construimos lo que querés parecer. Sacamos a la luz lo que ya sos."</li>
+        <li>"BRUNN es para negocios que saben que tienen algo especial y todavía no encontraron cómo nombrarlo."</li>
+        <li>"Antes de cualquier campaña, hay una conversación que nadie más tiene."</li>
+        <li>"Profundidad sobre velocidad. Siempre."</li>
+      </ul>
+    </div>
+    <div class="bc">
+      <h3 class="mo">Mostrar — 40%</h3>
+      <ul>
+        <li>"Ser bueno en lo que hacés no alcanza. El mercado necesita entender por qué."</li>
+        <li>"Visibilidad sin claridad es ruido. Claridad sin visibilidad es desperdicio."</li>
+        <li>"El posicionamiento no es lo que decís de vos mismo. Es lo que el mercado concluye cuando no estás."</li>
+        <li>"Cuando la identidad está clara, el marketing se vuelve obvio."</li>
+        <li>"Una marca que no puede explicar por qué existe no puede justificar lo que cobra."</li>
+        <li>"El mercado no compra lo que hacés. Compra lo que entiende de vos."</li>
+        <li>"La diferencia entre lo que tu negocio vale y lo que el mercado cree que vale — esa brecha tiene solución."</li>
+        <li>"Cuando alguien te recomienda, ¿sabe exactamente qué decir sobre vos?"</li>
+      </ul>
+    </div>
+    <div class="bc">
+      <h3 class="re">Resultados — 30%</h3>
+      <ul>
+        <li>"3 meses. Precio promedio x2. Mismo producto, nuevo posicionamiento."</li>
+        <li>"El cierre se acelera cuando el cliente llega convencido."</li>
+        <li>"Cuando el mercado entiende por qué sos la opción correcta, el CAC baja solo."</li>
+        <li>"No cambiamos nada del producto. Cambiamos cómo se entendía."</li>
+        <li>"En 6 meses, los mejores clientes empezaron a llegar solos."</li>
+        <li>"Tenían el producto. Les faltaba saber cómo nombrarlo."</li>
+        <li>"Tres negocios distintos. El mismo patrón: el valor ya estaba adentro."</li>
+        <li>"Resultados que no habían logrado en 3 años."</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="footer-note">
+  <p>BRUNN — Producción interna · Calendario Editorial v4.0 · Julio 2026</p>
+</div>
+
+</body>
+</html>
