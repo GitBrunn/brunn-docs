@@ -387,7 +387,7 @@ function toggleTheme(){setTheme(document.documentElement.getAttribute('data-them
 
 (function(){let t='dark';try{t=localStorage.getItem('brunn-theme')||'dark'}catch(e){}setTheme(t);
   // Try to load external data.json (deployed mode); fall back to embedded
-  fetch('./data.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{if(j&&j.ingresos){D=j}renderAll()}).catch(()=>renderAll());
+  fetch('./data.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{if(j&&j.ingresos){D=j}renderAll()}).catch(()=>renderAll());
 })();
 </script>
 </body>
