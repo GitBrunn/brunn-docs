@@ -1,0 +1,909 @@
+{
+  "meta": {
+    "cliente": "El Che Almohadón",
+    "subtitulo": "Reporte de Performance · E-Commerce",
+    "periodo": "Mayo 2026",
+    "periodo_id": "2026-05",
+    "tipo": "ecommerce"
+  },
+  "portada": {
+    "eyebrow": "Reporte de Mayo · 2026",
+    "titular": "Un mes que validó la rentabilidad del canal digital.",
+    "resumen": "Mayo cerró con <b>$2.148.000 de facturación</b> y un <b>ROAS de 3,2x</b> — el canal digital se consolidó como motor de ventas. La tasa de conversión (2,6%) superó el promedio del sector por primera vez en el año, y el abandono de carrito bajó 4 puntos."
+  },
+  "hero": {
+    "label": "ROAS del mes",
+    "valor": "3,2x",
+    "delta": "▲ 10,3%",
+    "delta_ctx": "vs abril (2,9x)",
+    "desc1": "Por cada <b>$1 invertido</b> en Meta, la tienda facturó <b>$3,2</b>. El umbral de rentabilidad del negocio está en 2,5x, así que el mes cerró con margen positivo.",
+    "desc2": "El foco del trimestre es sostener este ROAS mientras se escala la inversión."
+  },
+  "banda": [
+    {
+      "label": "Facturación",
+      "valor": "$2.148.000",
+      "tipo": "pos",
+      "delta": "▲ 11,9%",
+      "ctx": "vs abril"
+    },
+    {
+      "label": "Inversión Meta",
+      "valor": "$671.250",
+      "tipo": "neu",
+      "delta": "▲ 12,2%",
+      "ctx": "vs abril"
+    },
+    {
+      "label": "CPA",
+      "valor": "$5.412",
+      "tipo": "pos",
+      "delta": "▼ 2,3%",
+      "ctx": "vs abril"
+    },
+    {
+      "label": "Tasa de Conversión",
+      "valor": "2,6%",
+      "tipo": "pos",
+      "delta": "▲ 0,3pp",
+      "ctx": "vs abril"
+    }
+  ],
+  "embudo": {
+    "titulo": "Embudo de Conversión",
+    "sub": "Del tráfico a la compra — dónde se gana y dónde se pierde.",
+    "pasos": [
+      {
+        "nombre": "Sesiones",
+        "valor": "7.154",
+        "width": 100
+      },
+      {
+        "nombre": "Carritos",
+        "valor": "2.634",
+        "width": 36.8
+      },
+      {
+        "nombre": "Compras",
+        "valor": "186",
+        "width": 7.1,
+        "weak": true
+      }
+    ],
+    "conversiones": [
+      {
+        "rate": "36,8%",
+        "ctx": "de las sesiones agregan un producto al carrito",
+        "drop": false
+      },
+      {
+        "rate": "7,1%",
+        "ctx": "de las sesiones termina en compra (2,6% del total)",
+        "drop": true
+      }
+    ],
+    "nota": "De cada <b>100 personas</b> que entran a la tienda, <b>37 agregan al carrito</b> pero solo <b>3 compran</b>. La caída más grande está entre el carrito y la compra — ahí una recuperación de carritos abandonados tendría el mayor impacto."
+  },
+  "snapshot": [
+    {
+      "canal": "E-Commerce",
+      "valor": "$2.148.000",
+      "label": "Facturación",
+      "color": "pos",
+      "canal_id": "ecommerce"
+    },
+    {
+      "canal": "Meta Ads",
+      "valor": "3,2x",
+      "label": "ROAS",
+      "canal_id": "meta"
+    },
+    {
+      "canal": "Instagram",
+      "valor": "+420",
+      "label": "Seguidores netos",
+      "canal_id": "instagram"
+    },
+    {
+      "canal": "Email Mktg",
+      "valor": "$185.000",
+      "label": "Ingresos atribuidos",
+      "color": "pos",
+      "canal_id": "email"
+    }
+  ],
+  "narrativa": [
+    "<b>E-Commerce</b> procesó 186 órdenes con un ticket promedio de $11.548. La tasa de conversión del 2,6% estuvo por encima del promedio del sector (1,8–2%): el tráfico de Meta llegó con alta intención de compra.",
+    "<b>Meta Ads</b> invirtió $671.250 generando 124 compras atribuidas a un CPA de $5.412. Las creatividades de catálogo dinámico (DPA) lideraron con ROAS de 4,1x.",
+    "El margen entre inversión y retorno tiene espacio para escalar: con un ROAS de 3x validado, la prioridad de junio es aumentar presupuesto en los adsets ganadores."
+  ],
+  "highlights": [
+    {
+      "valor": "$11.548",
+      "label": "Ticket promedio — sostenido respecto a abril"
+    },
+    {
+      "valor": "2,6%",
+      "label": "Tasa de conversión del sitio — sobre el promedio del sector"
+    }
+  ],
+  "proximos_pasos": [
+    {
+      "n": "1",
+      "titulo": "Escalar los adsets de catálogo",
+      "diag": "Las campañas DPA rindieron <b>ROAS 4,1x</b> contra 2,7x de las estáticas.",
+      "accion": "Reasignar <b>30% del presupuesto</b> de estáticas a catálogo dinámico en junio.",
+      "impacto": "Subir el ROAS general de 3,2x a 3,5–3,8x manteniendo la inversión."
+    },
+    {
+      "n": "2",
+      "titulo": "Reducir el abandono de carrito",
+      "diag": "El <b>63% de carritos abandonados</b> es la mayor fuga del embudo.",
+      "accion": "Activar <b>email + retargeting</b> para carritos abandonados en las primeras 24hs.",
+      "impacto": "Recuperar 10–15% = ~$200–300K de facturación adicional/mes."
+    },
+    {
+      "n": "3",
+      "titulo": "Capitalizar el ticket promedio",
+      "diag": "El ticket de <b>$11.548</b> tiene margen: hay alta co-compra entre productos.",
+      "accion": "Crear <b>bundles</b> y testear creatividades de cross-sell en Meta.",
+      "impacto": "Elevar el ticket 8–12% sin subir el costo de adquisición."
+    }
+  ],
+  "metricas": [
+    {
+      "id": "ecommerce",
+      "nombre": "E-Commerce",
+      "kpis": [
+        {
+          "label": "Facturación",
+          "valor": "$2.148.000",
+          "tipo": "pos",
+          "delta": "▲ 11,9%"
+        },
+        {
+          "label": "Órdenes",
+          "valor": "186",
+          "tipo": "pos",
+          "delta": "▲ 12,7%"
+        },
+        {
+          "label": "Ticket Prom.",
+          "valor": "$11.548",
+          "tipo": "neg",
+          "delta": "▼ 0,8%"
+        },
+        {
+          "label": "Tasa Conv.",
+          "valor": "2,6%",
+          "tipo": "pos",
+          "delta": "▲ 0,3pp"
+        },
+        {
+          "label": "Sesiones",
+          "valor": "7.154",
+          "tipo": "pos",
+          "delta": "▲ 3,8%"
+        },
+        {
+          "label": "Carrito Aband.",
+          "valor": "63,2%",
+          "tipo": "pos",
+          "delta": "▼ 4,0pp"
+        }
+      ],
+      "lectura": [
+        "La <b>tasa de conversión (2,6%)</b> superó el promedio del sector por primera vez en el año.",
+        "El <b>abandono de carrito bajó 4pp</b>: el flujo de checkout mejoró."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Facturación Diaria",
+          "sub": "Ingresos por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "$2.148K"
+            ],
+            [
+              "Pico",
+              "$110K"
+            ],
+            [
+              "Promedio/día",
+              "$69K"
+            ]
+          ],
+          "color": "pos",
+          "suffix": "K",
+          "serie": [
+            42,
+            65,
+            38,
+            91,
+            78,
+            55,
+            48,
+            103,
+            88,
+            72,
+            61,
+            94,
+            110,
+            85,
+            67,
+            78,
+            56,
+            82,
+            97,
+            73,
+            69,
+            88,
+            104,
+            76,
+            59,
+            83,
+            95,
+            71,
+            62,
+            78,
+            91
+          ]
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Top Productos",
+          "sub": "Por facturación · % del total.",
+          "headers": [
+            "Producto",
+            "Facturación",
+            "Unidades"
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "Almohada Premium XL"
+              },
+              {
+                "stack": [
+                  "<b>$480.000</b>",
+                  "22,3% del total"
+                ]
+              },
+              "42"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "Relleno Down Touch"
+              },
+              {
+                "stack": [
+                  "<b>$310.000</b>",
+                  "14,4% del total"
+                ]
+              },
+              "28"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "Funda Percal 500h"
+              },
+              {
+                "stack": [
+                  "<b>$270.000</b>",
+                  "12,6% del total"
+                ]
+              },
+              "38"
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "Set Completo Dormitorio"
+              },
+              {
+                "stack": [
+                  "<b>$245.000</b>",
+                  "11,4% del total"
+                ]
+              },
+              "12"
+            ],
+            [
+              {
+                "rank": 5,
+                "texto": "Almohada Viscoelástica"
+              },
+              {
+                "stack": [
+                  "<b>$210.000</b>",
+                  "9,8% del total"
+                ]
+              },
+              "18"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "nombre": "Meta Ads",
+      "kpis": [
+        {
+          "label": "Inversión",
+          "valor": "$671.250",
+          "tipo": "neu",
+          "delta": "▲ 12,2%"
+        },
+        {
+          "label": "ROAS",
+          "valor": "3,2x",
+          "tipo": "pos",
+          "delta": "▲ 10,3%"
+        },
+        {
+          "label": "Compras",
+          "valor": "124",
+          "tipo": "pos",
+          "delta": "▲ 9,7%"
+        },
+        {
+          "label": "CPA",
+          "valor": "$5.412",
+          "tipo": "pos",
+          "delta": "▼ 2,3%"
+        },
+        {
+          "label": "CPM",
+          "valor": "$1.398",
+          "tipo": "neg",
+          "delta": "▲ 4,1%"
+        },
+        {
+          "label": "CTR",
+          "valor": "2,10%",
+          "tipo": "pos",
+          "delta": "▲ 0,2pp"
+        }
+      ],
+      "lectura": [
+        "El <b>catálogo dinámico (DPA)</b> fue lo más rentable del mes con ROAS 4,1x.",
+        "El <b>CPA bajó 2,3%</b> mientras la inversión subió: la cuenta escaló sin perder eficiencia."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Inversión Diaria",
+          "sub": "Gasto por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "$671K"
+            ],
+            [
+              "Pico",
+              "$35K"
+            ],
+            [
+              "Promedio/día",
+              "$22K"
+            ]
+          ],
+          "color": "accent",
+          "suffix": "K",
+          "serie": [
+            18,
+            24,
+            15,
+            31,
+            28,
+            20,
+            17,
+            35,
+            30,
+            25,
+            21,
+            32,
+            34,
+            27,
+            22,
+            26,
+            19,
+            28,
+            33,
+            24,
+            23,
+            29,
+            34,
+            26,
+            20,
+            28,
+            31,
+            24,
+            21,
+            26,
+            30
+          ]
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Campañas",
+          "sub": "Ordenadas por ROAS — no por inversión.",
+          "headers": [
+            "Campaña",
+            "Inversión",
+            "ROAS",
+            "CPA"
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "DPA – Catálogo Completo"
+              },
+              {
+                "stack": [
+                  "<b>$124.000</b>",
+                  "41 compras"
+                ]
+              },
+              {
+                "pct": "4,1x",
+                "tipo": "pos"
+              },
+              "$3.024"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "Retargeting – Carrito"
+              },
+              {
+                "stack": [
+                  "<b>$98.000</b>",
+                  "28 compras"
+                ]
+              },
+              {
+                "pct": "3,8x",
+                "tipo": "pos"
+              },
+              "$3.500"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "Prospecting – Lookalike"
+              },
+              {
+                "stack": [
+                  "<b>$210.000</b>",
+                  "38 compras"
+                ]
+              },
+              {
+                "pct": "2,9x",
+                "tipo": "neg"
+              },
+              "$5.526"
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "Awareness – Video"
+              },
+              {
+                "stack": [
+                  "<b>$180.000</b>",
+                  "14 compras"
+                ]
+              },
+              {
+                "pct": "2,1x",
+                "tipo": "neg"
+              },
+              "$12.857"
+            ],
+            [
+              {
+                "rank": 5,
+                "texto": "Test – UGC"
+              },
+              {
+                "stack": [
+                  "<b>$59.250</b>",
+                  "3 compras"
+                ]
+              },
+              {
+                "pct": "1,4x",
+                "tipo": "neg"
+              },
+              "$19.750"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "redes",
+      "nombre": "Redes",
+      "kpis": [
+        {
+          "label": "Seguidores",
+          "valor": "5.800",
+          "tipo": "pos",
+          "delta": "▲ 420 netos"
+        },
+        {
+          "label": "Alcance Orgánico",
+          "valor": "85.000",
+          "tipo": "pos",
+          "delta": "▲ 18,1%"
+        },
+        {
+          "label": "Visualizaciones",
+          "valor": "142.000",
+          "tipo": "pos",
+          "delta": "▲ 22,4%"
+        },
+        {
+          "label": "Interacciones",
+          "valor": "3.200",
+          "tipo": "pos",
+          "delta": "▲ 12,0%"
+        },
+        {
+          "label": "Visitas al Perfil",
+          "valor": "2.400",
+          "tipo": "pos",
+          "delta": "▲ 8,3%"
+        },
+        {
+          "label": "Clics al Link",
+          "valor": "480",
+          "tipo": "pos",
+          "delta": "▲ 15,1%"
+        }
+      ],
+      "lectura": [
+        "El <b>orgánico de Instagram</b> concentra la presencia y la interacción de la marca.",
+        "<b>Facebook</b> suma alcance y sostiene la presencia en la plataforma."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Alcance Diario",
+          "sub": "Cuentas alcanzadas por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "85K"
+            ],
+            [
+              "Pico",
+              "8K"
+            ],
+            [
+              "Promedio/día",
+              "2,7K"
+            ]
+          ],
+          "color": "accent",
+          "suffix": "K",
+          "serie": [
+            2.1,
+            3.4,
+            1.8,
+            4.2,
+            3.1,
+            2.4,
+            1.9,
+            8.0,
+            5.2,
+            3.0,
+            2.6,
+            4.1,
+            3.8,
+            2.9,
+            2.2,
+            3.6,
+            2.0,
+            3.2,
+            4.5,
+            2.7,
+            2.3,
+            3.9,
+            5.1,
+            2.8,
+            2.0,
+            3.3,
+            4.0,
+            2.5,
+            2.1,
+            3.0,
+            3.5
+          ]
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Top Contenido",
+          "sub": "Por alcance · guardados como señal de valor.",
+          "headers": [
+            "Contenido",
+            "Alcance",
+            "Interac."
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "Reel · Cómo elegir tu almohada"
+              },
+              "32.000",
+              {
+                "stack": [
+                  "<b>1.240</b>",
+                  "380 guardados"
+                ]
+              }
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "Carrusel · Tipos de relleno"
+              },
+              "21.000",
+              {
+                "stack": [
+                  "<b>890</b>",
+                  "290 guardados"
+                ]
+              }
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "Reel · Unboxing Set Premium"
+              },
+              "18.500",
+              {
+                "stack": [
+                  "<b>760</b>",
+                  "210 guardados"
+                ]
+              }
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "Carrusel · Antes / Después"
+              },
+              "9.200",
+              {
+                "stack": [
+                  "<b>410</b>",
+                  "95 guardados"
+                ]
+              }
+            ],
+            [
+              {
+                "rank": 5,
+                "texto": "Imagen · Promo de Mayo"
+              },
+              "4.300",
+              {
+                "stack": [
+                  "<b>180</b>",
+                  "40 guardados"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Facebook",
+          "sub": "Alcance y comunidad del mes.",
+          "headers": [
+            "Métrica",
+            "Valor",
+            "vs mes ant."
+          ],
+          "filas": [
+            [
+              "Alcance",
+              "18.400",
+              "▲ 3,1%"
+            ],
+            [
+              "Seguidores",
+              {
+                "stack": [
+                  "<b>3.120</b>",
+                  "+45 netos"
+                ]
+              },
+              "▲ 1,5%"
+            ],
+            [
+              "Interacciones",
+              "290",
+              "▼ 2,0%"
+            ]
+          ]
+        }
+      ],
+      "panel_titulo": "Instagram"
+    },
+    {
+      "id": "email",
+      "nombre": "Email Marketing",
+      "kpis": [
+        {
+          "label": "Enviados",
+          "valor": "24.000",
+          "tipo": "neu",
+          "delta": "▲ 4,3%"
+        },
+        {
+          "label": "Tasa de Apertura",
+          "valor": "38,2%",
+          "tipo": "pos",
+          "delta": "▲ 2,1pp"
+        },
+        {
+          "label": "CTR",
+          "valor": "4,1%",
+          "tipo": "pos",
+          "delta": "▲ 0,4pp"
+        },
+        {
+          "label": "Ingresos Atribuidos",
+          "valor": "$185.000",
+          "tipo": "pos",
+          "delta": "▲ 22,0%"
+        },
+        {
+          "label": "Suscriptores",
+          "valor": "4.200",
+          "tipo": "pos",
+          "delta": "▲ 180 netos"
+        },
+        {
+          "label": "Tasa de Bajas",
+          "valor": "0,4%",
+          "tipo": "pos",
+          "delta": "▼ 0,1pp"
+        }
+      ],
+      "lectura": [
+        "El flujo de <b>carrito abandonado</b> generó $96.000 — la automatización más rentable.",
+        "La <b>apertura (38,2%)</b> está sana; el próximo foco es subir el CTR."
+      ],
+      "bloques": [
+        {
+          "tipo": "tabla",
+          "titulo": "Campañas",
+          "sub": "Envíos puntuales del mes · por ingresos.",
+          "headers": [
+            "Campaña",
+            "Aperturas",
+            "Ingresos"
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "Nueva colección de invierno"
+              },
+              {
+                "stack": [
+                  "<b>2.480</b>",
+                  "310 clics"
+                ]
+              },
+              "$78.000"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "Envío gratis fin de semana"
+              },
+              {
+                "stack": [
+                  "<b>2.210</b>",
+                  "280 clics"
+                ]
+              },
+              "$54.000"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "Reposición Almohada Premium"
+              },
+              {
+                "stack": [
+                  "<b>1.530</b>",
+                  "198 clics"
+                ]
+              },
+              "$41.000"
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "Tips para dormir mejor (newsletter)"
+              },
+              {
+                "stack": [
+                  "<b>1.950</b>",
+                  "145 clics"
+                ]
+              },
+              "$12.000"
+            ]
+          ]
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Automatizaciones",
+          "sub": "Flujos siempre activos · por ingresos.",
+          "headers": [
+            "Flujo",
+            "Ingresos",
+            "Conv."
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "Carrito abandonado"
+              },
+              {
+                "stack": [
+                  "<b>$96.000</b>",
+                  "1.660 envíos"
+                ]
+              },
+              "8,9%"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "Bienvenida"
+              },
+              {
+                "stack": [
+                  "<b>$32.000</b>",
+                  "510 envíos"
+                ]
+              },
+              "6,1%"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "Post-compra"
+              },
+              {
+                "stack": [
+                  "<b>$14.000</b>",
+                  "186 envíos"
+                ]
+              },
+              "4,2%"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

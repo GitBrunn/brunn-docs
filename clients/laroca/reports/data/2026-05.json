@@ -1,0 +1,775 @@
+{
+  "meta": {
+    "cliente": "La Roca Motors",
+    "subtitulo": "Reporte de Performance · Generación de Leads",
+    "periodo": "Mayo 2026",
+    "periodo_id": "2026-05",
+    "tipo": "leads"
+  },
+  "portada": {
+    "eyebrow": "Reporte de Mayo · 2026",
+    "titular": "Un mes de más leads — y una oportunidad clara en la calificación.",
+    "resumen": "Mayo generó <b>312 leads</b> a un <b>CPL promedio de $4.250</b>, un 18% más que abril. El volumen creció sano, pero casi la mitad de los leads se cae en el filtro de calificación: ahí está la mayor oportunidad de mejora del trimestre."
+  },
+  "hero": {
+    "label": "CPL del mes",
+    "valor": "$4.250",
+    "delta": "▼ 12,1%",
+    "delta_ctx": "vs abril ($4.836)",
+    "desc1": "El <b>costo por lead</b> bajó mientras el volumen subía: la inversión está rindiendo cada vez mejor. En este rubro, un CPL por debajo de $5.000 es saludable.",
+    "desc2": "El foco del trimestre es sostener este CPL mientras se mejora la calidad de cada lead."
+  },
+  "banda": [
+    {
+      "label": "Leads Generados",
+      "valor": "312",
+      "tipo": "pos",
+      "delta": "▲ 18,2%",
+      "ctx": "vs abril"
+    },
+    {
+      "label": "Inversión Total",
+      "valor": "$1.326.000",
+      "tipo": "neu",
+      "delta": "▲ 5,1%",
+      "ctx": "vs abril"
+    },
+    {
+      "label": "Leads Calificados",
+      "valor": "148",
+      "tipo": "pos",
+      "delta": "▲ 22,3%",
+      "ctx": "vs abril"
+    },
+    {
+      "label": "Ventas Atribuidas",
+      "valor": "29",
+      "tipo": "pos",
+      "delta": "▲ 16,0%",
+      "ctx": "vs abril"
+    }
+  ],
+  "embudo": {
+    "titulo": "Embudo de Generación",
+    "sub": "Del lead al cierre — dónde se gana y dónde se pierde.",
+    "pasos": [
+      {
+        "nombre": "Leads generados",
+        "valor": "312",
+        "width": 100
+      },
+      {
+        "nombre": "Calificados (MQL)",
+        "valor": "148",
+        "width": 47.4
+      },
+      {
+        "nombre": "Oportunidades",
+        "valor": "64",
+        "width": 20.5
+      },
+      {
+        "nombre": "Ventas",
+        "valor": "29",
+        "width": 9.3,
+        "weak": true
+      }
+    ],
+    "conversiones": [
+      {
+        "rate": "47,4%",
+        "ctx": "de los leads pasan el filtro de calificación",
+        "drop": false
+      },
+      {
+        "rate": "43,2%",
+        "ctx": "de los calificados se vuelven oportunidad real",
+        "drop": false
+      },
+      {
+        "rate": "45,3%",
+        "ctx": "de las oportunidades terminan en venta",
+        "drop": true
+      }
+    ],
+    "nota": "De cada <b>100 leads</b>, <b>47 califican</b> y <b>9 cierran venta</b>. El mayor filtro está en la calificación inicial — afinar la segmentación de las campañas subiría todo el embudo de una."
+  },
+  "snapshot": [
+    {
+      "canal": "Meta Ads",
+      "valor": "$4.366",
+      "label": "CPL",
+      "color": ""
+    },
+    {
+      "canal": "Google Ads",
+      "valor": "$4.322",
+      "label": "CPL",
+      "color": ""
+    },
+    {
+      "canal": "Landing / Web",
+      "valor": "2,2%",
+      "label": "Conversión a lead",
+      "color": ""
+    },
+    {
+      "canal": "Email",
+      "valor": "38",
+      "label": "Leads reactivados",
+      "color": "pos"
+    }
+  ],
+  "narrativa": [
+    "<b>Meta Ads</b> y <b>Google Ads</b> trajeron el grueso de los leads (142 y 118) a un CPL casi idéntico ($4.366 y $4.322), pero Google llegó con mayor intención: sus leads califican mejor (52% vs 44%).",
+    "<b>La landing</b> convirtió el 2,2% del tráfico en leads — sano para el rubro, aunque el formulario largo es el principal punto de fricción detectado.",
+    "El cuello de botella no está en generar leads, sino en calificarlos: casi la mitad se cae en el primer filtro. Ahí está la palanca del mes."
+  ],
+  "highlights": [
+    {
+      "valor": "47,4%",
+      "label": "Tasa de calificación — leads que avanzan en el embudo"
+    },
+    {
+      "valor": "9,3%",
+      "label": "Tasa de cierre — oportunidades que terminan en venta"
+    }
+  ],
+  "proximos_pasos": [
+    {
+      "n": "1",
+      "titulo": "Subir la calidad del lead, no solo el volumen",
+      "diag": "Casi la mitad de los leads no califica: el filtro inicial es la mayor fuga del embudo.",
+      "accion": "Afinar segmentación y endurecer el copy de las campañas para atraer interés más calificado.",
+      "impacto": "Subir la tasa de calificación de 47% a 55% sin aumentar la inversión."
+    },
+    {
+      "n": "2",
+      "titulo": "Escalar Google en términos de alta intención",
+      "diag": "Google trae leads que califican mejor (52%) al mismo CPL que Meta.",
+      "accion": "Reasignar presupuesto hacia las búsquedas de mayor intención (0km financiado, modelos puntuales).",
+      "impacto": "Más leads calificados al mismo costo, mejorando el mix general."
+    },
+    {
+      "n": "3",
+      "titulo": "Reactivar leads fríos con nurturing por email",
+      "diag": "Hay 164 leads que no calificaron y quedaron sin seguimiento.",
+      "accion": "Activar una secuencia de 3 emails para recalentar y reciclar interés.",
+      "impacto": "Recuperar 10–15% como nuevas oportunidades, casi sin costo adicional."
+    }
+  ],
+  "metricas": [
+    {
+      "id": "meta",
+      "nombre": "Meta Ads",
+      "kpis": [
+        {
+          "label": "Inversión",
+          "valor": "$620.000",
+          "tipo": "neu",
+          "delta": "▲ 6,2%"
+        },
+        {
+          "label": "Leads",
+          "valor": "142",
+          "tipo": "pos",
+          "delta": "▲ 14,5%"
+        },
+        {
+          "label": "CPL",
+          "valor": "$4.366",
+          "tipo": "pos",
+          "delta": "▼ 7,1%"
+        },
+        {
+          "label": "Calificados",
+          "valor": "71",
+          "tipo": "pos",
+          "delta": "▲ 19,0%"
+        },
+        {
+          "label": "CTR",
+          "valor": "1,80%",
+          "tipo": "pos",
+          "delta": "▲ 0,2pp"
+        },
+        {
+          "label": "Tasa Calif.",
+          "valor": "44,4%",
+          "tipo": "neu",
+          "delta": "▲ 1,1pp"
+        }
+      ],
+      "lectura": [
+        "El <b>formulario instantáneo</b> trajo el mayor volumen de leads al menor CPL ($3.805).",
+        "Los leads de remarketing son los <b>más caros</b> pero los que mejor califican."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Leads Diarios",
+          "sub": "Formularios por día.",
+          "stats": [
+            [
+              "Total",
+              "142"
+            ],
+            [
+              "Pico",
+              "16"
+            ],
+            [
+              "Promedio/día",
+              "4,6"
+            ]
+          ],
+          "color": "accent",
+          "suffix": "",
+          "serie": [
+            3,
+            5,
+            2,
+            7,
+            6,
+            4,
+            3,
+            8,
+            6,
+            5,
+            4,
+            7,
+            8,
+            6,
+            3,
+            5,
+            2,
+            6,
+            9,
+            5,
+            4,
+            7,
+            8,
+            6,
+            3,
+            6,
+            7,
+            5,
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Campañas",
+          "sub": "Por CPL — el costo de cada lead.",
+          "headers": [
+            "Campaña",
+            "Inversión",
+            "CPL"
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "Formulario instantáneo"
+              },
+              {
+                "stack": [
+                  "<b>$312.000</b>",
+                  "82 leads"
+                ]
+              },
+              "$3.805"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "Tráfico a landing"
+              },
+              {
+                "stack": [
+                  "<b>$198.000</b>",
+                  "41 leads"
+                ]
+              },
+              "$4.829"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "Remarketing – Visitantes"
+              },
+              {
+                "stack": [
+                  "<b>$110.000</b>",
+                  "19 leads"
+                ]
+              },
+              "$5.789"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "nombre": "Google Ads",
+      "kpis": [
+        {
+          "label": "Inversión",
+          "valor": "$510.000",
+          "tipo": "neu",
+          "delta": "▲ 4,0%"
+        },
+        {
+          "label": "Leads",
+          "valor": "118",
+          "tipo": "pos",
+          "delta": "▲ 16,8%"
+        },
+        {
+          "label": "CPL",
+          "valor": "$4.322",
+          "tipo": "pos",
+          "delta": "▼ 9,3%"
+        },
+        {
+          "label": "Calificados",
+          "valor": "61",
+          "tipo": "pos",
+          "delta": "▲ 24,5%"
+        },
+        {
+          "label": "CTR",
+          "valor": "4,20%",
+          "tipo": "pos",
+          "delta": "▲ 0,4pp"
+        },
+        {
+          "label": "Tasa Calif.",
+          "valor": "51,7%",
+          "tipo": "pos",
+          "delta": "▲ 2,8pp"
+        }
+      ],
+      "lectura": [
+        "La búsqueda de <b>0km financiados</b> es la de mayor volumen y mejor intención.",
+        "Google convierte a <b>mejor tasa de calificación</b> (52%) que Meta — capturan demanda activa."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Leads Diarios",
+          "sub": "Conversiones por día.",
+          "stats": [
+            [
+              "Total",
+              "118"
+            ],
+            [
+              "Pico",
+              "22"
+            ],
+            [
+              "Promedio/día",
+              "3,8"
+            ]
+          ],
+          "color": "accent",
+          "suffix": "",
+          "serie": [
+            3,
+            4,
+            2,
+            6,
+            5,
+            3,
+            3,
+            7,
+            6,
+            4,
+            3,
+            6,
+            7,
+            5,
+            3,
+            4,
+            2,
+            5,
+            7,
+            4,
+            3,
+            5,
+            7,
+            5,
+            3,
+            5,
+            6,
+            4,
+            3,
+            4,
+            6
+          ]
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Términos de Búsqueda",
+          "sub": "Por CPL — qué busca quien convierte.",
+          "headers": [
+            "Término",
+            "Inversión",
+            "CPL"
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "autos 0km financiados"
+              },
+              {
+                "stack": [
+                  "<b>$185.000</b>",
+                  "44 leads"
+                ]
+              },
+              "$4.205"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "concesionaria córdoba"
+              },
+              {
+                "stack": [
+                  "<b>$142.000</b>",
+                  "38 leads"
+                ]
+              },
+              "$3.737"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "usados certificados"
+              },
+              {
+                "stack": [
+                  "<b>$98.000</b>",
+                  "21 leads"
+                ]
+              },
+              "$4.667"
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "planes de ahorro auto"
+              },
+              {
+                "stack": [
+                  "<b>$85.000</b>",
+                  "15 leads"
+                ]
+              },
+              "$5.667"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "web",
+      "nombre": "Landing / Web",
+      "kpis": [
+        {
+          "label": "Sesiones",
+          "valor": "14.200",
+          "tipo": "pos",
+          "delta": "▲ 9,1%"
+        },
+        {
+          "label": "Leads",
+          "valor": "312",
+          "tipo": "pos",
+          "delta": "▲ 18,2%"
+        },
+        {
+          "label": "Conversión",
+          "valor": "2,2%",
+          "tipo": "pos",
+          "delta": "▲ 0,2pp"
+        },
+        {
+          "label": "Tiempo en sitio",
+          "valor": "1:48",
+          "tipo": "pos",
+          "delta": "▲ 6,0%"
+        },
+        {
+          "label": "Rebote",
+          "valor": "52,4%",
+          "tipo": "pos",
+          "delta": "▼ 3,1pp"
+        },
+        {
+          "label": "Form. completados",
+          "valor": "312",
+          "tipo": "pos",
+          "delta": "▲ 18,2%"
+        }
+      ],
+      "lectura": [
+        "La <b>landing de 0km financiado</b> convierte al 3,1% — muy por encima del resto.",
+        "La <b>landing de planes</b> casi no convierte (0,2%): el formulario es demasiado largo."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Sesiones Diarias",
+          "sub": "Visitas por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "14,2K"
+            ],
+            [
+              "Pico",
+              "0,8K"
+            ],
+            [
+              "Promedio/día",
+              "0,46K"
+            ]
+          ],
+          "color": "accent",
+          "suffix": "K",
+          "serie": [
+            0.42,
+            0.55,
+            0.31,
+            0.71,
+            0.62,
+            0.45,
+            0.38,
+            0.81,
+            0.68,
+            0.52,
+            0.46,
+            0.74,
+            0.78,
+            0.58,
+            0.42,
+            0.55,
+            0.36,
+            0.62,
+            0.77,
+            0.51,
+            0.44,
+            0.66,
+            0.78,
+            0.56,
+            0.42,
+            0.58,
+            0.71,
+            0.51,
+            0.42,
+            0.55,
+            0.68
+          ]
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Páginas de Captación",
+          "sub": "Por conversión a lead.",
+          "headers": [
+            "Página",
+            "Sesiones",
+            "Leads"
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "Landing – 0km Financiado"
+              },
+              {
+                "stack": [
+                  "<b>6.800</b>",
+                  "3,1% conv."
+                ]
+              },
+              "211"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "Home → Catálogo"
+              },
+              {
+                "stack": [
+                  "<b>4.200</b>",
+                  "1,4% conv."
+                ]
+              },
+              "59"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "Landing – Usados"
+              },
+              {
+                "stack": [
+                  "<b>2.100</b>",
+                  "1,9% conv."
+                ]
+              },
+              "40"
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "Landing – Planes"
+              },
+              {
+                "stack": [
+                  "<b>1.100</b>",
+                  "0,2% conv."
+                ]
+              },
+              "2"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "email",
+      "nombre": "Email",
+      "kpis": [
+        {
+          "label": "Enviados",
+          "valor": "2.840",
+          "tipo": "neu",
+          "delta": "▲ 3,0%"
+        },
+        {
+          "label": "Tasa Apertura",
+          "valor": "41,5%",
+          "tipo": "pos",
+          "delta": "▲ 2,4pp"
+        },
+        {
+          "label": "CTR",
+          "valor": "5,2%",
+          "tipo": "pos",
+          "delta": "▲ 0,6pp"
+        },
+        {
+          "label": "Leads reactivados",
+          "valor": "38",
+          "tipo": "pos",
+          "delta": "▲ 22,6%"
+        },
+        {
+          "label": "Oportunidades",
+          "valor": "38",
+          "tipo": "pos",
+          "delta": "▲ 22,6%"
+        },
+        {
+          "label": "Bajas",
+          "valor": "0,3%",
+          "tipo": "pos",
+          "delta": "▼ 0,1pp"
+        }
+      ],
+      "lectura": [
+        "El flujo de <b>reactivación de leads fríos</b> es el más rentable: recicla interés perdido.",
+        "La apertura (41,5%) es alta porque son contactos que ya mostraron intención."
+      ],
+      "bloques": [
+        {
+          "tipo": "tabla",
+          "titulo": "Flujos de Nurturing",
+          "sub": "Secuencias activas · por oportunidades generadas.",
+          "headers": [
+            "Flujo",
+            "Enviados",
+            "Conv."
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "Nurturing – Lead nuevo"
+              },
+              {
+                "stack": [
+                  "<b>312</b>",
+                  "21 oportunidades"
+                ]
+              },
+              "6,7%"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "Reactivación – Lead frío"
+              },
+              {
+                "stack": [
+                  "<b>164</b>",
+                  "12 oportunidades"
+                ]
+              },
+              "7,3%"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "Recordatorio – Cotización"
+              },
+              {
+                "stack": [
+                  "<b>88</b>",
+                  "5 oportunidades"
+                ]
+              },
+              "5,7%"
+            ]
+          ]
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Lo que sigue",
+          "sub": "Próximo flujo a construir.",
+          "headers": [
+            "Pendiente",
+            "Detalle",
+            ""
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "Flujo post-visita"
+              },
+              "Cerrar a quienes fueron al concesionario",
+              "—"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "Segmentar por modelo"
+              },
+              "Personalizar la oferta por interés",
+              "—"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
