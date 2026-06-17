@@ -1,69 +1,69 @@
 {
   "meta": {
     "cliente": "VIMAR",
-    "subtitulo": "Selección · Community",
+    "subtitulo": "Reporte de Performance · Community",
     "periodo": "Mayo 2026",
     "periodo_id": "2026-05",
     "tipo": "community"
   },
   "portada": {
     "eyebrow": "Reporte mensual · Mayo 2026",
-    "titular": "Arranque de cuenta con dos sorteos que dominaron el engagement del mes",
-    "resumen": "VIMAR Selección activó su comunidad en Instagram con una estrategia de sorteos vinculada al Mundial. Dos publicaciones concentraron el 79% de las interacciones totales. La pauta de tráfico a Instagram traccionó alcance y perfil; la cuenta cierra el mes en 3.597 seguidores sobre una meta de 8.000."
+    "titular": "Lanzamiento de cuenta con tracción inmediata",
+    "resumen": "VIMAR Selección arrancó Mayo con pauta de tráfico y dos sorteos que concentraron el grueso de las interacciones. La cuenta cerró el mes con <b>3.601 seguidores</b> y un alcance orgánico de <b>281.021 cuentas</b> impulsado por contenido de alta participación."
   },
   "hero": {
-    "label": "Seguidores netos al cierre",
-    "valor": "3.597",
-    "delta": "Base",
-    "delta_ctx": "Primer período registrado · línea base",
-    "desc1": "<b>45%</b> del camino hacia la meta de <b>8.000</b> seguidores",
-    "desc2": "Faltan <b>4.403</b> seguidores para alcanzar el objetivo"
+    "label": "Seguidores netos del mes",
+    "valor": "3.601",
+    "delta": "Línea base",
+    "delta_ctx": "Primer mes de operación",
+    "desc1": "La cuenta partió desde cero y acumuló <b>3.601 seguidores</b> al cierre de Mayo, con 945 incorporaciones registradas post-cierre como arrastre inmediato.",
+    "desc2": "El motor de crecimiento fueron los sorteos: los dos posts de mayor interacción sumaron <b>14.280 interacciones</b> entre likes y comentarios."
   },
   "banda": [
     {
       "label": "Inversión Meta Ads",
       "valor": "$623.570",
       "tipo": "neu",
-      "delta": "Base",
-      "ctx": "Primer período registrado"
+      "delta": "Línea base",
+      "ctx": "Primer mes"
     },
     {
-      "label": "Alcance orgánico IG",
-      "valor": "281.021",
+      "label": "Alcance total (pauta + orgánico)",
+      "valor": "361.026",
       "tipo": "pos",
-      "delta": "Base",
-      "ctx": "14 publicaciones en el mes"
+      "delta": "Línea base",
+      "ctx": "Pauta Meta"
     },
     {
-      "label": "Interacciones totales IG",
+      "label": "Interacciones Instagram",
       "valor": "18.162",
       "tipo": "pos",
-      "delta": "Base",
-      "ctx": "Engagement impulsado por sorteos"
+      "delta": "Línea base",
+      "ctx": "Mes completo"
     },
     {
-      "label": "Vistas de perfil IG",
+      "label": "Profile views Instagram",
       "valor": "14.410",
-      "tipo": "neu",
-      "delta": "Base",
-      "ctx": "Resultado de pauta de tráfico a perfil"
+      "tipo": "pos",
+      "delta": "Línea base",
+      "ctx": "Visitas al perfil"
     }
   ],
   "progreso": {
-    "titulo": "Avance hacia la meta de comunidad",
-    "sub": "Seguidores Instagram · Meta anual 8.000",
-    "actual": 3597,
-    "pct": 45,
-    "neto": 3597,
-    "neto_ctx": "Seguidores acumulados al 31 de mayo",
+    "titulo": "Progreso hacia la meta de seguidores",
+    "sub": "Meta fijada: 8.000 seguidores en Instagram",
+    "actual": 3601,
+    "pct": 33.2,
+    "neto": 3601,
+    "neto_ctx": "seguidores acumulados en Mayo desde cero",
     "meta": 8000,
-    "meta_ctx": "Objetivo de comunidad definido para la cuenta",
-    "nota": "Con 3.597 seguidores al cierre del primer mes registrado, la cuenta alcanza el <b>45%</b> de la meta. El ritmo de crecimiento dependerá de la continuidad de la pauta de tráfico y la cadencia de activaciones como sorteos."
+    "meta_ctx": "Meta de cuenta",
+    "nota": "A ritmo del mes inaugural, la cuenta requiere sostener un crecimiento neto de ~2.200 seguidores por mes para alcanzar la meta. Los sorteos mostraron ser el mecanismo de adquisición más eficiente: cada activación concentró más de 6.000 comentarios."
   },
   "snapshot": [
     {
       "canal": "Instagram",
-      "valor": "3.597 seg.",
+      "valor": "3.601 seg.",
       "label": "Seguidores al cierre",
       "color": "pos"
     },
@@ -74,12 +74,6 @@
       "color": ""
     },
     {
-      "canal": "Alcance IG",
-      "valor": "281.021",
-      "label": "Personas alcanzadas",
-      "color": "pos"
-    },
-    {
       "canal": "Facebook",
       "valor": "263 seg.",
       "label": "Seguidores página",
@@ -87,66 +81,66 @@
     }
   ],
   "narrativa": [
-    "El mes de mayo fue el arranque operativo de VIMAR Selección en Instagram. La estrategia giró en torno al Mundial: dos sorteos publicados el 7 y el 19 de mayo generaron <b>7.747 y 6.533 interacciones</b> respectivamente, acumulando <b>14.280 interacciones</b> entre ambas, el <b>78,6%</b> del total mensual de 18.162.",
-    "La pauta de Meta Ads concentró el <b>82,7%</b> del presupuesto en tráfico a Instagram ($515.706 sobre $623.570 total). Eso explica el volumen de alcance pagado: 361.026 personas impactadas con una frecuencia de 1,28, lo que indica que prácticamente cada usuario vio el anuncio una sola vez. El CTR de <b>2,25%</b> y 10.428 clics son consistentes con una campaña de descubrimiento de perfil.",
-    "El alcance orgánico de Instagram (<b>281.021</b>) superó al alcance de pauta (361.026 combinado) en términos de perfiles únicos tocados por contenido propio, con un pico el 30 de mayo de <b>61.221</b> cuentas alcanzadas en un solo día, probablemente asociado a la activación final del mes. Las vistas de perfil (<b>14.410</b>) confirman que el tráfico pagado derivó usuarios al perfil de forma efectiva.",
-    "El contenido orgánico fuera de sorteos tuvo tracción limitada: el Reel 'PARADISÍACO' del 26 de mayo registró <b>168 interacciones</b> y el post del primer partido del Mundial apenas <b>102</b>. Esto señala que el interés de la comunidad actual está concentrado en mecánicas de participación (sorteos), no en contenido editorial. Es un dato estructural para planificar junio.",
-    "Facebook opera como módulo de presencia: <b>263 seguidores y 263 me gusta</b> en página. No hay datos de insights disponibles este período; se tomará como línea base para seguimiento futuro."
+    "Mayo fue el mes de lanzamiento de <b>VIMAR Selección</b>. La estrategia combinó pauta de tráfico hacia Instagram con activaciones de sorteo, lo que produjo picos de alcance orgánico muy por encima del nivel base: el 19 y 30 de Mayo el alcance diario superó las <b>28.000 y 61.000 cuentas</b> respectivamente, coincidiendo con las publicaciones de mayor volumen de participación.",
+    "La campaña de <b>Tráfico a Instagram</b> concentró el 82,7% de la inversión ($515.706) y generó 8.563 clics con un CTR de 2,48%, traccionando visitantes directamente al perfil. La campaña de <b>Interacción - Primer partido Argentina</b> mostró el CTR más alto del mes (4,32%), lo que indica una audiencia con predisposición activa al contenido vinculado al Mundial.",
+    "Los <b>Reels de Fábrica</b> (Buenos Aires y Resto de Argentina) tuvieron CTR bajo (0,19% y 0,26%) con alta cobertura de alcance (~75.000 cuentas combinadas), funcionando como contenido de presentación de marca más que de conversión directa. Son formatos a optimizar en el mix creativo según el objetivo de cada etapa.",
+    "El ratio de <b>accounts engaged / alcance</b> fue del 1,92% orgánico (5.387 sobre 281.021), consistente con una cuenta nueva donde el núcleo de seguidores aún es pequeño. El volumen de interacciones (18.162) está fuertemente traccionado por los sorteos: sin esos dos posts, el nivel de engagement basal es significativamente menor, lo que señala la necesidad de desarrollar formatos de contenido recurrente que sostengan participación entre activaciones.",
+    "<b>El arranque es sólido para un primer mes</b>: 3.601 seguidores reales, 281.021 de alcance orgánico y dos activaciones con más de 6.000 comentarios cada una validan la mecánica. La palanca de crecimiento está identificada; el trabajo del próximo periodo es construir una base de contenido que retenga a los nuevos seguidores entre sorteo y sorteo."
   ],
   "highlights": [
     {
-      "valor": "7.747",
-      "label": "Interacciones · Sorteo 1 (7 mayo)"
+      "valor": "14.280",
+      "label": "Interacciones en los 2 posts de sorteo"
     },
     {
-      "valor": "6.533",
-      "label": "Interacciones · Sorteo 2 (19 mayo)"
+      "valor": "61.221",
+      "label": "Alcance orgánico pico (30 de Mayo)"
     },
     {
-      "valor": "2,25%",
-      "label": "CTR Meta Ads"
-    },
-    {
-      "valor": "14.410",
-      "label": "Vistas de perfil Instagram"
-    },
-    {
-      "valor": "$1.347",
-      "label": "CPM Meta Ads"
+      "valor": "4,32%",
+      "label": "CTR más alto: campaña Primer partido Argentina"
     },
     {
       "valor": "46",
-      "label": "Publicaciones totales en el período"
+      "label": "Publicaciones totales del mes (orgánico + impulsado)"
+    },
+    {
+      "valor": "$1.727",
+      "label": "Costo por seguidor (inversión / seguidores netos)"
+    },
+    {
+      "valor": "945",
+      "label": "Seguidores netos registrados post-cierre (arrastre inmediato)"
     }
   ],
   "proximos_pasos": [
     {
       "n": 1,
-      "titulo": "Sostener el crecimiento de seguidores con pauta de tráfico continua",
-      "diag": "La cuenta está al 45% de su meta y el motor principal de crecimiento fue la pauta de tráfico a Instagram ($515.706). Sin activaciones de sorteo, el alcance orgánico diario cae a valores de 300 a 2.700 cuentas.",
-      "accion": "Mantener activa la campaña de tráfico a Instagram con presupuesto diario estable. Evitar cortes prolongados: el gráfico de alcance diario muestra caídas bruscas en los días sin inversión (días 1 a 8 y 26 a 29).",
-      "impacto": "Flujo continuo de nuevos seguidores y perfil activo frente a la ventana del Mundial de junio."
+      "titulo": "Planificar cadencia de sorteos con mecánica escalable",
+      "diag": "Los dos sorteos concentraron el 78% de las interacciones del mes. Sin activaciones, el engagement basal cae. La cuenta depende de picos puntuales.",
+      "accion": "Diseñar un calendario de al menos una activación de participación por quincena, con mecánicas variadas (sorteo, quiz, desafío) para no saturar el formato único.",
+      "impacto": "Sostener el flujo de comentarios y nuevos seguidores entre lanzamientos grandes, reduciendo la dependencia de picos aislados."
     },
     {
       "n": 2,
-      "titulo": "Diseñar contenido editorial que funcione sin mecánica de sorteo",
-      "diag": "El 78,6% de las interacciones del mes las generaron dos sorteos. El contenido editorial (Reels, posts de contexto) no superó las 168 interacciones por pieza, lo que expone la cuenta a una caída de engagement si se reduce la frecuencia de sorteos.",
-      "accion": "Producir al menos 3 piezas editoriales por semana vinculadas al Mundial con formato nativo de IG (Reels cortos, carruseles de formación o datos). Testear qué formato retiene engagement sin incentivo de premio.",
-      "impacto": "Reducir la dependencia de sorteos y construir una base de interacción orgánica sostenible."
+      "titulo": "Desarrollar contenido de retención entre activaciones",
+      "diag": "El alcance orgánico base (días sin sorteo ni pauta) es de 300-2.700 cuentas diarias, muy por debajo de los días pico. Los seguidores ganados no tienen contenido que los mantenga activos.",
+      "accion": "Producir al menos 3 formatos recurrentes semanales (detrás de escena, recetas/usos del producto, contenido vinculado al Mundial) con guión visual consistente.",
+      "impacto": "Mejorar el ratio accounts engaged/alcance y reducir la tasa de abandono de seguidores recientes."
     },
     {
       "n": 3,
-      "titulo": "Activar un tercer sorteo vinculado al arranque del Mundial",
-      "diag": "Los dos sorteos de mayo generaron 14.280 interacciones combinadas y traccionaron el pico de alcance orgánico más alto del mes (61.221 el 30 de mayo). La mecánica de participación tiene demanda comprobada en esta comunidad.",
-      "accion": "Lanzar un sorteo en la primera semana de junio, alineado con el inicio del Mundial, con mecánica de seguir + comentar para maximizar el crecimiento neto de seguidores atribuible a la acción.",
-      "impacto": "Acelerar el avance sobre la meta de 8.000 seguidores y generar un nuevo pico de interacciones documentable."
+      "titulo": "Optimizar distribución de inversión hacia el formato de mayor CTR",
+      "diag": "La campaña de Interacción registró CTR de 4,32% frente al 2,48% de Tráfico a Instagram, pero recibió solo el 14,4% del presupuesto. Los Reels de Fábrica tuvieron CTR menor al 0,30%.",
+      "accion": "Reasignar parte del presupuesto de Reels de Fábrica hacia campañas de Interacción vinculadas a contenido de alta participación; usar los Reels de Fábrica solo para awareness de marca con objetivo alcance, no clics.",
+      "impacto": "Mayor eficiencia por peso invertido en adquisición de seguidores y volumen de interacciones con menor inversión relativa."
     },
     {
       "n": 4,
-      "titulo": "Establecer línea base de Facebook para seguimiento",
-      "diag": "La página de Facebook tiene 263 seguidores y no hay datos de insights disponibles por error de API. Sin métricas, no es posible evaluar el aporte del canal ni optimizarlo.",
-      "accion": "Resolver el acceso de API a Facebook Insights antes del cierre de junio para registrar alcance, interacciones y crecimiento desde el mes base.",
-      "impacto": "Contar con datos comparables mes a mes y detectar si Facebook aporta tráfico o comunidad adicional a la estrategia."
+      "titulo": "Activar contenido vinculado al Mundial como vector de crecimiento",
+      "diag": "La campaña del primer partido Argentina fue la de mayor CTR y la cuenta lleva el nombre 'Vimar Selección'. El contexto mundialista es el activo de marca más relevante del período.",
+      "accion": "Producir contenido editorial y de pauta alineado con la agenda de partidos de Argentina: publicaciones previas al partido, contenido en vivo/stories y activaciones post-partido.",
+      "impacto": "Aprovechar el pico de atención natural del evento para acelerar el crecimiento de seguidores sin incremento proporcional de inversión."
     }
   ],
   "metricas": [
@@ -163,20 +157,26 @@
           "tipo": "neu"
         },
         {
-          "label": "ROAS",
-          "valor": "0,00x",
+          "label": "Alcance",
+          "valor": "361.026",
           "delta": "—",
           "tipo": "neu"
         },
         {
-          "label": "Compras",
-          "valor": "0",
+          "label": "Impresiones",
+          "valor": "463.160",
           "delta": "—",
           "tipo": "neu"
         },
         {
-          "label": "CPA",
-          "valor": "$0",
+          "label": "Frecuencia",
+          "valor": "1,28",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Clics",
+          "valor": "10.428",
           "delta": "—",
           "tipo": "neu"
         },
@@ -185,17 +185,11 @@
           "valor": "2,25%",
           "delta": "—",
           "tipo": "neu"
-        },
-        {
-          "label": "Alcance",
-          "valor": "361.026",
-          "delta": "—",
-          "tipo": "neu"
         }
       ],
       "lectura": [
-        "El <b>ROAS de 0,00x</b> lo tracciona la campaña de Ventas.",
-        "El <b>CPA</b> fue $0 sobre 0 compras."
+        "La pauta alcanzó <b>361.026</b> personas con 463.160 impresiones.",
+        "El CTR fue 2,25% sobre 10.428 clics."
       ],
       "bloques": [
         {
@@ -259,7 +253,7 @@
           "headers": [
             "Campaña",
             "Inversión",
-            "ROAS"
+            "Alcance"
           ],
           "filas": [
             [
@@ -273,10 +267,7 @@
                   "83% del gasto"
                 ]
               },
-              {
-                "pct": "0,00x",
-                "tipo": "neg"
-              }
+              "269.752"
             ],
             [
               {
@@ -289,10 +280,7 @@
                   "14% del gasto"
                 ]
               },
-              {
-                "pct": "0,00x",
-                "tipo": "neg"
-              }
+              "32.433"
             ],
             [
               {
@@ -305,10 +293,7 @@
                   "1% del gasto"
                 ]
               },
-              {
-                "pct": "0,00x",
-                "tipo": "neg"
-              }
+              "37.554"
             ],
             [
               {
@@ -321,10 +306,7 @@
                   "1% del gasto"
                 ]
               },
-              {
-                "pct": "0,00x",
-                "tipo": "neg"
-              }
+              "37.838"
             ]
           ]
         }
@@ -338,7 +320,7 @@
       "kpis": [
         {
           "label": "Seguidores IG",
-          "valor": "3.597",
+          "valor": "2.656",
           "delta": "—",
           "tipo": "neu"
         },
@@ -375,7 +357,7 @@
       ],
       "lectura": [
         "Instagram alcanzó <b>281.021</b> cuentas con 18.162 interacciones.",
-        "La cuenta cerró el mes en 3.597 seguidores."
+        "La cuenta cerró el mes en 2.656 seguidores."
       ],
       "bloques": [
         {
