@@ -8,8 +8,8 @@
   },
   "portada": {
     "eyebrow": "Reporte de Mayo · 2026",
-    "titular": "Un mes sólido: $19.990.699 facturados con la pauta sosteniendo un ROAS de 7,64x.",
-    "resumen": "El e-commerce facturó $19.990.699 en 266 órdenes, con un ticket promedio de $75.153. La inversión publicitaria total fue de $2.616.776, con Meta Ads como motor principal (ROAS 7,10x) y Google Ads aportando intención de búsqueda (ROAS 5,46x)."
+    "titular": "Un mes sólido: ROAS de 7,64x.",
+    "resumen": "El e-commerce facturó $19.990.699 en 266 órdenes, ticket promedio $75.153. La inversión total en pauta fue $2.616.776, con Meta como motor (ROAS 7,10x) y Google Ads sumando intención de búsqueda (ROAS 5,46x)."
   },
   "hero": {
     "label": "ROAS Consolidado del mes",
@@ -17,7 +17,7 @@
     "delta": "—",
     "delta_ctx": "línea base",
     "desc1": "Por cada peso invertido en pauta, el negocio facturó 7,64.",
-    "desc2": "Lectura consolidada sobre Meta + Google. Primer mes de medición: queda como línea base para comparar de junio en adelante."
+    "desc2": "Lectura consolidada Meta + Google. Primer mes de medición: queda como línea base para comparar de junio en adelante."
   },
   "banda": [
     {
@@ -51,12 +51,17 @@
   ],
   "embudo": {
     "titulo": "Embudo de Conversión",
-    "sub": "Cuánta gente entra al sitio y cuánta termina comprando.",
+    "sub": "Del tráfico a la compra, paso por paso.",
     "pasos": [
       {
         "nombre": "Sesiones",
         "valor": "23.303",
         "width": 100
+      },
+      {
+        "nombre": "Usuarios",
+        "valor": "21.345",
+        "width": 91.59764837145433
       },
       {
         "nombre": "Órdenes",
@@ -67,12 +72,17 @@
     ],
     "conversiones": [
       {
-        "rate": "1,14%",
-        "ctx": "de las sesiones termina en compra",
+        "rate": "91,60%",
+        "ctx": "pasa a \"usuarios\"",
+        "drop": false
+      },
+      {
+        "rate": "1,25%",
+        "ctx": "pasa a \"órdenes\"",
         "drop": true
       }
     ],
-    "nota": "La tasa de conversión es la palanca de mayor impacto: con el tráfico actual, llevarla de 1,14% a 1,48% significaría ~80 órdenes adicionales sin gastar más en pauta."
+    "nota": "Hoy GA4 solo expone sesiones y compras. Activando los eventos de e-commerce (carrito y checkout) en la tienda, este embudo se completa solo el mes que viene."
   },
   "snapshot": [
     {
@@ -89,7 +99,7 @@
     },
     {
       "canal": "Instagram",
-      "valor": "65.707",
+      "valor": "65.713",
       "label": "Seguidores",
       "color": ""
     },
@@ -101,8 +111,8 @@
     }
   ],
   "narrativa": [
-    "<b>E-Commerce</b> facturó $19.990.699 en 266 órdenes, con un ticket promedio de $75.153. Los packs de almohadones de silla concentraron la mayor parte de la facturación.",
-    "<b>Meta Ads</b> invirtió $2.416.085 y generó 228 compras atribuidas a ROAS 7,10x, con la campaña de Ventas llevándose el grueso del retorno.",
+    "<b>E-Commerce</b> facturó $19.990.699 en 266 órdenes, ticket promedio $75.153. Los packs de almohadones de silla concentraron la mayor parte de la facturación.",
+    "<b>Meta Ads</b> invirtió $2.416.085 y generó 228 compras a ROAS 7,10x, con la campaña de Ventas llevándose el grueso del retorno.",
     "<b>Google Ads</b> aportó $200.691 a ROAS 5,46x, capturando intención de búsqueda con presupuesto acotado.",
     "El margen entre lo que se invierte y lo que retorna tiene espacio para escalar en los canales que ya muestran eficiencia."
   ],
@@ -120,23 +130,23 @@
     {
       "n": 1,
       "titulo": "Recuperar la inversión de Meta sin retorno medible",
-      "diag": "Cerca de $300.937 se fueron a campañas de tráfico/reconocimiento con ROAS 0 (WhatsApp, sitio, Instagram). Pueden tener rol de awareness, pero hoy no se les puede atribuir venta.",
-      "accion": "Definir objetivo y medición de esas campañas: o se les asigna una métrica de etapa (alcance/leads) o se reasigna el presupuesto a la campaña de Ventas, que rinde 8,50x.",
-      "impacto": "Reasignar ese gasto a la campaña ganadora podría sumar ventas sin aumentar el presupuesto total."
+      "diag": "Cerca de $300.937 fueron a campañas de tráfico/reconocimiento con ROAS 0. Pueden cumplir un rol de awareness, pero hoy no se les puede atribuir venta.",
+      "accion": "Definir objetivo y métrica de esas campañas, o reasignar ese presupuesto a la campaña de Ventas, que rinde por encima de 8x.",
+      "impacto": "Mover ese gasto a lo que convierte puede sumar ventas sin aumentar el presupuesto total."
     },
     {
       "n": 2,
-      "titulo": "Escalar Google Ads en las campañas que convierten",
-      "diag": "Google Ads rinde ROAS 5,46x con apenas $200.691 invertidos, y la campaña principal llega a 7,87x.",
-      "accion": "Subir presupuesto de forma escalonada en las campañas de búsqueda con mejor ROAS y monitorear que el retorno se sostenga.",
-      "impacto": "Captura de demanda existente con eficiencia comprobada; bajo riesgo relativo."
+      "titulo": "Escalar Google Ads donde ya convierte",
+      "diag": "Google Ads rinde ROAS 5,46x con solo $200.691 invertidos.",
+      "accion": "Subir presupuesto de forma escalonada en las campañas de búsqueda con mejor ROAS, controlando que el retorno se sostenga.",
+      "impacto": "Captura de demanda existente con eficiencia comprobada y bajo riesgo."
     },
     {
       "n": 3,
       "titulo": "Activar la conversión del Email",
-      "diag": "Email tuvo buena apertura (28,89%) pero el CTR fue de 0,54% y la conversión atribuida es marginal: la base abre pero no avanza al sitio.",
-      "accion": "Revisar enlaces y CTA de las campañas, segmentar por intención y verificar el tracking de conversiones en Perfit.",
-      "impacto": "El email es base propia: mejorar el CTR mueve ventas sin costo de medios."
+      "diag": "El email tuvo buena apertura (28,89%) pero CTR de 0,54%: la base abre y no avanza al sitio.",
+      "accion": "Revisar enlaces y CTA, segmentar por intención y verificar el tracking de conversiones en Perfit.",
+      "impacto": "El email es base propia: mejorar el clic mueve ventas sin costo de medios."
     }
   ],
   "metricas": [
@@ -171,6 +181,12 @@
           "tipo": "neu"
         },
         {
+          "label": "Usuarios",
+          "valor": "21.345",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
           "label": "Conversión",
           "valor": "1,14%",
           "delta": "—",
@@ -178,8 +194,8 @@
         }
       ],
       "lectura": [
-        "La <b>tasa de conversión</b> del mes fue 1,14% sobre 23.303 sesiones.",
-        "El <b>ticket promedio</b> de $75.153 está sostenido por la venta de packs de almohadones."
+        "La <b>conversión</b> del mes fue 1,14% sobre 23.303 sesiones.",
+        "El <b>ticket promedio</b> de $75.153 está sostenido por la venta de packs."
       ],
       "bloques": [
         {
@@ -189,15 +205,15 @@
           "stats": [
             [
               "Total",
-              "$19.990.699"
+              "$20,0M"
             ],
             [
               "Pico",
-              "$1.499.376"
+              "$1,5M"
             ],
             [
               "Promedio/día",
-              "$644.861"
+              "$645K"
             ]
           ],
           "serie": [
@@ -350,10 +366,16 @@
           "valor": "3,22%",
           "delta": "—",
           "tipo": "neu"
+        },
+        {
+          "label": "Alcance",
+          "valor": "473.219",
+          "delta": "—",
+          "tipo": "neu"
         }
       ],
       "lectura": [
-        "El <b>ROAS de 7,10x</b> está traccionado por la campaña de Ventas (8,50x).",
+        "El <b>ROAS de 7,10x</b> lo tracciona la campaña de Ventas.",
         "El <b>CPA</b> fue $10.597 sobre 228 compras."
       ],
       "bloques": [
@@ -364,15 +386,15 @@
           "stats": [
             [
               "Total",
-              "$2.416.085"
+              "$2,4M"
             ],
             [
               "Pico",
-              "$123.237"
+              "$123K"
             ],
             [
               "Promedio/día",
-              "$77.938"
+              "$78K"
             ]
           ],
           "serie": [
@@ -540,11 +562,17 @@
           "valor": "4,57%",
           "delta": "—",
           "tipo": "neu"
+        },
+        {
+          "label": "Clics",
+          "valor": "2.493",
+          "delta": "—",
+          "tipo": "neu"
         }
       ],
       "lectura": [
         "Google Ads rinde <b>ROAS 5,46x</b> capturando búsquedas de intención.",
-        "La inversión fue acotada ($200.691): hay espacio para escalar lo que convierte."
+        "Inversión acotada ($200.691): hay espacio para escalar lo que convierte."
       ],
       "bloques": [
         {
@@ -554,15 +582,15 @@
           "stats": [
             [
               "Total",
-              "$200.691"
+              "$201K"
             ],
             [
               "Pico",
-              "$38.953"
+              "$39K"
             ],
             [
               "Promedio/día",
-              "$6.474"
+              "$6K"
             ]
           ],
           "serie": [
@@ -687,7 +715,7 @@
       "kpis": [
         {
           "label": "Seguidores IG",
-          "valor": "65.707",
+          "valor": "65.713",
           "delta": "—",
           "tipo": "neu"
         },
@@ -710,15 +738,21 @@
           "tipo": "neu"
         },
         {
+          "label": "Posteos",
+          "valor": "18",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
           "label": "Seguidores FB",
-          "valor": "9.734",
+          "valor": "9.735",
           "delta": "—",
           "tipo": "neu"
         }
       ],
       "lectura": [
-        "Instagram alcanzó <b>270.444</b> cuentas en el mes con 1.644 interacciones.",
-        "La cuenta cerró el mes en 65.707 seguidores."
+        "Instagram alcanzó <b>270.444</b> cuentas con 1.644 interacciones.",
+        "La cuenta cerró el mes en 65.713 seguidores."
       ],
       "bloques": [
         {
@@ -854,6 +888,12 @@
           "tipo": "neu"
         },
         {
+          "label": "Conversiones",
+          "valor": "14",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
           "label": "Ingresos",
           "valor": "$975.384",
           "delta": "—",
@@ -868,7 +908,7 @@
       ],
       "lectura": [
         "Se enviaron <b>64.652</b> emails en 22 campañas, con 28,89% de apertura.",
-        "El <b>CTR de 0,54%</b> marca la oportunidad: la base abre pero hay que mejorar el clic al sitio."
+        "El <b>CTR de 0,54%</b> es la oportunidad: la base abre, falta mejorar el clic al sitio."
       ],
       "bloques": [
         {
