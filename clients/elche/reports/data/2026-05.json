@@ -59,11 +59,6 @@
         "width": 100
       },
       {
-        "nombre": "Usuarios",
-        "valor": "21.345",
-        "width": 91.59764837145433
-      },
-      {
         "nombre": "Órdenes",
         "valor": "266",
         "width": 1.1414839291078402,
@@ -72,12 +67,7 @@
     ],
     "conversiones": [
       {
-        "rate": "91,60%",
-        "ctx": "pasa a \"usuarios\"",
-        "drop": false
-      },
-      {
-        "rate": "1,25%",
+        "rate": "1,14%",
         "ctx": "pasa a \"órdenes\"",
         "drop": true
       }
