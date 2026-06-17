@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "cliente": "VIMAR",
+    "subtitulo": "Reporte mensual de performance",
+    "periodo": "Mayo 2026",
+    "periodo_id": "2026-05",
+    "tipo": "community"
+  },
+  "portada": {
+    "eyebrow": "VIMAR · Redes Sociales · Mayo 2026",
+    "titular": "Comunidad en construcción: sorteos, Mundial y 281.000 personas alcanzadas",
+    "resumen": "Mayo marcó el arranque real de la cuenta de Instagram de VIMAR Selección. Dos sorteos temáticos concentraron el grueso de las interacciones y dispararon el alcance orgánico. La pauta de tráfico a Instagram sostuvo la visibilidad durante todo el mes. La cuenta llega a mayo con <b>3.591 seguidores</b> y una base de engagement que anticipa escala."
+  },
+  "hero": {
+    "label": "Seguidores actuales",
+    "valor": "3.591",
+    "delta": "Línea base",
+    "delta_ctx": "Primer período relevado",
+    "desc1": "Meta de comunidad: <b>8.000 seguidores</b>",
+    "desc2": "Progreso acumulado: <b>44,9%</b> hacia la meta"
+  },
+  "banda": [
+    {
+      "label": "Alcance orgánico Instagram",
+      "valor": "281.021",
+      "tipo": "pos",
+      "delta": "Línea base",
+      "ctx": "Personas únicas alcanzadas en mayo"
+    },
+    {
+      "label": "Interacciones totales",
+      "valor": "18.162",
+      "tipo": "pos",
+      "delta": "Línea base",
+      "ctx": "Likes + comentarios en el período"
+    },
+    {
+      "label": "Cuentas comprometidas",
+      "valor": "5.387",
+      "tipo": "neu",
+      "delta": "Línea base",
+      "ctx": "Cuentas que interactuaron con el contenido"
+    },
+    {
+      "label": "Visitas al perfil",
+      "valor": "14.410",
+      "tipo": "pos",
+      "delta": "Línea base",
+      "ctx": "Profile views generadas en mayo"
+    }
+  ],
+  "progreso": {
+    "titulo": "Avance hacia la meta de comunidad",
+    "sub": "Meta fijada: 8.000 seguidores en Instagram",
+    "actual": 3591,
+    "pct": 44.9,
+    "neto": 3591,
+    "neto_ctx": "Seguidores al cierre de mayo (base inicial)",
+    "meta": 8000,
+    "meta_ctx": "Meta de seguidores fijada para la cuenta",
+    "nota": "Faltan <b>4.409 seguidores</b> para alcanzar la meta. El ritmo de crecimiento dependerá de la frecuencia de sorteos y la consistencia de pauta de tráfico a perfil."
+  },
+  "snapshot": [
+    {
+      "canal": "Instagram Alcance",
+      "valor": "281.021",
+      "label": "personas únicas",
+      "color": "pos"
+    },
+    {
+      "canal": "Interacciones",
+      "valor": "18.162",
+      "label": "total del mes",
+      "color": "pos"
+    },
+    {
+      "canal": "Publicaciones",
+      "valor": "46",
+      "label": "publicaciones en el perfil",
+      "color": ""
+    },
+    {
+      "canal": "Posts del mes",
+      "valor": "14",
+      "label": "piezas publicadas en mayo",
+      "color": ""
+    },
+    {
+      "canal": "Inversión Meta Ads",
+      "valor": "$623.570",
+      "label": "invertidos en pauta",
+      "color": ""
+    },
+    {
+      "canal": "Facebook Seguidores",
+      "valor": "262",
+      "label": "seguidores en página",
+      "color": ""
+    }
+  ],
+  "narrativa": [
+    "Mayo fue el mes de encendido de VIMAR Selección como cuenta activa. Con <b>14 publicaciones</b> y dos sorteos temáticos alineados al contexto del Mundial, la cuenta generó <b>281.021 personas alcanzadas</b> y <b>18.162 interacciones</b> —un volumen de actividad que en una cuenta nueva marca una base sólida para escalar.",
+    "El sorteo del 7 de mayo fue el post de mayor impacto del período: <b>7.747 interacciones</b> (893 likes, 6.854 comentarios). El segundo sorteo, publicado el 19 de mayo con temática de selección, sumó <b>6.533 interacciones</b>. Entre los dos concentraron el <b>79% del total de interacciones del mes</b>. El alcance diario lo confirma: los picos del 20 y 26 de mayo —con 30.849 y 61.221 personas respectivamente— están directamente asociados a los momentos de mayor actividad de sorteos y pauta.",
+    "La pauta de tráfico a Instagram ($515.706 de los $623.570 invertidos) operó como motor de visibilidad durante todo el mes. La campaña de interacción ligada al primer partido de Argentina sumó otros $89.914, coherente con el foco temático de la cuenta. Los reels de fábrica, con presupuesto acotado (~$18.000 combinados), funcionaron como contenido de contexto de marca.",
+    "Con <b>14.410 visitas al perfil</b> y <b>5.387 cuentas comprometidas</b>, la conversión de alcance a engagement es del <b>1,9%</b> —razonable para una cuenta en etapa de construcción donde los sorteos inflan el alcance pero no toda la audiencia es calificada aún. El desafío inmediato es convertir esa audiencia de sorteos en seguidores orgánicos duraderos.",
+    "La cuenta cierra mayo con <b>3.591 seguidores</b>, al <b>44,9%</b> de la meta de 8.000. El camino restante requiere combinar la mecánica de sorteos —que demostró funcionar— con contenido de valor recurrente que retenga a quienes llegan por los concursos."
+  ],
+  "highlights": [
+    {
+      "valor": "7.747",
+      "label": "Interacciones en el post de sorteo del 7/5 (mayor post del mes)"
+    },
+    {
+      "valor": "61.221",
+      "label": "Personas alcanzadas el 26/5 (pico máximo de alcance diario)"
+    },
+    {
+      "valor": "79%",
+      "label": "Interacciones concentradas en los dos posts de sorteo"
+    },
+    {
+      "valor": "1,9%",
+      "label": "Tasa de conversión alcance → engagement del mes"
+    },
+    {
+      "valor": "$623.570",
+      "label": "Inversión total en Meta Ads durante mayo"
+    }
+  ],
+  "proximos_pasos": [
+    {
+      "n": 1,
+      "titulo": "Capitalizar audiencia de sorteos con contenido de retención",
+      "diag": "Los sorteos trajeron interacciones masivas pero la tasa de conversión alcance→seguidor no es visible todavía; el riesgo es que la audiencia captada no se retenga.",
+      "accion": "Publicar en los 5 días posteriores a cada sorteo al menos 2 piezas de contenido de valor (producto, behind-the-scenes, tips) para capturar como seguidores a quienes llegaron por el concurso.",
+      "impacto": "Aumentar la retención post-sorteo y mejorar la ratio seguidores/alcance, acelerando el avance hacia la meta de 8.000."
+    },
+    {
+      "n": 2,
+      "titulo": "Sostener frecuencia de sorteos con mecánicas de seguimiento obligatorio",
+      "diag": "Los dos sorteos explicaron el 79% de las interacciones del mes. Sin ellos, el volumen de engagement cae significativamente.",
+      "accion": "Programar un sorteo mensual mínimo con condición explícita de seguir la cuenta, y uno adicional temático si el calendario lo habilita (partidos, fechas clave).",
+      "impacto": "Crecimiento sostenido de seguidores con base en mecánicas probadas, sin depender de picos aislados."
+    },
+    {
+      "n": 3,
+      "titulo": "Redirigir una parte de la pauta de tráfico hacia conversión a seguidor",
+      "diag": "El 82,7% de la inversión fue a tráfico a Instagram, pero no hay dato de seguidores ganados por pauta. La pauta de tráfico aumenta alcance pero no necesariamente seguidores.",
+      "accion": "Probar en junio un split de presupuesto: mantener pauta de tráfico y agregar un conjunto de anuncios específico orientado a seguir el perfil, midiendo costo por seguidor obtenido.",
+      "impacto": "Obtener una métrica de eficiencia de pauta en términos de comunidad y posiblemente reducir el costo por seguidor ganado."
+    },
+    {
+      "n": 4,
+      "titulo": "Activar contenido de producto entre sorteos para construir identidad de marca",
+      "diag": "El contenido de mayor alcance fue de sorteos y temática deportiva. Los reels de fábrica tuvieron presupuesto bajo y alcance limitado. La cuenta necesita identidad propia más allá del concurso.",
+      "accion": "Incorporar al menos 3 piezas mensuales de contenido de producto con formato reel, mostrando textura, uso real y diferencial del producto, con pauta específica aunque sea acotada.",
+      "impacto": "Construir reconocimiento de marca y audiencia calificada que compre, no solo que participe de sorteos."
+    }
+  ],
+  "metricas": [
+    {
+      "id": "redes",
+      "nombre": "Redes Sociales",
+      "panel_titulo": "Instagram · VIMAR Selección",
+      "panel_sub": "@vimarseleccion · Mayo 2026",
+      "kpis": [
+        {
+          "label": "Alcance del mes",
+          "valor": "281.021",
+          "tipo": "pos",
+          "delta": "Línea base"
+        },
+        {
+          "label": "Interacciones totales",
+          "valor": "18.162",
+          "tipo": "pos",
+          "delta": "Línea base"
+        },
+        {
+          "label": "Visitas al perfil",
+          "valor": "14.410",
+          "tipo": "neu",
+          "delta": "Línea base"
+        },
+        {
+          "label": "Cuentas comprometidas",
+          "valor": "5.387",
+          "tipo": "neu",
+          "delta": "Línea base"
+        },
+        {
+          "label": "Seguidores actuales",
+          "valor": "3.591",
+          "tipo": "pos",
+          "delta": "Línea base"
+        },
+        {
+          "label": "Posts publicados en mayo",
+          "valor": "14",
+          "tipo": "neu",
+          "delta": "Línea base"
+        }
+      ],
+      "lectura": [
+        "El alcance de <b>281.021 personas</b> en una cuenta de 3.591 seguidores indica que la pauta y los sorteos viralizaron el contenido muy por encima del alcance orgánico base.",
+        "Los dos sorteos concentraron el <b>79% de las interacciones</b>. El contenido no-sorteo promedió menos de 200 interacciones por publicación, lo que marca una brecha clara entre mecánicas de concurso y contenido editorial.",
+        "Las <b>14.410 visitas al perfil</b> con 3.591 seguidores sugieren que un número relevante de personas evaluó la cuenta sin convertir a seguidor; optimizar la bio y el grid puede mejorar esa tasa."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Alcance diario en Instagram",
+          "sub": "Personas únicas alcanzadas por día · Mayo 2026",
+          "stats": [
+            [
+              "Pico máximo",
+              "61.221 (día 30)"
+            ],
+            [
+              "Pico sorteo 1",
+              "22.209 (día 10)"
+            ],
+            [
+              "Pico sorteo 2",
+              "30.849 (día 20)"
+            ]
+          ],
+          "color": "pos",
+          "suffix": "",
+          "serie": [
+            415,
+            79,
+            72,
+            284,
+            375,
+            44,
+            2734,
+            1147,
+            6928,
+            22209,
+            18343,
+            21167,
+            19143,
+            12980,
+            8061,
+            12482,
+            11745,
+            13849,
+            12049,
+            30849,
+            28004,
+            22879,
+            23897,
+            12679,
+            8204,
+            2310,
+            2147,
+            881,
+            330,
+            61221,
+            0
+          ]
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Top posts del mes",
+          "sub": "Publicaciones con mayor volumen de interacciones",
+          "headers": [
+            "Fecha",
+            "Tipo",
+            "Likes",
+            "Comentarios",
+            "Interacciones"
+          ],
+          "filas": [
+            [
+              "07/05",
+              "IMAGE",
+              "893",
+              "6.854",
+              {
+                "valor": "7.747",
+                "tipo": "pos"
+              }
+            ],
+            [
+              "19/05",
+              "IMAGE",
+              "1.082",
+              "5.451",
+              {
+                "valor": "6.533",
+                "tipo": "pos"
+              }
+            ],
+            [
+              "26/05",
+              "VIDEO",
+              "153",
+              "15",
+              {
+                "valor": "168",
+                "tipo": "neu"
+              }
+            ],
+            [
+              "13/05",
+              "IMAGE",
+              "95",
+              "7",
+              {
+                "valor": "102",
+                "tipo": "neu"
+              }
+            ],
+            [
+              "15/05",
+              "IMAGE",
+              "89",
+              "4",
+              {
+                "valor": "93",
+                "tipo": "neu"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meta_ads",
+      "nombre": "Meta Ads",
+      "panel_titulo": "Meta Ads · Pauta de visibilidad",
+      "panel_sub": "Campañas activas · Mayo 2026",
+      "kpis": [
+        {
+          "label": "Inversión total",
+          "valor": "$623.570",
+          "tipo": "neu",
+          "delta": "Línea base"
+        },
+        {
+          "label": "Alcance pagado",
+          "valor": "361.026",
+          "tipo": "pos",
+          "delta": "Línea base"
+        },
+        {
+          "label": "Impresiones",
+          "valor": "463.160",
+          "tipo": "neu",
+          "delta": "Línea base"
+        },
+        {
+          "label": "Clics totales",
+          "valor": "10.428",
+          "tipo": "pos",
+          "delta": "Línea base"
+        },
+        {
+          "label": "CPM",
+          "valor": "$1.346",
+          "tipo": "neu",
+          "delta": "Línea base"
+        },
+        {
+          "label": "CTR",
+          "valor": "2,25%",
+          "tipo": "pos",
+          "delta": "Línea base"
+        },
+        {
+          "label": "Frecuencia",
+          "valor": "1,28",
+          "tipo": "pos",
+          "delta": "Línea base"
+        }
+      ],
+      "lectura": [
+        "La campaña de <b>Tráfico a Instagram</b> absorbió el <b>82,7% del presupuesto</b> ($515.706), operando como el principal motor de alcance y visibilidad del perfil durante todo el mes.",
+        "La frecuencia de <b>1,28</b> indica que la audiencia vio los anuncios en promedio poco más de una vez, lo que es eficiente para una campaña de awareness/tráfico sin saturación.",
+        "El CTR de <b>2,25%</b> sobre 463.160 impresiones es un indicador sólido de relevancia creativa para el objetivo de tráfico."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Inversión diaria Meta Ads",
+          "sub": "Pesos invertidos por día · Mayo 2026",
+          "stats": [
+            [
+              "Inversión total",
+              "$623.570"
+            ],
+            [
+              "CPM promedio",
+              "$1.346"
+            ],
+            [
+              "CTR",
+              "2,25%"
+            ]
+          ],
+          "color": "accent",
+          "suffix": "",
+          "serie": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            8881,
+            26212,
+            46318,
+            50628,
+            46470,
+            29070,
+            25419,
+            51507,
+            33173,
+            32668,
+            30698,
+            26868,
+            25591,
+            26873,
+            17680,
+            35415,
+            25261,
+            0,
+            0,
+            0,
+            0,
+            46278,
+            38562
+          ]
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Campañas del mes",
+          "sub": "Desglose por campaña · Mayo 2026",
+          "headers": [
+            "Campaña",
+            "Inversión"
+          ],
+          "filas": [
+            [
+              "Tráfico a Instagram",
+              "$515.706"
+            ],
+            [
+              "Interacción - Primer partido Argentina",
+              "$89.914"
+            ],
+            [
+              "Reel de Fábrica - Buenos Aires",
+              "$9.024"
+            ],
+            [
+              "Reel de Fábrica - Resto de Argentina",
+              "$8.926"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
