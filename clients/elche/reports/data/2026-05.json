@@ -89,7 +89,7 @@
     },
     {
       "canal": "Instagram",
-      "valor": "65.713",
+      "valor": "65.725",
       "label": "Seguidores",
       "color": ""
     },
@@ -705,7 +705,7 @@
       "kpis": [
         {
           "label": "Seguidores IG",
-          "valor": "65.713",
+          "valor": "65.725",
           "delta": "—",
           "tipo": "neu"
         },
@@ -742,7 +742,7 @@
       ],
       "lectura": [
         "Instagram alcanzó <b>270.444</b> cuentas con 1.644 interacciones.",
-        "La cuenta cerró el mes en 65.713 seguidores."
+        "La cuenta cerró el mes en 65.725 seguidores."
       ],
       "bloques": [
         {
