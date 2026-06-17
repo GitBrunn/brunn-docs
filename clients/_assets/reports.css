@@ -189,7 +189,7 @@ tbody td b{color:var(--ink);font-weight:700}
 :root[data-theme="light"] .chtab.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 [data-cv]{display:none}[data-cv].show{display:block}
 
-.chart-stats{display:flex;gap:18px;margin-bottom:14px;flex-wrap:wrap}
+.chart-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:14px}
 .chart-stats span{font-family:var(--disp);font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-3);display:flex;flex-direction:column;gap:4px}
 .chart-stats b{font-family:var(--num);font-size:18px;font-weight:700;color:var(--ink);letter-spacing:-.01em}
 .chart-box{position:relative;width:100%;overflow:hidden}
@@ -232,7 +232,7 @@ footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--line);font-fa
   .wrap{padding:28px 24px 72px}
   header{flex-direction:row;justify-content:space-between;align-items:center}
   .head-right{justify-content:flex-end;gap:12px}
-  .mt-h{font-size:48px;max-width:20ch}
+  .mt-h{font-size:48px}
   /* Hero a 2 columnas SOLO en desktop */
   .hero{display:grid;grid-template-columns:minmax(220px,1fr) 1.3fr;gap:28px;align-items:center;background:var(--accent-soft)}
   :root[data-theme="light"] .hero{background:var(--ink)}
