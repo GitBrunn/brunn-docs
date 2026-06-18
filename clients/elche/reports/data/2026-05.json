@@ -8,16 +8,16 @@
   },
   "portada": {
     "eyebrow": "Reporte de Mayo · 2026",
-    "titular": "Un mes sólido: ROAS de 7,64x.",
-    "resumen": "El e-commerce facturó $19.990.699 en 266 órdenes, ticket promedio $75.153. La inversión total en pauta fue $2.616.776, con Meta como motor (ROAS 7,10x) y Google Ads sumando intención de búsqueda (ROAS 5,46x)."
+    "titular": "Mayo arrancó con ROAS de pauta en 6,97x",
+    "resumen": "El negocio facturó $19.990.699 con una inversión total de $2.616.776. El ROAS de pauta consolidado cerró en 6,97x, con Meta liderando en 7,10x y Google aportando 5,46x sobre una base acotada con margen de escala."
   },
   "hero": {
-    "label": "ROAS Consolidado del mes",
-    "valor": "7,64x",
+    "label": "ROAS de pauta del mes",
+    "valor": "6,97x",
     "delta": "—",
     "delta_ctx": "línea base",
-    "desc1": "Por cada peso invertido en pauta, el negocio facturó 7,64.",
-    "desc2": "Lectura consolidada Meta + Google. Primer mes de medición: queda como línea base para comparar de junio en adelante."
+    "desc1": "Por cada peso invertido en pauta, el negocio recuperó $6,97 en valor de conversión atribuido.",
+    "desc2": "Meta Ads traccionó el resultado con 7,10x; Google Ads sumó 5,46x sobre $200.691 de inversión."
   },
   "banda": [
     {
@@ -35,8 +35,8 @@
       "tipo": "neu"
     },
     {
-      "label": "ROAS Consolidado",
-      "valor": "7,64x",
+      "label": "ROAS de pauta",
+      "valor": "6,97x",
       "delta": "—",
       "ctx": "línea base",
       "tipo": "neu"
@@ -72,7 +72,7 @@
         "drop": true
       }
     ],
-    "nota": "Hoy GA4 solo expone sesiones y compras. Activando los eventos de e-commerce (carrito y checkout) en la tienda, este embudo se completa solo el mes que viene."
+    "nota": "La tasa de conversión de 1,14% sobre 23.303 sesiones muestra que el tráfico llega pero el embudo pierde volumen entre la sesión y la compra. Con 266 órdenes y ticket promedio de $75.153, cada punto de conversión ganado tiene impacto directo en facturación."
   },
   "snapshot": [
     {
@@ -89,7 +89,7 @@
     },
     {
       "canal": "Instagram",
-      "valor": "65.725",
+      "valor": "65.258",
       "label": "Seguidores",
       "color": ""
     },
@@ -101,10 +101,20 @@
     }
   ],
   "narrativa": [
-    "<b>E-Commerce</b> facturó $19.990.699 en 266 órdenes, ticket promedio $75.153. Los packs de almohadones de silla concentraron la mayor parte de la facturación.",
-    "<b>Meta Ads</b> invirtió $2.416.085 y generó 228 compras a ROAS 7,10x, con la campaña de Ventas llevándose el grueso del retorno.",
-    "<b>Google Ads</b> aportó $200.691 a ROAS 5,46x, capturando intención de búsqueda con presupuesto acotado.",
-    "El margen entre lo que se invierte y lo que retorna tiene espacio para escalar en los canales que ya muestran eficiencia."
+    "El e-commerce cerró mayo con <b>$19.990.699 de facturación</b> y 266 órdenes. El ticket promedio de <b>$75.153</b> está sostenido por la venta de packs de almohadones chenille, que concentran el grueso del revenue.",
+    "Los cinco productos del top son variantes del pack x6 chenille antimancha. <b>Crudo y Visón</b> suman el 30,5% de la facturación total con 91 unidades combinadas; el mix de color es el principal motor del volumen.",
+    "La <b>conversión fue 1,14%</b> sobre 23.303 sesiones. Con 21.345 usuarios únicos, el tráfico tiene amplitud, pero menos de 1 de cada 90 visitas termina en orden. Ese cuello de botella limita el techo de facturación alcanzable con la inversión actual.",
+    "El <b>MER del negocio cerró en 7,64x</b> (facturación sobre inversión total), mientras el ROAS de pauta atribuido fue 6,97x. La diferencia indica que una parte de la facturación se genera por tráfico no atribuido a los anuncios; la pauta gestionada explica la mayor parte del volumen pero no la totalidad.",
+    "Meta Ads invirtió <b>$2.416.085</b> y entregó ROAS 7,10x con 228 compras a un CPA de $10.597. La campaña de Ventas concentró el 81% del gasto con ROAS 8,50x; las campañas de tráfico a WhatsApp y al sitio no registraron conversiones atribuidas en el período.",
+    "El <b>CTR de Meta fue 3,22%</b> sobre un alcance de 473.219 cuentas, señal de que los creativos generan clic. La eficiencia de la campaña de Ventas sostiene el resultado consolidado del canal; las campañas de tráfico puro operan con lógica diferente y no se miden por ROAS.",
+    "Google Ads operó con <b>$200.691 de inversión</b> y cerró en ROAS 5,46x con 15 conversiones. La campaña con mejor desempeño fue Tienda Online - Búsqueda General con 10,43x; la campaña top por inversión aportó 7,87x sobre el 47% del gasto del canal.",
+    "El <b>CTR de Google fue 4,57%</b> sobre 2.493 clics a CPC promedio de $81. La inversión es acotada en relación a Meta; los resultados por campaña muestran que hay campañas con ROAS positivo y otras sin conversiones atribuidas que concentran el 21% del gasto del canal.",
+    "Instagram cerró mayo con <b>65.258 seguidores</b> y un alcance de 270.444 cuentas en el mes. Se publicaron 18 piezas con 1.644 interacciones totales; el pico de alcance fue 49.312 cuentas en un día, concentrado en la primera mitad del mes.",
+    "Los reels y carruseles de producto lideraron el engagement. El contenido de mayor tracción vinculó referencias de tendencia con producto disponible; las visitas al perfil cerraron en <b>6.512</b>, indicador directo de intención generada desde el feed.",
+    "Facebook sumó <b>9.741 seguidores</b>. Ambas plataformas operan en conjunto y el alcance orgánico complementa la distribución pagada de Meta Ads sin duplicar inversión.",
+    "Email marketing envió <b>64.652 emails en 22 campañas</b> con una tasa de apertura de 28,89%. Los ingresos atribuidos al canal fueron $975.384 con 14 conversiones; la base responde a la apertura pero la conversión a clic es el punto de mejora.",
+    "El <b>CTR de email fue 0,54%</b>. Con apertura casi en 29%, el canal tiene una base activa; el salto pendiente es pasar más lectores al sitio. Las campañas de mayor volumen de envío superaron los 9.000 emails con aperturas en el rango de 1.100 a 1.270.",
+    "Las campañas de fin de mes —combos y descuentos post Hot Sale— concentraron los envíos más focalizados. El canal opera con frecuencia sostenida y aporta ingresos propios que complementan el resultado de pauta paga."
   ],
   "highlights": [
     {
@@ -112,31 +122,39 @@
       "label": "Ticket promedio del mes"
     },
     {
+      "valor": "6,97x",
+      "label": "ROAS de pauta · Meta + Google"
+    },
+    {
       "valor": "7,64x",
-      "label": "ROAS consolidado · Meta + Google"
+      "label": "Eficiencia del negocio (facturación/inversión)"
+    },
+    {
+      "valor": "266",
+      "label": "órdenes del mes"
     }
   ],
   "proximos_pasos": [
     {
       "n": 1,
-      "titulo": "Recuperar la inversión de Meta sin retorno medible",
-      "diag": "Cerca de $300.937 fueron a campañas de tráfico/reconocimiento con ROAS 0. Pueden cumplir un rol de awareness, pero hoy no se les puede atribuir venta.",
-      "accion": "Definir objetivo y métrica de esas campañas, o reasignar ese presupuesto a la campaña de Ventas, que rinde por encima de 8x.",
-      "impacto": "Mover ese gasto a lo que convierte puede sumar ventas sin aumentar el presupuesto total."
+      "titulo": "Conversión del sitio",
+      "diag": "1,14% de conversión sobre 23.303 sesiones deja 266 órdenes; el tráfico existe pero el embudo no lo retiene.",
+      "accion": "Auditar páginas de producto y flujo de checkout para identificar puntos de abandono y reducir fricción.",
+      "impacto": "Cada décima de punto de conversión ganada sobre el tráfico actual equivale a ~23 órdenes adicionales por mes."
     },
     {
       "n": 2,
-      "titulo": "Escalar Google Ads donde ya convierte",
-      "diag": "Google Ads rinde ROAS 5,46x con solo $200.691 invertidos.",
-      "accion": "Subir presupuesto de forma escalonada en las campañas de búsqueda con mejor ROAS, controlando que el retorno se sostenga.",
-      "impacto": "Captura de demanda existente con eficiencia comprobada y bajo riesgo."
+      "titulo": "Escalar Google Ads",
+      "diag": "$200.691 invertidos con ROAS 5,46x y campañas en 7,87x y 10,43x muestran capacidad sin explotar.",
+      "accion": "Aumentar presupuesto en las campañas con ROAS positivo y revisar las que no registran conversiones atribuidas.",
+      "impacto": "Mayor inversión en lo que ya convierte mejora el ROAS consolidado y suma volumen de órdenes al canal."
     },
     {
       "n": 3,
-      "titulo": "Activar la conversión del Email",
-      "diag": "El email tuvo buena apertura (28,89%) pero CTR de 0,54%: la base abre y no avanza al sitio.",
-      "accion": "Revisar enlaces y CTA, segmentar por intención y verificar el tracking de conversiones en Perfit.",
-      "impacto": "El email es base propia: mejorar el clic mueve ventas sin costo de medios."
+      "titulo": "CTR de email",
+      "diag": "28,89% de apertura con 0,54% de CTR indica que la base lee pero no hace clic al sitio.",
+      "accion": "Revisar CTAs, jerarquía visual y ofertas dentro de los emails para aumentar la tasa de clic.",
+      "impacto": "Incrementar el CTR sobre 64.652 envíos multiplica visitas al sitio sin costo adicional de adquisición."
     }
   ],
   "metricas": [
@@ -705,7 +723,7 @@
       "kpis": [
         {
           "label": "Seguidores IG",
-          "valor": "65.725",
+          "valor": "65.258",
           "delta": "—",
           "tipo": "neu"
         },
@@ -735,14 +753,14 @@
         },
         {
           "label": "Seguidores FB",
-          "valor": "9.735",
+          "valor": "9.741",
           "delta": "—",
           "tipo": "neu"
         }
       ],
       "lectura": [
         "Instagram alcanzó <b>270.444</b> cuentas con 1.644 interacciones.",
-        "La cuenta cerró el mes en 65.725 seguidores."
+        "La cuenta cerró el mes en 65.258 seguidores."
       ],
       "bloques": [
         {
@@ -820,6 +838,14 @@
             [
               {
                 "rank": 2,
+                "texto": "Detalles simples que hacen la diferencia ✨  Nuestros…"
+              },
+              "Carrusel",
+              "14"
+            ],
+            [
+              {
+                "rank": 3,
                 "texto": "La alfombra que transforma cualquier espacio ✨🛋️  E…"
               },
               "Carrusel",
@@ -827,19 +853,11 @@
             ],
             [
               {
-                "rank": 3,
+                "rank": 4,
                 "texto": "Texturas suaves, tonos cálidos y detalles que hacen …"
               },
               "Reel",
               "13"
-            ],
-            [
-              {
-                "rank": 4,
-                "texto": "Detalles simples que hacen la diferencia ✨  Nuestros…"
-              },
-              "Carrusel",
-              "12"
             ],
             [
               {
