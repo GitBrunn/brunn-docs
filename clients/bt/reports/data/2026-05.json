@@ -1,0 +1,678 @@
+{
+  "meta": {
+    "cliente": "BT Importados",
+    "subtitulo": "Reporte de Performance · E-Commerce",
+    "periodo": "Mayo 2026",
+    "periodo_id": "2026-05",
+    "tipo": "ecommerce"
+  },
+  "portada": {
+    "eyebrow": "Reporte mensual · Mayo 2026",
+    "titular": "El ROAS de pauta cerró en <b>6,87x</b> con $1,6M invertidos y $11,2M atribuidos a anuncios",
+    "resumen": "Mayo consolidó la temporada de nieve con 65 compras atribuidas a pauta y una facturación total en tienda de <b>$14,8M</b> en 82 pedidos. La campaña principal de tráfico concentró el 91% de la inversión y traccionó prácticamente la totalidad de las conversiones. El canal orgánico de Instagram registró 45.403 personas alcanzadas con 16 publicaciones activas."
+  },
+  "hero": {
+    "label": "ROAS de pauta",
+    "valor": "6,87x",
+    "delta": "—",
+    "delta_ctx": "línea base",
+    "desc1": "$1.625.013 invertidos → $11.155.782 en valor de conversiones atribuidas",
+    "desc2": "65 compras registradas vía píxel en el mes"
+  },
+  "banda": [
+    {
+      "label": "Facturación",
+      "valor": "$14.767.523",
+      "delta": "—",
+      "ctx": "línea base",
+      "tipo": "neu"
+    },
+    {
+      "label": "Inversión Total",
+      "valor": "$1.625.013",
+      "delta": "—",
+      "ctx": "línea base",
+      "tipo": "neu"
+    },
+    {
+      "label": "ROAS de pauta",
+      "valor": "6,87x",
+      "delta": "—",
+      "ctx": "línea base",
+      "tipo": "neu"
+    },
+    {
+      "label": "Órdenes",
+      "valor": "82",
+      "delta": "—",
+      "ctx": "línea base",
+      "tipo": "neu"
+    }
+  ],
+  "embudo": {
+    "titulo": "Embudo de conversión · Meta Ads",
+    "sub": "Del alcance al pedido confirmado en tienda",
+    "pasos": [
+      {
+        "nombre": "Alcance",
+        "valor": "99.703",
+        "width": 100
+      },
+      {
+        "nombre": "Clics al sitio",
+        "valor": "18.962",
+        "width": 19
+      },
+      {
+        "nombre": "Compras atribuidas",
+        "valor": "65",
+        "width": 0.7
+      }
+    ],
+    "conversiones": [
+      {
+        "rate": "19,02%",
+        "ctx": "Clics sobre alcance (CTR de alcance)",
+        "drop": null
+      },
+      {
+        "rate": "0,34%",
+        "ctx": "Compras sobre clics (conversión a venta)",
+        "drop": "Cuello de botella principal: de cada 100 clics, 99,7 no convierten"
+      }
+    ],
+    "nota": "La campaña <b>Ventas AFA</b> registró el ROAS más alto del mes (11,44x) con mínima inversión ($24.687). La campaña <b>publi mayorista</b> no generó compras registradas en el período."
+  },
+  "snapshot": [
+    {
+      "canal": "Meta Ads",
+      "valor": "$11.155.782",
+      "label": "Valor de conversiones atribuidas",
+      "color": "pos"
+    },
+    {
+      "canal": "Tienda Nube",
+      "valor": "$14.767.523",
+      "label": "Facturación total",
+      "color": "pos"
+    },
+    {
+      "canal": "Instagram",
+      "valor": "45.403",
+      "label": "Personas alcanzadas (orgánico)",
+      "color": ""
+    },
+    {
+      "canal": "Facebook",
+      "valor": "11.838",
+      "label": "Seguidores de página",
+      "color": ""
+    }
+  ],
+  "narrativa": [
+    "<b>Meta Ads</b> cerró mayo con un ROAS atribuido de 6,87x, producto de $1.625.013 invertidos y $11.155.782 en valor de conversiones registradas por píxel. El CTR del 5,93% indica una alta tasa de clic relativa al volumen de impresiones (319.581), lo que señala que los creativos y audiencias están alineados con la intención de compra del segmento de temporada invernal.",
+    "La <b>campaña Ventas - tráfico | Argentina</b> concentró el 91,2% de la inversión ($1.482.557) y generó 64 de las 65 compras atribuidas, con un ROAS de 7,33x. La <b>campaña Ventas AFA</b>, con apenas $24.687 invertidos, registró el ROAS más alto del mes (11,44x) en su única conversión: una señal de eficiencia que justifica evaluar escala. La <b>campaña publi mayorista</b> ($117.769) no registró compras atribuidas; su función es de generación de leads y tráfico mayorista (449 leads), por lo que su evaluación debe separarse del embudo minorista.",
+    "<b>Tienda Nube</b> registró $14.767.523 en facturación con 82 pedidos y un ticket promedio de $180.092 (sin envío: $172.413). La diferencia entre el valor atribuido por píxel ($11.155.782, 65 compras) y la facturación real ($14.767.523, 82 pedidos) representa el volumen de compras no atribuibles directamente a anuncios: tráfico directo, orgánico y búsquedas de marca. El ratio facturación/inversión (MER) implícito es de 9,09x, no atribuible a pauta en su totalidad.",
+    "Los <b>productos de nieve</b> dominaron el ranking: el Pantalón de Nieve Columbia (8 unidades) fue el ítem más vendido por cantidad, seguido por los Conjuntos Nieve Unisex en múltiples colores y talles. La concentración en productos de temporada confirma que la pauta está correctamente alineada al catálogo de mayor rotación.",
+    "<b>Instagram orgánico</b> alcanzó 45.403 personas con 16 publicaciones en el mes. El post de mayor desempeño fue un Reel del 15 de mayo (28 interacciones), seguido por carruseles de producto. El alcance diario mostró picos pronunciados en la última semana del mes (7.865 el 23/05), coincidiendo con el período de mayor inversión publicitaria diaria, lo que sugiere efecto de halo entre pauta y orgánico."
+  ],
+  "highlights": [
+    {
+      "valor": "9,09x",
+      "label": "MER implícito (facturación total / inversión Meta Ads) · referencia no atribuida"
+    },
+    {
+      "valor": "$180.092",
+      "label": "Ticket promedio Tienda Nube (con envío)"
+    },
+    {
+      "valor": "11,44x",
+      "label": "ROAS campaña Ventas AFA · mayor eficiencia del mes"
+    },
+    {
+      "valor": "25.946",
+      "label": "Seguidores Instagram al cierre de mayo"
+    },
+    {
+      "valor": "16",
+      "label": "Publicaciones orgánicas en Instagram durante el mes"
+    },
+    {
+      "valor": "$5.085",
+      "label": "CPM Meta Ads · costo por mil impresiones"
+    }
+  ],
+  "proximos_pasos": [
+    {
+      "n": 1,
+      "titulo": "Escalar campaña Ventas AFA",
+      "diag": "Con $24.687 invertidos generó el ROAS más alto del mes (11,44x). La eficiencia está probada pero el volumen es marginal frente al total de inversión.",
+      "accion": "Aumentar presupuesto diario de Ventas AFA de forma progresiva (30-50% semanal) manteniendo la segmentación y creativos actuales. Monitorear ROAS cada 7 días para detectar punto de saturación.",
+      "impacto": "Si la eficiencia se sostiene al 50% de la inversión de la campaña principal, la campaña podría aportar un ROAS adicional significativo al mix total sin deteriorar el ROAS combinado."
+    },
+    {
+      "n": 2,
+      "titulo": "Reducir cuello de botella en conversión post-clic",
+      "diag": "El CTR es sólido (5,93%) pero la tasa de conversión clic-a-compra es 0,34%. De cada 100 clics pagos, menos de 1 genera una compra atribuida. El problema está en la experiencia post-clic, no en el anuncio.",
+      "accion": "Auditar la página de producto y el flujo de checkout: velocidad de carga, claridad de precio, opciones de pago y fricción en el carrito. Implementar una prueba A/B entre la landing actual y una versión simplificada con CTA directa.",
+      "impacto": "Llevar la tasa de conversión de 0,34% a 0,5% sobre el mismo volumen de clics implicaría aproximadamente 95 compras atribuidas en lugar de 65, sin incrementar la inversión publicitaria."
+    },
+    {
+      "n": 3,
+      "titulo": "Definir rol y KPI de la campaña publi mayorista",
+      "diag": "La campaña invirtió $117.769 (7,2% del presupuesto total) y no generó compras registradas. Tiene un objetivo distinto (canal mayorista), pero no hay un KPI de corte definido para evaluar si está siendo eficiente en ese objetivo.",
+      "accion": "Establecer un CPL objetivo para el canal mayorista y medir el costo por lead calificado (actualmente 449 leads a $262 por lead). Evaluar si esos leads derivaron en pedidos mayoristas fuera de Tienda Nube.",
+      "impacto": "Clarificar el embudo mayorista permite tomar decisiones de presupuesto basadas en datos reales y evitar que una campaña con objetivo diferente deteriore la lectura del ROAS general."
+    },
+    {
+      "n": 4,
+      "titulo": "Capitalizar el efecto de halo orgánico en semanas de alta pauta",
+      "diag": "El alcance diario orgánico de Instagram mostró picos de hasta 7.865 personas en la última semana del mes, coincidiendo con los días de mayor inversión diaria (hasta $100.365). El contenido orgánico se amplifica cuando la pauta está activa.",
+      "accion": "Programar publicaciones orgánicas de alto valor (Reels de producto, comparativas, testimonios) en los días de mayor inversión publicitaria planificada. Mantener cadencia mínima de 4 publicaciones semanales durante temporada alta.",
+      "impacto": "Maximizar el alcance orgánico en ventanas de alta pauta reduce el CPM efectivo del mix y refuerza la recordación de marca sin costo incremental de medios."
+    }
+  ],
+  "metricas": [
+    {
+      "id": "ecommerce",
+      "nombre": "E-Commerce",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Tiendanube · Mayo 2026",
+      "kpis": [
+        {
+          "label": "Facturación",
+          "valor": "$14.767.523",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Órdenes",
+          "valor": "82",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Ticket Prom.",
+          "valor": "$180.092",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Sesiones",
+          "valor": "0",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Usuarios",
+          "valor": "0",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Conversión",
+          "valor": "0,00%",
+          "delta": "—",
+          "tipo": "neu"
+        }
+      ],
+      "lectura": [
+        "La <b>conversión</b> del mes fue 0,00% sobre 0 sesiones.",
+        "El <b>ticket promedio</b> de $180.092 está sostenido por la venta de packs."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Facturación Diaria",
+          "sub": "Ingresos por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "$14,8M"
+            ],
+            [
+              "Pico",
+              "$1,4M"
+            ],
+            [
+              "Promedio/día",
+              "$476K"
+            ]
+          ],
+          "serie": [
+            400,
+            152,
+            0,
+            200,
+            192,
+            189,
+            80,
+            0,
+            653,
+            0,
+            1417,
+            200,
+            662,
+            1195,
+            540,
+            1160,
+            853,
+            609,
+            180,
+            597,
+            266,
+            400,
+            149,
+            507,
+            1310,
+            120,
+            389,
+            476,
+            1033,
+            193,
+            644
+          ],
+          "color": "pos",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Top Productos",
+          "sub": "Por facturación · % del total.",
+          "headers": [
+            "Producto",
+            "Facturación",
+            "Unidades"
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "Conjunto Nieve Unisex (4 colores) (Negro, M)"
+              },
+              {
+                "stack": [
+                  "$599.970",
+                  "4,1% del total"
+                ]
+              },
+              "3"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "Conjunto Nieve Unisex (4 colores) (Beige, M)"
+              },
+              {
+                "stack": [
+                  "$599.970",
+                  "4,1% del total"
+                ]
+              },
+              "3"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "PANTALON DE NIEVE COLUMBIA (L, Negro)"
+              },
+              {
+                "stack": [
+                  "$479.920",
+                  "3,2% del total"
+                ]
+              },
+              "8"
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "Conjunto Nieve Unisex (4 colores) (Beige, L)"
+              },
+              {
+                "stack": [
+                  "$399.980",
+                  "2,7% del total"
+                ]
+              },
+              "2"
+            ],
+            [
+              {
+                "rank": 5,
+                "texto": "Conjunto Nieve Mujer (4 colores) (Rosa, M)"
+              },
+              {
+                "stack": [
+                  "$399.980",
+                  "2,7% del total"
+                ]
+              },
+              "2"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "nombre": "Meta Ads",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Meta Ads · Mayo 2026",
+      "kpis": [
+        {
+          "label": "Inversión",
+          "valor": "$1.625.013",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "ROAS",
+          "valor": "6,87x",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Compras",
+          "valor": "65",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "CPA",
+          "valor": "$25.000",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "CTR",
+          "valor": "5,93%",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Alcance",
+          "valor": "99.703",
+          "delta": "—",
+          "tipo": "neu"
+        }
+      ],
+      "lectura": [
+        "El <b>ROAS de 6,87x</b> lo tracciona la campaña de Ventas.",
+        "El <b>CPA</b> fue $25.000 sobre 65 compras."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Inversión Diaria",
+          "sub": "Gasto por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "$1,6M"
+            ],
+            [
+              "Pico",
+              "$100K"
+            ],
+            [
+              "Promedio/día",
+              "$52K"
+            ]
+          ],
+          "serie": [
+            46,
+            31,
+            44,
+            35,
+            33,
+            35,
+            38,
+            52,
+            33,
+            51,
+            37,
+            50,
+            46,
+            51,
+            48,
+            48,
+            62,
+            54,
+            49,
+            47,
+            37,
+            56,
+            82,
+            100,
+            83,
+            69,
+            97,
+            70,
+            60,
+            35,
+            47
+          ],
+          "color": "accent",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Campañas",
+          "sub": "Ordenadas por inversión.",
+          "headers": [
+            "Campaña",
+            "Inversión",
+            "ROAS"
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "Ventas - tráfico | Argentina"
+              },
+              {
+                "stack": [
+                  "$1.482.557",
+                  "91% del gasto"
+                ]
+              },
+              {
+                "pct": "7,33x",
+                "tipo": "pos"
+              }
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "publi mayorista"
+              },
+              {
+                "stack": [
+                  "$117.769",
+                  "7% del gasto"
+                ]
+              },
+              {
+                "pct": "0,00x",
+                "tipo": "neg"
+              }
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "Ventas AFA"
+              },
+              {
+                "stack": [
+                  "$24.687",
+                  "2% del gasto"
+                ]
+              },
+              {
+                "pct": "11,44x",
+                "tipo": "pos"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "redes",
+      "nombre": "Redes",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Instagram + Facebook · Mayo 2026",
+      "kpis": [
+        {
+          "label": "Seguidores IG",
+          "valor": "25.946",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Alcance",
+          "valor": "45.403",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Interacciones",
+          "valor": "913",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Visitas Perfil",
+          "valor": "4.292",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Posteos",
+          "valor": "16",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Seguidores FB",
+          "valor": "11.838",
+          "delta": "—",
+          "tipo": "neu"
+        }
+      ],
+      "lectura": [
+        "Instagram alcanzó <b>45.403</b> cuentas con 913 interacciones.",
+        "La cuenta cerró el mes en 25.946 seguidores."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Alcance Diario (IG)",
+          "sub": "Cuentas alcanzadas por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "45.403"
+            ],
+            [
+              "Pico",
+              "7.865"
+            ],
+            [
+              "Promedio/día",
+              "3.546"
+            ]
+          ],
+          "serie": [
+            4,
+            4,
+            4,
+            3,
+            3,
+            2,
+            2,
+            3,
+            2,
+            3,
+            1,
+            2,
+            2,
+            3,
+            4,
+            3,
+            4,
+            4,
+            3,
+            3,
+            3,
+            5,
+            8,
+            8,
+            7,
+            5,
+            5,
+            4,
+            4,
+            2,
+            0
+          ],
+          "color": "accent",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Top Contenido",
+          "sub": "Posteos del mes por interacciones.",
+          "headers": [
+            "Contenido",
+            "Tipo",
+            "Interac."
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "La montaña no perdona. Tu campera tampoco debería fa…"
+              },
+              "Reel",
+              "28"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "Diseñado para acompañarte en cada aventura de invier…"
+              },
+              "Carrusel",
+              "19"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "🏔️ ESTE INVIERNO SE VIVE EN MODO NIEVE.  Conseguí e…"
+              },
+              "Carrusel",
+              "16"
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "Nuestro Conjunto Nieve Unisex está pensado para los …"
+              },
+              "Carrusel",
+              "14"
+            ],
+            [
+              {
+                "rank": 5,
+                "texto": "Cuando estás en la montaña, no hay lugar para dudar …"
+              },
+              "Carrusel",
+              "14"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
