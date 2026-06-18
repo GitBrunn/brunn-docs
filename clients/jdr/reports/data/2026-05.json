@@ -1,0 +1,453 @@
+{
+  "meta": {
+    "cliente": "JDR Biomédica",
+    "subtitulo": "Reporte de Performance · Leads",
+    "periodo": "Mayo 2026",
+    "periodo_id": "2026-05",
+    "tipo": "leads"
+  },
+  "portada": {
+    "eyebrow": "Reporte mensual · Mayo 2026",
+    "titular": "Pauta activa con oportunidad de optimización en conversión",
+    "resumen": "Meta Ads concentró toda la inversión del mes con <b>11 leads generados</b> a un <b>CPL de $36.683</b>. El volumen de clics es sólido pero la tasa de conversión a lead es baja, lo que señala una fricción entre el clic y la acción de contacto. Redes sociales mantiene presencia constante con 5 publicaciones y alcance orgánico de <b>15.116 personas</b>."
+  },
+  "hero": {
+    "label": "CPL de pauta",
+    "valor": "$36.684",
+    "delta": "—",
+    "delta_ctx": "línea base",
+    "desc1": "11 leads generados sobre $403.520 invertidos",
+    "desc2": "Campaña activa: Mensajes WhatsApp · Clínicas y hospitales"
+  },
+  "banda": [
+    {
+      "label": "Inversión",
+      "valor": "$403.520",
+      "delta": "—",
+      "ctx": "línea base",
+      "tipo": "neu"
+    },
+    {
+      "label": "Leads",
+      "valor": "11",
+      "delta": "—",
+      "ctx": "línea base",
+      "tipo": "neu"
+    },
+    {
+      "label": "CPL",
+      "valor": "$36.684",
+      "delta": "—",
+      "ctx": "línea base",
+      "tipo": "neu"
+    },
+    {
+      "label": "CTR",
+      "valor": "1,85%",
+      "delta": "—",
+      "ctx": "línea base",
+      "tipo": "neu"
+    }
+  ],
+  "embudo": {
+    "titulo": "Embudo de conversión · Meta Ads",
+    "sub": "De impresión a lead — Mayo 2026",
+    "pasos": [
+      {
+        "nombre": "Impresiones",
+        "valor": "104.809",
+        "width": 100
+      },
+      {
+        "nombre": "Clics",
+        "valor": "1.936",
+        "width": 18
+      },
+      {
+        "nombre": "Leads",
+        "valor": "11",
+        "width": 1
+      }
+    ],
+    "conversiones": [
+      {
+        "rate": "1,85%",
+        "ctx": "Impresiones → Clics (CTR)",
+        "drop": null
+      },
+      {
+        "rate": "0,57%",
+        "ctx": "Clics → Leads",
+        "drop": "La mayor caída ocurre aquí"
+      }
+    ],
+    "nota": "El CTR de anuncios es competitivo para el segmento B2B. La caída crítica se produce en el paso clic → lead: de cada 176 clics, solo 1 convierte. Esto apunta a fricción en el flujo de WhatsApp o a una desconexión entre la promesa del anuncio y la conversación de contacto."
+  },
+  "snapshot": [
+    {
+      "canal": "Meta Ads · Alcance",
+      "valor": "23.592",
+      "label": "usuarios únicos impactados",
+      "color": ""
+    },
+    {
+      "canal": "Instagram · Alcance orgánico",
+      "valor": "15.116",
+      "label": "cuentas alcanzadas en el mes",
+      "color": ""
+    },
+    {
+      "canal": "Instagram · Interacciones",
+      "valor": "384",
+      "label": "interacciones totales",
+      "color": ""
+    },
+    {
+      "canal": "Facebook · Seguidores",
+      "valor": "2.935",
+      "label": "seguidores página",
+      "color": ""
+    },
+    {
+      "canal": "Instagram · Seguidores",
+      "valor": "3.732",
+      "label": "seguidores al cierre de Mayo",
+      "color": ""
+    }
+  ],
+  "narrativa": [
+    "<b>Meta Ads operó con una sola campaña durante todo Mayo</b>, orientada a generar mensajes por WhatsApp de clínicas y hospitales. Con $403.520 invertidos y 104.809 impresiones, el sistema de entrega funcionó: el anuncio llegó a 23.592 personas con una frecuencia de 4,44 impactos promedio por usuario. El CTR de 1,85% indica que el creativo genera atención y el mensaje resuena lo suficiente para provocar el clic.",
+    "El problema está aguas abajo. Los 1.936 clics derivaron en apenas 11 leads, una tasa de conversión clic→lead de 0,57%. <b>La fricción no está en el anuncio: está en el paso posterior al clic</b>. En campañas de mensajes WhatsApp, esto suele indicar que el flujo de apertura de chat tiene alguna barrera —mensaje predefinido poco claro, demora en respuesta percibida o desconexión entre lo que promete el anuncio y lo que encuentra el usuario al abrir la conversación.",
+    "La frecuencia de 4,44 también merece atención: con una audiencia de menos de 24.000 personas viendo el mismo anuncio más de cuatro veces en el mes, el riesgo de fatiga creativa es real. Mantener la misma pieza sin rotación sobre una audiencia pequeña puede estar erosionando la calidad de los clics tardíos.",
+    "<b>En redes sociales, Instagram sostuvo actividad con 5 reels publicados</b> y un alcance orgánico de 15.116 cuentas. El top post del mes fue el reel de servicio técnico y mantenimiento (25 interacciones), seguido por contenido de propuesta de valor al laboratorio. El engagement es moderado pero consistente con una cuenta en etapa de construcción de audiencia B2B. Las 631 visitas al perfil y 199 cuentas comprometidas indican que el contenido genera exploración de marca más allá del alcance pasivo.",
+    "El mes cierra con infraestructura publicitaria funcionando y métricas de entrega correctas. <b>El único cuello del período está en la conversión post-clic</b>, y ese es el punto de intervención con mayor palanca sobre el CPL."
+  ],
+  "highlights": [
+    {
+      "valor": "0,57%",
+      "label": "Tasa de conversión clic → lead · punto crítico del embudo"
+    },
+    {
+      "valor": "5",
+      "label": "Reels publicados en Instagram durante Mayo"
+    },
+    {
+      "valor": "631",
+      "label": "Visitas al perfil de Instagram"
+    },
+    {
+      "valor": "4,44",
+      "label": "Frecuencia de impacto · riesgo de saturación de audiencia"
+    }
+  ],
+  "proximos_pasos": [
+    {
+      "n": 1,
+      "titulo": "Auditar el flujo WhatsApp post-clic",
+      "diag": "De 1.936 clics solo 11 derivaron en lead. La caída del 99,4% post-clic indica una fricción concreta en el flujo de mensajería, no en el anuncio.",
+      "accion": "Revisar el mensaje predefinido que se carga al abrir el chat: debe ser específico, accionable y alineado con la promesa del anuncio. Testear un mensaje alternativo más directo ('Quiero cotizar mantenimiento para mi laboratorio') contra el actual.",
+      "impacto": "Duplicar la tasa de conversión clic→lead —de 0,57% a 1,1%— reduciría el CPL de $36.683 a ~$18.300 sin aumentar inversión."
+    },
+    {
+      "n": 2,
+      "titulo": "Rotar creativos para reducir fatiga de audiencia",
+      "diag": "Frecuencia de 4,44 sobre una audiencia de 23.592 personas con una sola campaña activa. Audiencia pequeña para el volumen de impresiones acumuladas.",
+      "accion": "Introducir al menos 2 variantes creativas nuevas (distinto gancho o formato) para la misma campaña. Evaluar expansión de segmentación de audiencia para aumentar el pool disponible.",
+      "impacto": "Reducir la frecuencia efectiva mejora la calidad del clic y baja el costo por resultado al reactivar usuarios que habían dejado de prestar atención."
+    },
+    {
+      "n": 3,
+      "titulo": "Ampliar audiencia activa para sostener escala",
+      "diag": "El alcance de 23.592 usuarios únicos con $403.520 de inversión mensual es acotado para el presupuesto. La audiencia se está agotando rápido.",
+      "accion": "Crear un conjunto de anuncios con audiencia lookalike basada en los 11 leads existentes o en el tráfico al perfil. Alternativamente, testear segmentación por cargo (directores de laboratorio, jefes de diagnóstico) en lugar de solo intereses.",
+      "impacto": "Ampliar el pool de audiencia cualificada reduce la frecuencia, baja el CPM y abre la posibilidad de generar más leads al mismo CPL o menor."
+    }
+  ],
+  "metricas": [
+    {
+      "id": "meta",
+      "nombre": "Meta Ads",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Meta Ads · Mayo 2026",
+      "kpis": [
+        {
+          "label": "Inversión",
+          "valor": "$403.520",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Leads",
+          "valor": "11",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "CPL",
+          "valor": "$36.684",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "CTR",
+          "valor": "1,85%",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Alcance",
+          "valor": "23.592",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Clics",
+          "valor": "1.936",
+          "delta": "—",
+          "tipo": "neu"
+        }
+      ],
+      "lectura": [
+        "La pauta generó <b>11</b> leads a un CPL de $36.684.",
+        "El CTR fue 1,85% sobre 1.936 clics."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Inversión Diaria",
+          "sub": "Gasto por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "$404K"
+            ],
+            [
+              "Pico",
+              "$20K"
+            ],
+            [
+              "Promedio/día",
+              "$13K"
+            ]
+          ],
+          "serie": [
+            13,
+            14,
+            11,
+            6,
+            17,
+            17,
+            16,
+            5,
+            0,
+            0,
+            11,
+            20,
+            18,
+            19,
+            16,
+            14,
+            12,
+            14,
+            16,
+            16,
+            14,
+            14,
+            12,
+            11,
+            13,
+            14,
+            16,
+            15,
+            15,
+            13,
+            12
+          ],
+          "color": "accent",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Campañas",
+          "sub": "Ordenadas por inversión.",
+          "headers": [
+            "Campaña",
+            "Inversión",
+            "Leads"
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "Mensajes WhatsApp | Fase 1 | Clínicas y hospitales - Copia 2"
+              },
+              {
+                "stack": [
+                  "$403.520",
+                  "100% del gasto"
+                ]
+              },
+              "11"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "redes",
+      "nombre": "Redes",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Instagram + Facebook · Mayo 2026",
+      "kpis": [
+        {
+          "label": "Seguidores IG",
+          "valor": "3.732",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Alcance",
+          "valor": "15.116",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Interacciones",
+          "valor": "384",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Visitas Perfil",
+          "valor": "631",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Posteos",
+          "valor": "5",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Seguidores FB",
+          "valor": "2.935",
+          "delta": "—",
+          "tipo": "neu"
+        }
+      ],
+      "lectura": [
+        "Instagram alcanzó <b>15.116</b> cuentas con 384 interacciones.",
+        "La cuenta cerró el mes en 3.732 seguidores."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Alcance Diario (IG)",
+          "sub": "Cuentas alcanzadas por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "15.116"
+            ],
+            [
+              "Pico",
+              "2.017"
+            ],
+            [
+              "Promedio/día",
+              "1.282"
+            ]
+          ],
+          "serie": [
+            2,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            1,
+            0,
+            0,
+            1,
+            2,
+            1,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            1,
+            0
+          ],
+          "color": "accent",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Top Contenido",
+          "sub": "Posteos del mes por interacciones.",
+          "headers": [
+            "Contenido",
+            "Tipo",
+            "Interac."
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "🔧 Servicio técnico y mantenimiento profesional para…"
+              },
+              "Reel",
+              "25"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "¿Tu laboratorio está trabajando al 100%… o estás per…"
+              },
+              "Reel",
+              "12"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "🧑🏻‍🔧🧑🏼‍🔧 Detrás de cada servicio y de cada ate…"
+              },
+              "Reel",
+              "6"
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "Buscamos que la operatividad de tu  laboratorio 🧪 s…"
+              },
+              "Reel",
+              "5"
+            ],
+            [
+              {
+                "rank": 5,
+                "texto": "Lo que debes saber antes de adquirir un Counter 19. …"
+              },
+              "Reel",
+              "4"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
