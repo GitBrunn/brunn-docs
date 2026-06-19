@@ -7,17 +7,17 @@
     "tipo": "community"
   },
   "portada": {
-    "eyebrow": "Performance mensual · Mayo 2026",
-    "titular": "Cuenta nueva, tracción real: <b>2.683 seguidores</b> y más de <b>18.000 interacciones</b> en el primer mes completo",
-    "resumen": "VIMAR Selección arrancó operaciones en Meta con una estrategia de pauta orientada a crecimiento de comunidad. La inversión de mayo generó <b>361.026 personas alcanzadas</b>, traccionó <b>14 publicaciones</b> y concentró el volumen de interacción en dos sorteos que acumularon más de <b>14.000 comentarios combinados</b>. La cuenta cierra mayo con 2.683 seguidores, estableciendo la línea base sobre la cual se construye el camino a la meta de 8.000."
+    "eyebrow": "Reporte de Mayo · 2026",
+    "titular": "Comunidad en construcción: base, pauta y contenido activados",
+    "resumen": "Mayo estableció la línea base de VIMAR en Instagram: <b>2.765</b> seguidores al cierre, <b>361.026</b> personas alcanzadas por pauta y <b>281.021</b> por contenido orgánico. El mes arrancó con sorteos que concentraron la mayor parte de las interacciones."
   },
   "hero": {
     "label": "Seguidores al cierre",
-    "valor": "2.683",
+    "valor": "2.765",
     "delta": "—",
     "delta_ctx": "línea base",
-    "desc1": "<b>33,5%</b> del camino a la meta de 8.000",
-    "desc2": "Faltan <b>5.317</b> seguidores para alcanzar el objetivo"
+    "desc1": "La cuenta cerró mayo con <b>2.765</b> seguidores, primer registro formal de la comunidad.",
+    "desc2": "Representa el <b>34,6%</b> del camino hacia la meta de 8.000; restan <b>5.235</b> seguidores."
   },
   "banda": [
     {
@@ -52,13 +52,13 @@
   "progreso": {
     "titulo": "Avance hacia la meta de comunidad",
     "sub": "Seguidores Instagram · Meta: 8.000",
-    "actual": "2.683",
-    "pct": 33.5,
-    "neto": "2.683",
-    "neto_ctx": "Primer período registrado · sin mes anterior para calcular neto",
+    "actual": "2.765",
+    "pct": 34.6,
+    "neto": "2.765",
+    "neto_ctx": "Neto del período",
     "meta": "8.000",
-    "meta_ctx": "Meta fijada para la cuenta @vimarseleccion",
-    "nota": "La cuenta superó el tercio del camino en su primer mes completo de actividad. El ritmo de crecimiento dependerá de la continuidad de las acciones de sorteo y la activación de contenido orgánico."
+    "meta_ctx": "Meta fijada para la cuenta",
+    "nota": "La barra marca <b>34,6%</b> del objetivo cumplido en el primer mes medido. El ritmo actual implica que la estrategia de captación necesita sostenerse y escalar para alcanzar 8.000 en el plazo previsto."
   },
   "snapshot": [
     {
@@ -75,72 +75,56 @@
     },
     {
       "canal": "Facebook",
-      "valor": "264",
+      "valor": "271",
       "label": "Seguidores página",
       "color": ""
     }
   ],
   "narrativa": [
-    "El mes de mayo funcionó como lanzamiento operativo de VIMAR Selección. La pauta se distribuyó en cuatro campañas: la principal de <b>Tráfico a Instagram</b> absorbió el <b>82,7%</b> del presupuesto ($515.706) y generó 269.752 personas alcanzadas con un CTR de <b>2,48%</b>. La segunda campaña, orientada a interacción para el <b>primer partido de Argentina</b>, gastó $89.914 con un CTR de <b>4,32%</b>, el más alto del período, lo que indica alta relevancia del contenido dentro del segmento impactado.",
-    "Los dos Reels de Fábrica (Buenos Aires y Resto del país) operaron con presupuestos acotados ($9.024 y $8.926) y cumplieron un rol diferente: alto alcance (37.554 y 37.838 respectivamente) con CTR bajo, típico de contenido de marca en modo awareness. Son los posts con menor fricción de scroll pero mayor dispersión geográfica.",
-    "En el plano orgánico, los <b>dos sorteos dominaron las interacciones</b>. El sorteo del 7 de mayo acumuló 7.747 interacciones (893 likes + 6.854 comentarios); el del 19 de mayo sumó 6.533 (1.082 likes + 5.451 comentarios). Juntos representan el <b>78,2%</b> de las 18.162 interacciones totales del mes. El pico de alcance diario del <b>30 de mayo (61.221)</b> duplica cualquier otro día del período y coincide con la actividad de fin de mes, señal clara de que los eventos programados generan pulsos de visibilidad muy por encima de la línea base.",
-    "El <b>perfil view de 14.410</b> indica que una porción significativa del alcance derivó en visitas directas al perfil: 1 de cada 20 personas alcanzadas buscó activamente la cuenta. Ese ratio es positivo para una cuenta nueva y sugiere que el contenido genera suficiente curiosidad como para motivar el clic al perfil, paso previo al seguimiento.",
-    "El resultado de mayo es una línea base sólida para una cuenta que no existía. El desafío del próximo período es convertir el alcance y las interacciones en seguidores retenidos, reduciendo la dependencia de los sorteos como único motor de comentarios."
+    "Mayo es el período base de VIMAR: todos los indicadores parten de cero y establecen el piso desde el cual se medirá el crecimiento. La cuenta cerró en <b>2.765</b> seguidores, con <b>14</b> posteos publicados.",
+    "La pauta invirtió <b>$623.570</b> y alcanzó <b>361.026</b> personas con una frecuencia de <b>1,28</b>, lo que indica exposición amplia y sin saturación. El CTR de <b>2,25%</b> sobre <b>10.428</b> clics señala respuesta activa del segmento impactado.",
+    "El contenido orgánico sumó <b>281.021</b> cuentas alcanzadas y <b>18.162</b> interacciones. Dos posts de sorteo concentraron <b>14.284</b> de esas interacciones, lo que muestra alta dependencia de mecánicas de activación puntual.",
+    "La cuenta lleva el <b>34,6%</b> del camino a la meta de <b>8.000</b> seguidores en un solo mes. La distancia restante de <b>5.235</b> requiere mantener la inversión y diversificar el tipo de contenido que genera comunidad más allá de los sorteos."
   ],
   "highlights": [
     {
-      "valor": "14.410",
-      "label": "Visitas al perfil IG en mayo"
+      "valor": "34,6%",
+      "label": "del camino a la meta"
     },
     {
-      "valor": "61.221",
-      "label": "Pico de alcance diario (30 de mayo)"
+      "valor": "5.235",
+      "label": "seguidores para el objetivo"
     },
     {
-      "valor": "7.747",
-      "label": "Interacciones en el sorteo del 7/5"
+      "valor": "281.021",
+      "label": "alcance orgánico IG"
     },
     {
-      "valor": "4,32%",
-      "label": "CTR más alto · campaña interacción partido Argentina"
-    },
-    {
-      "valor": "14",
-      "label": "Publicaciones en el período"
-    },
-    {
-      "valor": "5.387",
-      "label": "Cuentas comprometidas (engaged accounts)"
+      "valor": "361.026",
+      "label": "alcance de pauta"
     }
   ],
   "proximos_pasos": [
     {
       "n": 1,
-      "titulo": "Convertir alcance en seguidores: optimizar el CTA post-sorteo",
-      "diag": "Los sorteos generan picos de interacción pero no garantizan seguimiento permanente. El ratio interacciones/seguidores al cierre sugiere que una parte del volumen no se tradujo en comunidad estable.",
-      "accion": "Incluir en cada sorteo un paso explícito de 'seguir la cuenta' como condición verificable, y publicar un contenido de bienvenida 24-48 hs después del cierre de cada sorteo dirigido específicamente a los nuevos seguidores.",
-      "impacto": "Aumentar la tasa de conversión alcance→seguidor reduce el costo por seguidor y acelera el ritmo hacia la meta de 8.000."
+      "titulo": "Diversificar formatos de captación",
+      "diag": "Dos sorteos generaron el 78% de las interacciones; el resto del contenido aportó marginal.",
+      "accion": "Incorporar reels de producto o proceso que demuestren valor de marca y atraigan seguidores sin mecánica de sorteo.",
+      "impacto": "Reducir dependencia de activaciones puntuales y construir crecimiento orgánico más estable."
     },
     {
       "n": 2,
-      "titulo": "Capitalizar el CTR del contenido de interacción",
-      "diag": "La campaña de interacción para el partido de Argentina obtuvo 4,32% de CTR contra 2,48% de la campaña de tráfico principal. Hay una diferencia de rendimiento clara asociada al contexto fútbol/selección.",
-      "accion": "Desarrollar al menos una campaña de interacción mensual anclada a un evento del calendario del Mundial o de la Selección Argentina, con creatividad específica para ese momento.",
-      "impacto": "Mantener CTR alto en campañas de interacción reduce el CPE y maximiza el volumen de engaged accounts por peso invertido."
+      "titulo": "Optimizar campaña de tráfico a Instagram",
+      "diag": "La campaña de tráfico a Instagram concentró el 83% del gasto con 269.752 personas alcanzadas.",
+      "accion": "Revisar segmentación y creatividades de la campaña principal para mejorar la conversión de alcance a seguidor.",
+      "impacto": "Mayor eficiencia del presupuesto dominante y aceleración del avance hacia los 8.000 seguidores."
     },
     {
       "n": 3,
-      "titulo": "Escalar el contenido de Reel de Fábrica con orientación a seguidores",
-      "diag": "Los Reels de Fábrica alcanzaron más de 37.000 personas cada uno con presupuestos mínimos, pero el CTR bajo (0,19% y 0,26%) indica que el contenido no está incitando la acción. Funcionan para awareness pero no para conversión de comunidad.",
-      "accion": "Probar una variante de esos reels con un CTA final explícito ('Seguinos para ver más del proceso') y segmentar hacia audiencias lookalike de los actuales seguidores.",
-      "impacto": "Convertir el alcance masivo de los reels en tráfico calificado al perfil mejora el ratio visitas/seguidores y diversifica los motores de crecimiento más allá de los sorteos."
-    },
-    {
-      "n": 4,
-      "titulo": "Sostener inversión diaria continua: evitar los gaps de cero",
-      "diag": "El desglose de inversión diaria muestra 8 días en cero dentro del período (días 1-7 y 26-29). Los primeros días del mes sin pauta implican arranque tardío del alcance en un período donde la cuenta es nueva y necesita exposición constante.",
-      "accion": "Planificar la estructura de campañas para que la inversión comience desde el día 1 del mes, con un piso mínimo diario activo incluso en semanas de bajo presupuesto.",
-      "impacto": "La continuidad de pauta sostiene el alcance diario en la línea base y evita caídas de visibilidad que afectan el ritmo de crecimiento de la comunidad."
+      "titulo": "Establecer ritmo de contenido consistente",
+      "diag": "El alcance diario mostró picos aislados; varios días registraron cero o mínima actividad.",
+      "accion": "Fijar un calendario de publicación sin huecos, con al menos un posteo activo cada 2 días.",
+      "impacto": "Alcance orgánico más uniforme y mayor visibilidad sostenida de la cuenta mes a mes."
     }
   ],
   "metricas": [
@@ -320,7 +304,7 @@
       "kpis": [
         {
           "label": "Seguidores IG",
-          "valor": "2.683",
+          "valor": "2.765",
           "delta": "—",
           "tipo": "neu"
         },
@@ -350,14 +334,14 @@
         },
         {
           "label": "Seguidores FB",
-          "valor": "264",
+          "valor": "271",
           "delta": "—",
           "tipo": "neu"
         }
       ],
       "lectura": [
         "Instagram alcanzó <b>281.021</b> cuentas con 18.162 interacciones.",
-        "La cuenta cerró el mes en 2.683 seguidores."
+        "La cuenta cerró el mes en 2.765 seguidores."
       ],
       "bloques": [
         {
@@ -438,7 +422,7 @@
                 "texto": "🇦🇷⚽ SORTEO VIMAR SELECCIÓN ⚽🇦🇷  ¡Armá tu selecci…"
               },
               "Post",
-              "6.533"
+              "6.537"
             ],
             [
               {
