@@ -7,17 +7,17 @@
     "tipo": "leads"
   },
   "portada": {
-    "eyebrow": "Reporte mensual · Mayo 2026",
-    "titular": "Pauta activa con oportunidad de optimización en conversión",
-    "resumen": "Meta Ads concentró toda la inversión del mes con <b>11 leads generados</b> a un <b>CPL de $36.683</b>. El volumen de clics es sólido pero la tasa de conversión a lead es baja, lo que señala una fricción entre el clic y la acción de contacto. Redes sociales mantiene presencia constante con 5 publicaciones y alcance orgánico de <b>15.116 personas</b>."
+    "eyebrow": "Reporte de Mayo · 2026",
+    "titular": "Mes de base: CPL de $36.684 con 11 leads generados",
+    "resumen": "Mayo establece la línea base de la cuenta: <b>11 leads</b> a un CPL de <b>$36.684</b> con una inversión de <b>$403.520</b>. El embudo muestra un CTR sólido pero una conversión clic-a-lead que concentra la oportunidad de mejora inmediata."
   },
   "hero": {
     "label": "CPL de pauta",
     "valor": "$36.684",
     "delta": "—",
     "delta_ctx": "línea base",
-    "desc1": "11 leads generados sobre $403.520 invertidos",
-    "desc2": "Campaña activa: Mensajes WhatsApp · Clínicas y hospitales"
+    "desc1": "Cada lead costó $36.684 sobre una inversión total de $403.520 en Meta Ads.",
+    "desc2": "Los 11 leads resultaron de 1.936 clics, con una tasa de conversión de 0,57%."
   },
   "banda": [
     {
@@ -61,12 +61,13 @@
       {
         "nombre": "Clics",
         "valor": "1.936",
-        "width": 18
+        "width": 1.847169613296568
       },
       {
         "nombre": "Leads",
         "valor": "11",
-        "width": 1
+        "width": 0.6,
+        "weak": true
       }
     ],
     "conversiones": [
@@ -78,10 +79,10 @@
       {
         "rate": "0,57%",
         "ctx": "Clics → Leads",
-        "drop": "La mayor caída ocurre aquí"
+        "drop": true
       }
     ],
-    "nota": "El CTR de anuncios es competitivo para el segmento B2B. La caída crítica se produce en el paso clic → lead: de cada 176 clics, solo 1 convierte. Esto apunta a fricción en el flujo de WhatsApp o a una desconexión entre la promesa del anuncio y la conversación de contacto."
+    "nota": "El embudo cae abruptamente entre clics y leads: de 1.936 clics solo 11 convirtieron, una tasa de 0,57% que señala fricción en el destino de conversión o en la calificación del tráfico captado."
   },
   "snapshot": [
     {
@@ -104,63 +105,56 @@
     },
     {
       "canal": "Facebook · Seguidores",
-      "valor": "2.935",
+      "valor": "2.937",
       "label": "seguidores página",
-      "color": ""
-    },
-    {
-      "canal": "Instagram · Seguidores",
-      "valor": "3.732",
-      "label": "seguidores al cierre de Mayo",
       "color": ""
     }
   ],
   "narrativa": [
-    "<b>Meta Ads operó con una sola campaña durante todo Mayo</b>, orientada a generar mensajes por WhatsApp de clínicas y hospitales. Con $403.520 invertidos y 104.809 impresiones, el sistema de entrega funcionó: el anuncio llegó a 23.592 personas con una frecuencia de 4,44 impactos promedio por usuario. El CTR de 1,85% indica que el creativo genera atención y el mensaje resuena lo suficiente para provocar el clic.",
-    "El problema está aguas abajo. Los 1.936 clics derivaron en apenas 11 leads, una tasa de conversión clic→lead de 0,57%. <b>La fricción no está en el anuncio: está en el paso posterior al clic</b>. En campañas de mensajes WhatsApp, esto suele indicar que el flujo de apertura de chat tiene alguna barrera —mensaje predefinido poco claro, demora en respuesta percibida o desconexión entre lo que promete el anuncio y lo que encuentra el usuario al abrir la conversación.",
-    "La frecuencia de 4,44 también merece atención: con una audiencia de menos de 24.000 personas viendo el mismo anuncio más de cuatro veces en el mes, el riesgo de fatiga creativa es real. Mantener la misma pieza sin rotación sobre una audiencia pequeña puede estar erosionando la calidad de los clics tardíos.",
-    "<b>En redes sociales, Instagram sostuvo actividad con 5 reels publicados</b> y un alcance orgánico de 15.116 cuentas. El top post del mes fue el reel de servicio técnico y mantenimiento (25 interacciones), seguido por contenido de propuesta de valor al laboratorio. El engagement es moderado pero consistente con una cuenta en etapa de construcción de audiencia B2B. Las 631 visitas al perfil y 199 cuentas comprometidas indican que el contenido genera exploración de marca más allá del alcance pasivo.",
-    "El mes cierra con infraestructura publicitaria funcionando y métricas de entrega correctas. <b>El único cuello del período está en la conversión post-clic</b>, y ese es el punto de intervención con mayor palanca sobre el CPL."
+    "Mayo es el mes fundacional de la cuenta. Con <b>$403.520</b> de inversión y <b>11 leads</b>, los datos establecen el punto de partida desde el que se medirá todo movimiento futuro.",
+    "El CPL de <b>$36.684</b> es el número central del mes. El embudo llega a 1.936 clics con un CTR de 1,85%, lo que indica que el anuncio capta atención; el problema se ubica aguas abajo.",
+    "La conversión de clic a lead fue de <b>0,57%</b>: la brecha entre clics y leads generados es el principal vector de trabajo. Instagram sumó 15.116 cuentas alcanzadas y 384 interacciones con 5 posteos, aportando presencia de marca en el mismo período.",
+    "Con línea base establecida, el foco está en reducir el CPL mejorando la conversión post-clic. El volumen de impresiones —<b>104.809</b>— confirma que hay audiencia disponible para escalar si se corrige el embudo."
   ],
   "highlights": [
     {
+      "valor": "$36.684",
+      "label": "costo por lead"
+    },
+    {
+      "valor": "11",
+      "label": "leads generados"
+    },
+    {
+      "valor": "1,85%",
+      "label": "CTR de pauta"
+    },
+    {
       "valor": "0,57%",
-      "label": "Tasa de conversión clic → lead · punto crítico del embudo"
-    },
-    {
-      "valor": "5",
-      "label": "Reels publicados en Instagram durante Mayo"
-    },
-    {
-      "valor": "631",
-      "label": "Visitas al perfil de Instagram"
-    },
-    {
-      "valor": "4,44",
-      "label": "Frecuencia de impacto · riesgo de saturación de audiencia"
+      "label": "conversión clic a lead"
     }
   ],
   "proximos_pasos": [
     {
       "n": 1,
-      "titulo": "Auditar el flujo WhatsApp post-clic",
-      "diag": "De 1.936 clics solo 11 derivaron en lead. La caída del 99,4% post-clic indica una fricción concreta en el flujo de mensajería, no en el anuncio.",
-      "accion": "Revisar el mensaje predefinido que se carga al abrir el chat: debe ser específico, accionable y alineado con la promesa del anuncio. Testear un mensaje alternativo más directo ('Quiero cotizar mantenimiento para mi laboratorio') contra el actual.",
-      "impacto": "Duplicar la tasa de conversión clic→lead —de 0,57% a 1,1%— reduciría el CPL de $36.683 a ~$18.300 sin aumentar inversión."
+      "titulo": "Optimizar conversión post-clic",
+      "diag": "Con 1.936 clics y solo 11 leads, la tasa de 0,57% indica fricción en el destino o en la calificación del tráfico.",
+      "accion": "Revisar y simplificar el formulario o el flujo de WhatsApp; reducir pasos entre el clic y el contacto efectivo.",
+      "impacto": "Aumentar la tasa clic-a-lead reduce el CPL sin incrementar la inversión."
     },
     {
       "n": 2,
-      "titulo": "Rotar creativos para reducir fatiga de audiencia",
-      "diag": "Frecuencia de 4,44 sobre una audiencia de 23.592 personas con una sola campaña activa. Audiencia pequeña para el volumen de impresiones acumuladas.",
-      "accion": "Introducir al menos 2 variantes creativas nuevas (distinto gancho o formato) para la misma campaña. Evaluar expansión de segmentación de audiencia para aumentar el pool disponible.",
-      "impacto": "Reducir la frecuencia efectiva mejora la calidad del clic y baja el costo por resultado al reactivar usuarios que habían dejado de prestar atención."
+      "titulo": "Segmentar campañas por perfil",
+      "diag": "Toda la inversión se concentra en una única campaña, sin diferenciación por perfil de cliente o etapa del funnel.",
+      "accion": "Separar en al menos dos conjuntos de anuncios por segmento de audiencia para identificar qué perfil convierte mejor.",
+      "impacto": "Permite reasignar presupuesto hacia los segmentos de menor CPL en el mes siguiente."
     },
     {
       "n": 3,
-      "titulo": "Ampliar audiencia activa para sostener escala",
-      "diag": "El alcance de 23.592 usuarios únicos con $403.520 de inversión mensual es acotado para el presupuesto. La audiencia se está agotando rápido.",
-      "accion": "Crear un conjunto de anuncios con audiencia lookalike basada en los 11 leads existentes o en el tráfico al perfil. Alternativamente, testear segmentación por cargo (directores de laboratorio, jefes de diagnóstico) en lugar de solo intereses.",
-      "impacto": "Ampliar el pool de audiencia cualificada reduce la frecuencia, baja el CPM y abre la posibilidad de generar más leads al mismo CPL o menor."
+      "titulo": "Escalar contenido de mayor alcance",
+      "diag": "Instagram logró 15.116 cuentas alcanzadas y 631 visitas al perfil con solo 5 posteos, un ratio por posteo aprovechable.",
+      "accion": "Aumentar la frecuencia de publicación y testear amplificación paga de los reels con mejor performance orgánica.",
+      "impacto": "Mayor tráfico calificado al perfil refuerza la intención de contacto y puede reducir el costo de adquisición."
     }
   ],
   "metricas": [
@@ -301,7 +295,7 @@
       "kpis": [
         {
           "label": "Seguidores IG",
-          "valor": "3.732",
+          "valor": "3.740",
           "delta": "—",
           "tipo": "neu"
         },
@@ -331,14 +325,14 @@
         },
         {
           "label": "Seguidores FB",
-          "valor": "2.935",
+          "valor": "2.937",
           "delta": "—",
           "tipo": "neu"
         }
       ],
       "lectura": [
         "Instagram alcanzó <b>15.116</b> cuentas con 384 interacciones.",
-        "La cuenta cerró el mes en 3.732 seguidores."
+        "La cuenta cerró el mes en 3.740 seguidores."
       ],
       "bloques": [
         {
