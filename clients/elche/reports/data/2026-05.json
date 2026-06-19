@@ -8,16 +8,16 @@
   },
   "portada": {
     "eyebrow": "Reporte de Mayo · 2026",
-    "titular": "Mayo arrancó con ROAS de pauta en 6,97x",
-    "resumen": "El negocio facturó $19.990.699 con una inversión total de $2.616.776. El ROAS de pauta consolidado cerró en 6,97x, con Meta liderando en 7,10x y Google aportando 5,46x sobre una base acotada con margen de escala."
+    "titular": "Mayo cerró con ROAS de pauta 6,97x sobre $19.990.699 de facturación",
+    "resumen": "El primer mes de referencia establece una base sólida: <b>266 órdenes</b>, <b>$75.153 de ticket promedio</b> y un ROAS de pauta de <b>6,97x</b> combinando Meta y Google. El negocio opera con eficiencia medida y pauta rentable."
   },
   "hero": {
     "label": "ROAS de pauta del mes",
     "valor": "6,97x",
     "delta": "—",
     "delta_ctx": "línea base",
-    "desc1": "Por cada peso invertido en pauta, el negocio recuperó $6,97 en valor de conversión atribuido.",
-    "desc2": "Meta Ads traccionó el resultado con 7,10x; Google Ads sumó 5,46x sobre $200.691 de inversión."
+    "desc1": "Por cada peso invertido en pauta, la tienda atribuyó $6,97 en valor de conversión.",
+    "desc2": "Meta Ads traccionó el resultado con 7,10x; Google Ads aportó 5,46x con inversión acotada."
   },
   "banda": [
     {
@@ -72,7 +72,7 @@
         "drop": true
       }
     ],
-    "nota": "La tasa de conversión de 1,14% sobre 23.303 sesiones muestra que el tráfico llega pero el embudo pierde volumen entre la sesión y la compra. Con 266 órdenes y ticket promedio de $75.153, cada punto de conversión ganado tiene impacto directo en facturación."
+    "nota": "El embudo muestra 23.303 sesiones que se comprimen a 266 órdenes: la tasa de conversión de 1,14% es el principal lever de crecimiento sin incrementar inversión."
   },
   "snapshot": [
     {
@@ -89,7 +89,7 @@
     },
     {
       "canal": "Instagram",
-      "valor": "65.258",
+      "valor": "65.266",
       "label": "Seguidores",
       "color": ""
     },
@@ -101,20 +101,10 @@
     }
   ],
   "narrativa": [
-    "El e-commerce cerró mayo con <b>$19.990.699 de facturación</b> y 266 órdenes. El ticket promedio de <b>$75.153</b> está sostenido por la venta de packs de almohadones chenille, que concentran el grueso del revenue.",
-    "Los cinco productos del top son variantes del pack x6 chenille antimancha. <b>Crudo y Visón</b> suman el 30,5% de la facturación total con 91 unidades combinadas; el mix de color es el principal motor del volumen.",
-    "La <b>conversión fue 1,14%</b> sobre 23.303 sesiones. Con 21.345 usuarios únicos, el tráfico tiene amplitud, pero menos de 1 de cada 90 visitas termina en orden. Ese cuello de botella limita el techo de facturación alcanzable con la inversión actual.",
-    "El <b>MER del negocio cerró en 7,64x</b> (facturación sobre inversión total), mientras el ROAS de pauta atribuido fue 6,97x. La diferencia indica que una parte de la facturación se genera por tráfico no atribuido a los anuncios; la pauta gestionada explica la mayor parte del volumen pero no la totalidad.",
-    "Meta Ads invirtió <b>$2.416.085</b> y entregó ROAS 7,10x con 228 compras a un CPA de $10.597. La campaña de Ventas concentró el 81% del gasto con ROAS 8,50x; las campañas de tráfico a WhatsApp y al sitio no registraron conversiones atribuidas en el período.",
-    "El <b>CTR de Meta fue 3,22%</b> sobre un alcance de 473.219 cuentas, señal de que los creativos generan clic. La eficiencia de la campaña de Ventas sostiene el resultado consolidado del canal; las campañas de tráfico puro operan con lógica diferente y no se miden por ROAS.",
-    "Google Ads operó con <b>$200.691 de inversión</b> y cerró en ROAS 5,46x con 15 conversiones. La campaña con mejor desempeño fue Tienda Online - Búsqueda General con 10,43x; la campaña top por inversión aportó 7,87x sobre el 47% del gasto del canal.",
-    "El <b>CTR de Google fue 4,57%</b> sobre 2.493 clics a CPC promedio de $81. La inversión es acotada en relación a Meta; los resultados por campaña muestran que hay campañas con ROAS positivo y otras sin conversiones atribuidas que concentran el 21% del gasto del canal.",
-    "Instagram cerró mayo con <b>65.258 seguidores</b> y un alcance de 270.444 cuentas en el mes. Se publicaron 18 piezas con 1.644 interacciones totales; el pico de alcance fue 49.312 cuentas en un día, concentrado en la primera mitad del mes.",
-    "Los reels y carruseles de producto lideraron el engagement. El contenido de mayor tracción vinculó referencias de tendencia con producto disponible; las visitas al perfil cerraron en <b>6.512</b>, indicador directo de intención generada desde el feed.",
-    "Facebook sumó <b>9.741 seguidores</b>. Ambas plataformas operan en conjunto y el alcance orgánico complementa la distribución pagada de Meta Ads sin duplicar inversión.",
-    "Email marketing envió <b>64.652 emails en 22 campañas</b> con una tasa de apertura de 28,89%. Los ingresos atribuidos al canal fueron $975.384 con 14 conversiones; la base responde a la apertura pero la conversión a clic es el punto de mejora.",
-    "El <b>CTR de email fue 0,54%</b>. Con apertura casi en 29%, el canal tiene una base activa; el salto pendiente es pasar más lectores al sitio. Las campañas de mayor volumen de envío superaron los 9.000 emails con aperturas en el rango de 1.100 a 1.270.",
-    "Las campañas de fin de mes —combos y descuentos post Hot Sale— concentraron los envíos más focalizados. El canal opera con frecuencia sostenida y aporta ingresos propios que complementan el resultado de pauta paga."
+    "El negocio facturó <b>$19.990.699</b> en mayo con 266 órdenes y un ticket promedio de <b>$75.153</b>, sostenido por la venta de packs de almohadones que concentran más del 57% de la facturación en los cinco productos líderes.",
+    "La pauta gestionada devolvió un <b>ROAS de 6,97x</b> sobre $2.616.776 de inversión total. El MER del negocio fue 7,64x, lo que indica que una porción de la facturación se mueve fuera de la atribución directa de los anuncios.",
+    "Meta Ads operó con ROAS 7,10x y alcanzó 473.219 personas; Google Ads sumó ROAS 5,46x con inversión de $200.691. El email generó $975.384 en ingresos con 28,89% de apertura sobre 64.652 envíos.",
+    "La conversión del sitio en 1,14% y el CTR de email en 0,54% marcan las dos tensiones principales del mes: hay tráfico y hay base activa, pero ambos canales tienen espacio para convertir más sin aumentar el gasto."
   ],
   "highlights": [
     {
@@ -137,24 +127,24 @@
   "proximos_pasos": [
     {
       "n": 1,
-      "titulo": "Conversión del sitio",
-      "diag": "1,14% de conversión sobre 23.303 sesiones deja 266 órdenes; el tráfico existe pero el embudo no lo retiene.",
-      "accion": "Auditar páginas de producto y flujo de checkout para identificar puntos de abandono y reducir fricción.",
-      "impacto": "Cada décima de punto de conversión ganada sobre el tráfico actual equivale a ~23 órdenes adicionales por mes."
+      "titulo": "Escalar Google Ads en campañas rentables",
+      "diag": "Dos campañas en Google superan 7x de ROAS con solo $118K invertidos entre ambas.",
+      "accion": "Aumentar presupuesto en 'La verdadera Campaña Pro max 17' y 'Tienda Online - Búsqueda General'.",
+      "impacto": "Mayor volumen de conversiones a costo eficiente sin presionar el CPA total."
     },
     {
       "n": 2,
-      "titulo": "Escalar Google Ads",
-      "diag": "$200.691 invertidos con ROAS 5,46x y campañas en 7,87x y 10,43x muestran capacidad sin explotar.",
-      "accion": "Aumentar presupuesto en las campañas con ROAS positivo y revisar las que no registran conversiones atribuidas.",
-      "impacto": "Mayor inversión en lo que ya convierte mejora el ROAS consolidado y suma volumen de órdenes al canal."
+      "titulo": "Mejorar conversión del sitio",
+      "diag": "23.303 sesiones generaron solo 266 órdenes; la tasa de 1,14% limita el retorno de toda la pauta.",
+      "accion": "Auditar páginas de producto y checkout para identificar puntos de abandono y reducir fricción.",
+      "impacto": "Subir la conversión un punto porcentual duplicaría las órdenes con el mismo tráfico."
     },
     {
       "n": 3,
-      "titulo": "CTR de email",
-      "diag": "28,89% de apertura con 0,54% de CTR indica que la base lee pero no hace clic al sitio.",
-      "accion": "Revisar CTAs, jerarquía visual y ofertas dentro de los emails para aumentar la tasa de clic.",
-      "impacto": "Incrementar el CTR sobre 64.652 envíos multiplica visitas al sitio sin costo adicional de adquisición."
+      "titulo": "Activar el CTR del email",
+      "diag": "La base abre al 28,89% pero solo el 0,54% hace clic; hay audiencia calificada sin convertir.",
+      "accion": "Revisar CTAs, estructura y ofertas de las campañas de menor rendimiento para mejorar el clic.",
+      "impacto": "Mayor tráfico directo a la tienda desde un canal de costo marginal bajo."
     }
   ],
   "metricas": [
@@ -723,7 +713,7 @@
       "kpis": [
         {
           "label": "Seguidores IG",
-          "valor": "65.258",
+          "valor": "65.266",
           "delta": "—",
           "tipo": "neu"
         },
@@ -753,14 +743,14 @@
         },
         {
           "label": "Seguidores FB",
-          "valor": "9.741",
+          "valor": "9.743",
           "delta": "—",
           "tipo": "neu"
         }
       ],
       "lectura": [
         "Instagram alcanzó <b>270.444</b> cuentas con 1.644 interacciones.",
-        "La cuenta cerró el mes en 65.258 seguidores."
+        "La cuenta cerró el mes en 65.266 seguidores."
       ],
       "bloques": [
         {
