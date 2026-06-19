@@ -1,0 +1,482 @@
+{
+  "meta": {
+    "cliente": "Farmacias RED",
+    "subtitulo": "Reporte de Performance · E-Commerce",
+    "periodo": "Mayo 2026",
+    "periodo_id": "2026-05",
+    "tipo": "ecommerce"
+  },
+  "portada": {
+    "eyebrow": "Reporte de Mayo · 2026",
+    "titular": "ROAS de pauta: 9,26x en el mes de apertura",
+    "resumen": "Mayo marca el inicio de operaciones de Farmacias RED en e-commerce. La pauta en Meta cerró con un <b>ROAS de 9,26x</b> sobre $4.759.715 invertidos y 628 compras atribuidas, estableciendo la línea base sobre la que se medirá el canal."
+  },
+  "hero": {
+    "label": "ROAS de pauta del mes",
+    "valor": "9,26x",
+    "delta": "—",
+    "delta_ctx": "línea base",
+    "desc1": "La pauta en Meta generó $9,26 en valor de conversión por cada peso invertido.",
+    "desc2": "628 compras atribuidas a $4.759.715 de inversión, con CPA de $7.579."
+  },
+  "banda": [
+    {
+      "label": "Facturación",
+      "valor": "$0",
+      "delta": "—",
+      "ctx": "línea base",
+      "tipo": "neu"
+    },
+    {
+      "label": "Inversión Total",
+      "valor": "$4.759.715",
+      "delta": "—",
+      "ctx": "línea base",
+      "tipo": "neu"
+    },
+    {
+      "label": "ROAS de pauta",
+      "valor": "9,26x",
+      "delta": "—",
+      "ctx": "línea base",
+      "tipo": "neu"
+    },
+    {
+      "label": "Órdenes",
+      "valor": "0",
+      "delta": "—",
+      "ctx": "línea base",
+      "tipo": "neu"
+    }
+  ],
+  "embudo": {
+    "titulo": "Embudo de Conversión",
+    "sub": "Del tráfico a la compra, paso por paso.",
+    "pasos": [
+      {
+        "nombre": "Sesiones",
+        "valor": "0",
+        "width": 100
+      },
+      {
+        "nombre": "Órdenes",
+        "valor": "0",
+        "width": 0.6,
+        "weak": true
+      }
+    ],
+    "conversiones": [
+      {
+        "rate": "0,00%",
+        "ctx": "pasa a \"órdenes\"",
+        "drop": true
+      }
+    ],
+    "nota": "El embudo refleja el estado de integración de datos de sesiones y facturación nativa del e-commerce; las compras atribuidas por Meta (628) ya están operando como referencia mientras se consolida la medición propia del sitio."
+  },
+  "snapshot": [
+    {
+      "canal": "E-Commerce",
+      "valor": "$0",
+      "label": "Facturación",
+      "color": "pos"
+    },
+    {
+      "canal": "Meta Ads",
+      "valor": "9,26x",
+      "label": "ROAS",
+      "color": ""
+    },
+    {
+      "canal": "Instagram",
+      "valor": "50.751",
+      "label": "Seguidores",
+      "color": ""
+    }
+  ],
+  "narrativa": [
+    "Mayo es el período base del canal: sin histórico previo, cada cifra que cierra este mes define el piso desde el que se medirá el crecimiento. La inversión total fue de <b>$4.759.715</b>.",
+    "La pauta en Meta es el único canal activo con dato de retorno confirmado. El <b>ROAS de 9,26x</b> sobre 628 compras y un CPA de $7.579 establece un punto de partida sólido para el canal de performance.",
+    "En redes, Instagram cerró el mes en <b>50.751 seguidores</b> con 225.587 cuentas alcanzadas y 2.489 interacciones sobre 3 posteos. Facebook suma 12.595 seguidores como audiencia complementaria activa.",
+    "La tensión central del mes es la brecha entre compras atribuidas por Meta y la medición nativa del e-commerce. Resolverla es la prioridad técnica para que el ROAS de pauta tenga contraste real contra facturación."
+  ],
+  "highlights": [
+    {
+      "valor": "$0",
+      "label": "Ticket promedio del mes"
+    },
+    {
+      "valor": "9,26x",
+      "label": "ROAS de pauta · Meta + Google"
+    },
+    {
+      "valor": "0,00x",
+      "label": "Eficiencia del negocio (facturación/inversión)"
+    },
+    {
+      "valor": "0",
+      "label": "órdenes del mes"
+    }
+  ],
+  "proximos_pasos": [
+    {
+      "n": 1,
+      "titulo": "Integrar medición nativa del sitio",
+      "diag": "Las sesiones y órdenes del e-commerce no están conectadas al reporte; el MER no puede calcularse.",
+      "accion": "Implementar tracking de conversiones del sitio e integrar la fuente de facturación al dashboard.",
+      "impacto": "Permite comparar ROAS de pauta contra MER real y tomar decisiones de inversión con contexto completo."
+    },
+    {
+      "n": 2,
+      "titulo": "Escalar campañas de mayor ROAS",
+      "diag": "Ventas - Max. Valor+ registró 12,21x y concentra solo el 16% del gasto; hay margen para reasignar presupuesto.",
+      "accion": "Incrementar inversión en las campañas con ROAS superior a 10x redistribuyendo desde Ciudad de Cba - Tráfico web (1,01x).",
+      "impacto": "Mejora el ROAS agregado del canal y reduce el peso de la campaña que no genera retorno atribuible."
+    },
+    {
+      "n": 3,
+      "titulo": "Aumentar frecuencia de contenido orgánico",
+      "diag": "3 posteos en el mes generaron 2.489 interacciones; el alcance diario cayó a la mitad en la segunda quincena.",
+      "accion": "Elevar la cadencia de publicación a un mínimo de 5 piezas mensuales con distribución regular a lo largo del mes.",
+      "impacto": "Sostiene el alcance orgánico de forma pareja y reduce la dependencia de picos puntuales de distribución."
+    }
+  ],
+  "metricas": [
+    {
+      "id": "meta",
+      "nombre": "Meta Ads",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Meta Ads · Mayo 2026",
+      "kpis": [
+        {
+          "label": "Inversión",
+          "valor": "$4.759.715",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "ROAS",
+          "valor": "9,26x",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Compras",
+          "valor": "628",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "CPA",
+          "valor": "$7.579",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "CTR",
+          "valor": "3,93%",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Alcance",
+          "valor": "426.443",
+          "delta": "—",
+          "tipo": "neu"
+        }
+      ],
+      "lectura": [
+        "El <b>ROAS de 9,26x</b> lo tracciona la campaña de Ventas.",
+        "El <b>CPA</b> fue $7.579 sobre 628 compras."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Inversión Diaria",
+          "sub": "Gasto por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "$4,8M"
+            ],
+            [
+              "Pico",
+              "$305K"
+            ],
+            [
+              "Promedio/día",
+              "$154K"
+            ]
+          ],
+          "serie": [
+            200,
+            219,
+            157,
+            135,
+            126,
+            84,
+            73,
+            81,
+            131,
+            208,
+            292,
+            305,
+            216,
+            199,
+            168,
+            196,
+            281,
+            273,
+            134,
+            67,
+            80,
+            116,
+            108,
+            128,
+            114,
+            125,
+            121,
+            116,
+            120,
+            104,
+            80
+          ],
+          "color": "accent",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Campañas",
+          "sub": "Ordenadas por inversión.",
+          "headers": [
+            "Campaña",
+            "Inversión",
+            "ROAS"
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "Isdin - Num. conv"
+              },
+              {
+                "stack": [
+                  "$1.211.410",
+                  "25% del gasto"
+                ]
+              },
+              {
+                "pct": "10,77x",
+                "tipo": "pos"
+              }
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "L´Oreal Pro - Ventas"
+              },
+              {
+                "stack": [
+                  "$1.200.144",
+                  "25% del gasto"
+                ]
+              },
+              {
+                "pct": "8,93x",
+                "tipo": "pos"
+              }
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "Ventas - Max. Valor+"
+              },
+              {
+                "stack": [
+                  "$752.015",
+                  "16% del gasto"
+                ]
+              },
+              {
+                "pct": "12,21x",
+                "tipo": "pos"
+              }
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "Ventas E-commerce Farmacias Red"
+              },
+              {
+                "stack": [
+                  "$696.000",
+                  "15% del gasto"
+                ]
+              },
+              {
+                "pct": "9,37x",
+                "tipo": "pos"
+              }
+            ],
+            [
+              {
+                "rank": 5,
+                "texto": "Ciudad de Cba - Tráfico web"
+              },
+              {
+                "stack": [
+                  "$349.508",
+                  "7% del gasto"
+                ]
+              },
+              {
+                "pct": "1,01x",
+                "tipo": "neg"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "redes",
+      "nombre": "Redes",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Instagram + Facebook · Mayo 2026",
+      "kpis": [
+        {
+          "label": "Seguidores IG",
+          "valor": "50.751",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Alcance",
+          "valor": "225.587",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Interacciones",
+          "valor": "2.489",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Visitas Perfil",
+          "valor": "7.674",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Posteos",
+          "valor": "3",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Seguidores FB",
+          "valor": "12.595",
+          "delta": "—",
+          "tipo": "neu"
+        }
+      ],
+      "lectura": [
+        "Instagram alcanzó <b>225.587</b> cuentas con 2.489 interacciones.",
+        "La cuenta cerró el mes en 50.751 seguidores."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Alcance Diario (IG)",
+          "sub": "Cuentas alcanzadas por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "225.587"
+            ],
+            [
+              "Pico",
+              "36.322"
+            ],
+            [
+              "Promedio/día",
+              "18.319"
+            ]
+          ],
+          "serie": [
+            36,
+            26,
+            19,
+            17,
+            16,
+            29,
+            28,
+            20,
+            24,
+            20,
+            24,
+            28,
+            23,
+            21,
+            22,
+            27,
+            23,
+            27,
+            14,
+            8,
+            11,
+            13,
+            13,
+            14,
+            13,
+            12,
+            10,
+            10,
+            10,
+            9,
+            0
+          ],
+          "color": "accent",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Top Contenido",
+          "sub": "Posteos del mes por interacciones.",
+          "headers": [
+            "Contenido",
+            "Tipo",
+            "Interac."
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "En Farmacias RED siempre buscamos estar a la vanguar…"
+              },
+              "Reel",
+              "88"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "En Farmacias RED desarrollamos RED Labs, nuestra lín…"
+              },
+              "Reel",
+              "61"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "Conversando en RED junto al @dr.jofrematias  Médico …"
+              },
+              "Reel",
+              "45"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
