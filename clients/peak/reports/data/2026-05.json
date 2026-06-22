@@ -13,16 +13,16 @@
   },
   "hero": {
     "label": "ROAS Total",
-    "valor": "0,00x",
+    "valor": "8,43x",
     "delta": "—",
     "delta_ctx": "línea base",
-    "desc1": "El MER consolida toda la facturación del negocio sobre la inversión publicitaria total.",
-    "desc2": "Mayo es línea base: a partir de este mes se mide el retorno global del negocio."
+    "desc1": "El negocio facturó <b>$14.327.177</b> en 130 órdenes, sobre una inversión publicitaria total de <b>$1.699.852</b> entre Meta y Google. El ROAS Total —cada peso facturado por peso invertido en pauta— cerró en <b>8,43x</b>.",
+    "desc2": "Las plataformas reportan retornos mucho más altos (Meta 29,43x, Google 28,20x) porque cada una se atribuye toda venta que tocó su anuncio. Sumadas declaran cerca de $50M en ventas, más del triple de lo que el negocio facturó. El 8,43x es el número real: mide todo el negocio, sin que ninguna plataforma se cuelgue crédito ajeno."
   },
   "banda": [
     {
       "label": "Facturación",
-      "valor": "$0",
+      "valor": "$14.327.177",
       "delta": "—",
       "ctx": "línea base",
       "tipo": "neu"
@@ -36,14 +36,14 @@
     },
     {
       "label": "Órdenes",
-      "valor": "0",
+      "valor": "130",
       "delta": "—",
       "ctx": "línea base",
       "tipo": "neu"
     },
     {
       "label": "Ticket Prom.",
-      "valor": "$0",
+      "valor": "$110.209",
       "delta": "—",
       "ctx": "línea base",
       "tipo": "neu"
@@ -61,25 +61,24 @@
       {
         "nombre": "Agregaron al carrito",
         "valor": "716",
-        "width": 2.46581947170851
+        "width": 2.47
       },
       {
         "nombre": "Iniciaron checkout",
         "valor": "416",
-        "width": 1.4326548885904191
+        "width": 1.43
       },
       {
         "nombre": "Órdenes",
-        "valor": "0",
-        "width": 0.6,
-        "weak": true
+        "valor": "130",
+        "width": 0.45
       }
     ],
     "conversiones": [
       {
         "rate": "2,47%",
         "ctx": "pasa a \"agregaron al carrito\"",
-        "drop": false
+        "drop": true
       },
       {
         "rate": "58,10%",
@@ -87,17 +86,17 @@
         "drop": false
       },
       {
-        "rate": "0,00%",
+        "rate": "31,25%",
         "ctx": "pasa a \"órdenes\"",
-        "drop": true
+        "drop": false
       }
     ],
-    "nota": "El embudo registró 29.037 sesiones y 416 inicios de checkout. La caída a 0 órdenes registradas en plataforma indica una brecha de atribución entre el tráfico generado y las transacciones capturadas, no ausencia de actividad comercial."
+    "nota": "El tráfico fue alto —<b>29.037 sesiones</b>— y cerró en <b>130 órdenes</b> reales. Los pasos intermedios (carrito y checkout) están registrados muy por debajo de lo esperado para ese volumen de órdenes, lo que apunta a un subconteo de eventos en GA4 más que a una caída real del recorrido. Auditar el tracking daría un embudo confiable para optimizar."
   },
   "snapshot": [
     {
       "canal": "E-Commerce",
-      "valor": "$0",
+      "valor": "$14.327.177",
       "label": "Facturación",
       "color": "pos"
     },
@@ -121,11 +120,11 @@
     }
   ],
   "narrativa": [
-    "Mayo es el período base de medición. Sin facturación registrada en plataforma, el ROAS Total arroja <b>0,00x</b>; los ROAS por canal, en cambio, muestran una pauta que convierte con solidez.",
-    "Meta concentró <b>$1.380.415</b> de inversión y reporta <b>29,43x</b> de ROAS en campañas de venta, con 246 compras atribuidas y un CPA de $4.884. Dos campañas explican el 87% del gasto y las dos rinden por encima de 24x.",
-    "Google Ads operó con <b>$319.437</b> y un ROAS de <b>28,20x</b>. Con 63 conversiones y un CPC de $79, el canal captura intención de compra con eficiencia y tiene espacio para escalar.",
-    "Instagram alcanzó <b>204.919</b> cuentas con solo 8 posteos, cerrando en 13.203 seguidores. El alcance orgánico sostiene visibilidad de marca y alimenta el embudo sin costo adicional de pauta.",
-    "El embudo registró <b>416 inicios de checkout</b> desde 29.037 sesiones. La prioridad inmediata es conectar el dato transaccional al reporte para habilitar el ROAS Total como métrica de seguimiento real."
+    "Mayo cerró con <b>$14.327.177</b> facturados en <b>130 órdenes</b>, sobre una inversión publicitaria de <b>$1.699.852</b> entre Meta y Google. El ROAS Total del negocio fue de <b>8,43x</b>: cada peso invertido en pauta devolvió 8,43 en facturación.",
+    "Las plataformas reportan retornos mucho más altos: Meta declara 29,43x y Google 28,20x. Sumadas, se atribuyen cerca de $50M en ventas, más del triple de lo que el negocio facturó. No es un error: cada plataforma se cuelga toda venta que tocó un anuncio, y varias se adjudican la misma compra. El <b>ROAS Total de 8,43x</b> es el número honesto, el que mide el negocio completo.",
+    "Meta concentró <b>$1.380.415</b> con 246 compras atribuidas y un CPA de $4.884. Dos campañas de venta explican el 87% del gasto y ambas rinden por encima de 24x según la plataforma; el resto, en awareness, no aporta venta directa.",
+    "Google Ads operó con <b>$319.437</b> —el 19% de la inversión— y captura intención de compra con eficiencia: 63 conversiones y un CPC de $79. Es el canal con más espacio para escalar. En redes, el perfil alcanzó <b>204.919</b> cuentas con 8 posteos y cerró en 13.203 seguidores.",
+    "El embudo necesita atención de medición antes que de optimización: para 29.037 sesiones y 130 órdenes reales, GA4 registró muy pocos eventos intermedios. Auditar ese tracking es la prioridad para leer dónde se gana y se pierde la venta. En paralelo, escalar Google y depurar el gasto de awareness en Meta son las palancas claras del próximo mes."
   ],
   "highlights": [
     {
@@ -137,35 +136,35 @@
       "label": "ROAS de Google Ads"
     },
     {
-      "valor": "$0",
+      "valor": "$110.209",
       "label": "Ticket promedio del mes"
     },
     {
-      "valor": "0",
+      "valor": "130",
       "label": "órdenes del mes"
     }
   ],
   "proximos_pasos": [
     {
       "n": 1,
-      "titulo": "Conectar facturación al reporte",
-      "diag": "Con 0 órdenes registradas y 416 checkouts iniciados, el dato transaccional no está integrado al panel.",
-      "accion": "Auditar la integración entre la plataforma de e-commerce y el sistema de reporte para capturar ventas reales.",
-      "impacto": "Habilita el ROAS Total como North Star y permite medir el retorno real de la inversión de $1.699.852."
+      "titulo": "Auditar el tracking del embudo en GA4",
+      "diag": "Para 29.037 sesiones y 130 órdenes reales, GA4 registró apenas 716 agregados al carrito y 416 inicios de checkout: eventos intermedios subregistrados que impiden leer el embudo con precisión.",
+      "accion": "Revisar la configuración de los eventos add_to_cart y begin_checkout en GA4 y su disparo en la tienda, para que el recorrido de compra quede medido de punta a punta.",
+      "impacto": "Un embudo confiable permite ver dónde se pierde la venta y optimizar sobre datos reales en lugar de estimaciones."
     },
     {
       "n": 2,
-      "titulo": "Escalar Google Ads en campañas ganadoras",
-      "diag": "SEARCH Básquet rinde 49,08x con solo el 16% del presupuesto de Google; hay margen sin explotar.",
-      "accion": "Reasignar presupuesto desde la campaña de Talles Grandes (0,00x ROAS) hacia las campañas de mayor retorno.",
-      "impacto": "Mayor volumen de conversiones atribuidas sin incrementar la inversión total del canal."
+      "titulo": "Escalar Google Ads",
+      "diag": "Google operó con $319.437 —el 19% de la inversión total— y captura intención de compra con eficiencia (63 conversiones, CPC $79). Es el canal de menor gasto y mayor margen para crecer.",
+      "accion": "Aumentar presupuesto en las campañas de mayor retorno y ampliar la cobertura de palabras clave de búsqueda.",
+      "impacto": "Más volumen en el canal de mayor intención, sin alterar la estructura que ya convierte."
     },
     {
       "n": 3,
-      "titulo": "Revisar campaña de Awareness en Meta",
-      "diag": "La campaña AWARENESS consumió $102.179 (7% del gasto de Meta) con ROAS 0,00x por objetivo no transaccional.",
-      "accion": "Evaluar si el objetivo de marca justifica esa inversión o si el presupuesto rinde más redistribuido en venta.",
-      "impacto": "Optimiza la eficiencia del canal Meta y concentra el gasto en lo que atribuye retorno medible."
+      "titulo": "Depurar el gasto de Awareness en Meta",
+      "diag": "Dos campañas de venta explican el 87% del gasto de Meta con retornos sobre 24x según la plataforma. El resto del presupuesto, en awareness, no aporta venta directa.",
+      "accion": "Medir el aporte incremental de la campaña de awareness; si no sostiene demanda medible, reasignar ese presupuesto a las campañas de venta que ya rinden.",
+      "impacto": "Concentrar inversión en lo que convierte eleva el retorno agregado del canal."
     }
   ],
   "metricas": [
