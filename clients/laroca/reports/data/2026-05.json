@@ -1,0 +1,461 @@
+{
+  "meta": {
+    "cliente": "La Roca",
+    "subtitulo": "Reporte de Performance · Leads",
+    "periodo": "Mayo 2026",
+    "periodo_id": "2026-05",
+    "tipo": "leads"
+  },
+  "portada": {
+    "eyebrow": "Reporte de Mayo · 2026",
+    "titular": "1.245 conversaciones a $981 por contacto",
+    "resumen": "Mayo marca la línea base del negocio: <b>1.245 conversaciones</b> generadas con una inversión de <b>$1.220.845</b> y un costo por contacto de <b>$981</b>. El canal orgánico sumó 201.515 cuentas alcanzadas y 18.270 interacciones."
+  },
+  "hero": {
+    "label": "Costo por Conversación de pauta",
+    "valor": "$981",
+    "delta": "—",
+    "delta_ctx": "línea base",
+    "desc1": "Cada conversación iniciada por pauta costó <b>$981</b> sobre 1.245 contactos totales.",
+    "desc2": "La inversión de <b>$1.220.845</b> se concentró en la campaña de WhatsApp, que concentró el 92% del gasto y el 98% de las conversaciones."
+  },
+  "banda": [
+    {
+      "label": "Inversión",
+      "valor": "$1.220.845",
+      "delta": "—",
+      "ctx": "línea base",
+      "tipo": "neu"
+    },
+    {
+      "label": "Conversaciones",
+      "valor": "1.245",
+      "delta": "—",
+      "ctx": "línea base",
+      "tipo": "neu"
+    },
+    {
+      "label": "Costo/Conv.",
+      "valor": "$981",
+      "delta": "—",
+      "ctx": "línea base",
+      "tipo": "neu"
+    },
+    {
+      "label": "CTR",
+      "valor": "3,52%",
+      "delta": "—",
+      "ctx": "línea base",
+      "tipo": "neu"
+    }
+  ],
+  "embudo": {
+    "titulo": "Embudo de conversión · Meta Ads",
+    "sub": "De impresión a conversación — Mayo 2026",
+    "pasos": [
+      {
+        "nombre": "Impresiones",
+        "valor": "380.184",
+        "width": 100
+      },
+      {
+        "nombre": "Clics",
+        "valor": "13.373",
+        "width": 3.5175073122488056
+      },
+      {
+        "nombre": "Conversaciones",
+        "valor": "1.245",
+        "width": 0.6,
+        "weak": true
+      }
+    ],
+    "conversiones": [
+      {
+        "rate": "3,52%",
+        "ctx": "Impresiones → Clics (CTR)",
+        "drop": null
+      },
+      {
+        "rate": "9,31%",
+        "ctx": "Clics → Conversaciones",
+        "drop": true
+      }
+    ],
+    "nota": "El embudo muestra un CTR sólido de 3,52%, pero solo 9 de cada 100 clics derivaron en conversación. Ese tramo —clic a apertura de chat— es la palanca de eficiencia más directa del canal."
+  },
+  "snapshot": [
+    {
+      "canal": "Meta Ads · Alcance",
+      "valor": "120.837",
+      "label": "usuarios únicos impactados",
+      "color": ""
+    },
+    {
+      "canal": "Instagram · Alcance orgánico",
+      "valor": "201.515",
+      "label": "cuentas alcanzadas en el mes",
+      "color": ""
+    },
+    {
+      "canal": "Instagram · Interacciones",
+      "valor": "18.270",
+      "label": "interacciones totales",
+      "color": ""
+    },
+    {
+      "canal": "Facebook · Seguidores",
+      "valor": "5.101",
+      "label": "seguidores página",
+      "color": ""
+    }
+  ],
+  "narrativa": [
+    "Mayo 2026 es el mes de partida: todas las métricas operan como línea base, sin comparativo previo disponible. El negocio arranca con estructura de pauta activa y canal orgánico funcionando en paralelo.",
+    "La pauta generó <b>1.245 conversaciones</b> sobre <b>380.184 impresiones</b> y <b>13.373 clics</b>. El costo por conversación cerró en <b>$981</b>, con una inversión total de <b>$1.220.845</b>.",
+    "La campaña VENTAS – WhatsApp Usados concentró el <b>92% del gasto</b> y produjo <b>1.226 conversaciones</b>. La campaña de tráfico a Instagram aportó 19 conversaciones con el 8% restante de la inversión.",
+    "Instagram alcanzó <b>201.515 cuentas</b> con <b>44 posteos</b> y <b>18.270 interacciones</b>; el canal cerró en 4.930 seguidores. Facebook sumó <b>5.101 seguidores</b>. El alcance orgánico amplía la exposición de marca más allá de lo que la pauta paga cubre.",
+    "La conversión de clic a conversación fue de <b>9,31%</b>: el volumen de contactos es el resultado de la pauta; la velocidad y calidad de respuesta sobre esos 1.245 contactos determina el resultado comercial del mes."
+  ],
+  "highlights": [
+    {
+      "valor": "$981",
+      "label": "costo por conversación"
+    },
+    {
+      "valor": "1.245",
+      "label": "conversaciones iniciadas"
+    },
+    {
+      "valor": "3,52%",
+      "label": "CTR de pauta"
+    },
+    {
+      "valor": "9,31%",
+      "label": "conversión clic a conversación"
+    }
+  ],
+  "proximos_pasos": [
+    {
+      "n": 1,
+      "titulo": "Mejorar conversión clic → conversación",
+      "diag": "Solo el 9,31% de los clics derivó en conversación; 9 de cada 10 usuarios que hicieron clic no iniciaron el chat.",
+      "accion": "Revisar el CTA del anuncio y el mensaje de bienvenida en WhatsApp para reducir la fricción de apertura.",
+      "impacto": "Subir ese ratio incrementa conversaciones sin aumentar inversión ni costo por contacto."
+    },
+    {
+      "n": 2,
+      "titulo": "Escalar la campaña dominante",
+      "diag": "VENTAS – WhatsApp Usados produjo el 98% de las conversaciones con el 92% del presupuesto a $919 por contacto implícito.",
+      "accion": "Aumentar presupuesto en esa campaña y testear nuevas segmentaciones dentro del mismo objetivo.",
+      "impacto": "Mayor volumen de conversaciones manteniendo el costo por contacto en rango eficiente."
+    },
+    {
+      "n": 3,
+      "titulo": "Capitalizar el alcance orgánico",
+      "diag": "Instagram alcanzó 201.515 cuentas y el Reel del Ford Focus ST generó 5.085 interacciones solo, el 28% del total.",
+      "accion": "Identificar qué formatos y modelos generan picos de alcance y replicar esa estructura de contenido.",
+      "impacto": "Mayor exposición orgánica reduce la presión sobre el presupuesto pagado para sostener el volumen de contactos."
+    }
+  ],
+  "metricas": [
+    {
+      "id": "meta",
+      "nombre": "Meta Ads",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Meta Ads · Mayo 2026",
+      "kpis": [
+        {
+          "label": "Inversión",
+          "valor": "$1.220.845",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Conversaciones",
+          "valor": "1.245",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Costo/Conv.",
+          "valor": "$981",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "CTR",
+          "valor": "3,52%",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Alcance",
+          "valor": "120.837",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Clics",
+          "valor": "13.373",
+          "delta": "—",
+          "tipo": "neu"
+        }
+      ],
+      "lectura": [
+        "La pauta generó <b>1.245</b> conversaciones a un costo por conversación de $981.",
+        "El CTR fue 3,52% sobre 13.373 clics."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Inversión Diaria",
+          "sub": "Gasto por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "$1,2M"
+            ],
+            [
+              "Pico",
+              "$48K"
+            ],
+            [
+              "Promedio/día",
+              "$39K"
+            ]
+          ],
+          "serie": [
+            29,
+            26,
+            30,
+            29,
+            37,
+            36,
+            31,
+            38,
+            36,
+            36,
+            40,
+            43,
+            41,
+            41,
+            39,
+            38,
+            40,
+            40,
+            42,
+            41,
+            45,
+            44,
+            43,
+            41,
+            43,
+            43,
+            48,
+            48,
+            44,
+            43,
+            45
+          ],
+          "color": "accent",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Campañas",
+          "sub": "Ordenadas por inversión.",
+          "headers": [
+            "Campaña",
+            "Inversión",
+            "Conv."
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "VENTAS - Whatsapp Usados 2026"
+              },
+              {
+                "stack": [
+                  "$1.127.791",
+                  "92% del gasto"
+                ]
+              },
+              "1.226"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "TRÁFICO - Dirigido a Instagram 2026"
+              },
+              {
+                "stack": [
+                  "$93.053",
+                  "8% del gasto"
+                ]
+              },
+              "19"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "redes",
+      "nombre": "Redes",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Instagram + Facebook · Mayo 2026",
+      "kpis": [
+        {
+          "label": "Seguidores IG",
+          "valor": "4.930",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Alcance",
+          "valor": "201.515",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Interacciones",
+          "valor": "18.270",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Visitas Perfil",
+          "valor": "7.245",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Posteos",
+          "valor": "44",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Seguidores FB",
+          "valor": "5.101",
+          "delta": "—",
+          "tipo": "neu"
+        }
+      ],
+      "lectura": [
+        "Instagram alcanzó <b>201.515</b> cuentas con 18.270 interacciones.",
+        "La cuenta cerró el mes en 4.930 seguidores."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Alcance Diario (IG)",
+          "sub": "Cuentas alcanzadas por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "201.515"
+            ],
+            [
+              "Pico",
+              "59.268"
+            ],
+            [
+              "Promedio/día",
+              "10.457"
+            ]
+          ],
+          "serie": [
+            7,
+            7,
+            6,
+            7,
+            6,
+            8,
+            8,
+            9,
+            11,
+            59,
+            35,
+            11,
+            11,
+            10,
+            9,
+            9,
+            7,
+            8,
+            8,
+            6,
+            8,
+            7,
+            8,
+            8,
+            10,
+            8,
+            9,
+            9,
+            7,
+            8,
+            0
+          ],
+          "color": "accent",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Top Contenido",
+          "sub": "Posteos del mes por interacciones.",
+          "headers": [
+            "Contenido",
+            "Tipo",
+            "Interac."
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "Ford Focus ST Año 2016. 🔥 120.000 km de pura divers…"
+              },
+              "Reel",
+              "5.085"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "Ford Focus SE Plus  Sí, tiene estética ST. Y sí, tie…"
+              },
+              "Reel",
+              "54"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "Sí, leyeron bien los comentarios 😏🔥  Que fue remis…"
+              },
+              "Reel",
+              "48"
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "🎬😂 No todo sale perfecto… y menos cuando grabamos …"
+              },
+              "Reel",
+              "43"
+            ],
+            [
+              {
+                "rank": 5,
+                "texto": "Chiquito por fuera… completamente desquiciado por de…"
+              },
+              "Reel",
+              "35"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
