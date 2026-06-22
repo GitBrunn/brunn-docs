@@ -8,16 +8,16 @@
   },
   "portada": {
     "eyebrow": "Reporte de Mayo · 2026",
-    "titular": "Mayo cerró con ROAS de pauta 6,97x sobre $19.990.699 de facturación",
-    "resumen": "El primer mes de referencia establece una base sólida: <b>266 órdenes</b>, <b>$75.153 de ticket promedio</b> y un ROAS de pauta de <b>6,97x</b> combinando Meta y Google. El negocio opera con eficiencia medida y pauta rentable."
+    "titular": "Mayo cerró con un ROAS Total de 7,64x sobre casi $20M de facturación",
+    "resumen": "El negocio facturó <b>$19.990.699</b> en mayo con una inversión publicitaria de <b>$2.616.776</b>, logrando un <b>ROAS Total de 7,64x</b>. Las 266 órdenes y un ticket promedio de $75.153 sostienen el resultado. Primer mes de referencia."
   },
   "hero": {
-    "label": "ROAS de pauta del mes",
-    "valor": "6,97x",
+    "label": "ROAS Total",
+    "valor": "7,64x",
     "delta": "—",
     "delta_ctx": "línea base",
-    "desc1": "Por cada peso invertido en pauta, la tienda atribuyó $6,97 en valor de conversión.",
-    "desc2": "Meta Ads traccionó el resultado con 7,10x; Google Ads aportó 5,46x con inversión acotada."
+    "desc1": "Por cada peso invertido en pauta, el negocio generó 7,64 pesos de facturación total.",
+    "desc2": "El ROAS Total captura ventas orgánicas, directas y de recompra que ninguna plataforma se adjudica."
   },
   "banda": [
     {
@@ -35,15 +35,15 @@
       "tipo": "neu"
     },
     {
-      "label": "ROAS de pauta",
-      "valor": "6,97x",
+      "label": "Órdenes",
+      "valor": "266",
       "delta": "—",
       "ctx": "línea base",
       "tipo": "neu"
     },
     {
-      "label": "Órdenes",
-      "valor": "266",
+      "label": "Ticket Prom.",
+      "valor": "$75.153",
       "delta": "—",
       "ctx": "línea base",
       "tipo": "neu"
@@ -72,7 +72,7 @@
         "drop": true
       }
     ],
-    "nota": "El embudo muestra 23.303 sesiones que se comprimen a 266 órdenes: la tasa de conversión de 1,14% es el principal lever de crecimiento sin incrementar inversión."
+    "nota": "El embudo convierte el 1,14% de 23.303 sesiones en 266 órdenes. La caída es abrupta: el volumen de tráfico existe, pero la fricción entre sesión y compra es el principal punto de mejora del funnel."
   },
   "snapshot": [
     {
@@ -83,13 +83,13 @@
     },
     {
       "canal": "Meta Ads",
-      "valor": "7,10x",
-      "label": "ROAS",
+      "valor": "7,65x",
+      "label": "ROAS (venta)",
       "color": ""
     },
     {
       "canal": "Instagram",
-      "valor": "65.266",
+      "valor": "65.312",
       "label": "Seguidores",
       "color": ""
     },
@@ -101,23 +101,24 @@
     }
   ],
   "narrativa": [
-    "El negocio facturó <b>$19.990.699</b> en mayo con 266 órdenes y un ticket promedio de <b>$75.153</b>, sostenido por la venta de packs de almohadones que concentran más del 57% de la facturación en los cinco productos líderes.",
-    "La pauta gestionada devolvió un <b>ROAS de 6,97x</b> sobre $2.616.776 de inversión total. El MER del negocio fue 7,64x, lo que indica que una porción de la facturación se mueve fuera de la atribución directa de los anuncios.",
-    "Meta Ads operó con ROAS 7,10x y alcanzó 473.219 personas; Google Ads sumó ROAS 5,46x con inversión de $200.691. El email generó $975.384 en ingresos con 28,89% de apertura sobre 64.652 envíos.",
-    "La conversión del sitio en 1,14% y el CTR de email en 0,54% marcan las dos tensiones principales del mes: hay tráfico y hay base activa, pero ambos canales tienen espacio para convertir más sin aumentar el gasto."
+    "Mayo es el mes base del reporte: sin período anterior con qué comparar, los números se leen como foto del estado actual del negocio y punto de partida para medir evolución.",
+    "La tienda facturó <b>$19.990.699</b> en 266 órdenes, con un ticket promedio de <b>$75.153</b> traccionado por la venta de packs x6, que concentran los cinco productos más vendidos del mes.",
+    "La pauta consumió <b>$2.616.776</b> y devolvió un <b>ROAS Total de 7,64x</b>. Meta explicó el 92% de la inversión con un ROAS de venta de 7,65x; Google aportó el 8% restante con 5,46x sobre búsquedas de intención.",
+    "Instagram alcanzó 270.444 cuentas con 18 posteos y cerró en <b>65.312 seguidores</b>. El canal de email sumó 14 conversiones y <b>$975.384</b> en ingresos sobre 64.652 envíos con 28,89% de apertura.",
+    "La conversión del sitio en 1,14% y el CTR de email en 0,54% marcan las dos tensiones del mes: el tráfico llega, pero tanto en el sitio como en la bandeja de entrada, el paso al clic y a la compra tiene recorrido por mejorar."
   ],
   "highlights": [
     {
+      "valor": "7,65x",
+      "label": "ROAS de Meta · campañas de venta"
+    },
+    {
+      "valor": "5,46x",
+      "label": "ROAS de Google Ads"
+    },
+    {
       "valor": "$75.153",
       "label": "Ticket promedio del mes"
-    },
-    {
-      "valor": "6,97x",
-      "label": "ROAS de pauta · Meta + Google"
-    },
-    {
-      "valor": "7,64x",
-      "label": "Eficiencia del negocio (facturación/inversión)"
     },
     {
       "valor": "266",
@@ -127,24 +128,24 @@
   "proximos_pasos": [
     {
       "n": 1,
-      "titulo": "Escalar Google Ads en campañas rentables",
-      "diag": "Dos campañas en Google superan 7x de ROAS con solo $118K invertidos entre ambas.",
-      "accion": "Aumentar presupuesto en 'La verdadera Campaña Pro max 17' y 'Tienda Online - Búsqueda General'.",
-      "impacto": "Mayor volumen de conversiones a costo eficiente sin presionar el CPA total."
+      "titulo": "Mejorar la tasa de conversión del sitio",
+      "diag": "23.303 sesiones derivaron en solo 266 órdenes: conversión de 1,14%, con espacio claro de mejora.",
+      "accion": "Auditar el flujo de producto a carrito: imágenes, descripción, llamado a la acción y proceso de pago.",
+      "impacto": "Subir la conversión reduce el costo por orden sin aumentar la inversión en tráfico."
     },
     {
       "n": 2,
-      "titulo": "Mejorar conversión del sitio",
-      "diag": "23.303 sesiones generaron solo 266 órdenes; la tasa de 1,14% limita el retorno de toda la pauta.",
-      "accion": "Auditar páginas de producto y checkout para identificar puntos de abandono y reducir fricción.",
-      "impacto": "Subir la conversión un punto porcentual duplicaría las órdenes con el mismo tráfico."
+      "titulo": "Escalar Google Ads en campañas que convierten",
+      "diag": "MAX y SEARCH - Tienda Online rinden 7,87x y 10,43x respectivamente con inversión acotada de $200.691.",
+      "accion": "Reasignar presupuesto hacia esas dos campañas y pausar o reducir las que muestran ROAS cero.",
+      "impacto": "Mayor retorno atribuido en Google con la misma o menor inversión total en el canal."
     },
     {
       "n": 3,
-      "titulo": "Activar el CTR del email",
-      "diag": "La base abre al 28,89% pero solo el 0,54% hace clic; hay audiencia calificada sin convertir.",
-      "accion": "Revisar CTAs, estructura y ofertas de las campañas de menor rendimiento para mejorar el clic.",
-      "impacto": "Mayor tráfico directo a la tienda desde un canal de costo marginal bajo."
+      "titulo": "Aumentar el CTR de email",
+      "diag": "La base abre bien (28,89%) pero el CTR de 0,54% indica que el contenido no convierte el interés en clic.",
+      "accion": "Revisar CTA, jerarquía visual y oferta de los envíos; testear asunto vs. cuerpo en las próximas campañas.",
+      "impacto": "Con la misma base y frecuencia de envío, más clics derivan en más conversiones sin costo adicional."
     }
   ],
   "metricas": [
@@ -342,20 +343,20 @@
           "tipo": "neu"
         },
         {
-          "label": "ROAS",
-          "valor": "7,10x",
+          "label": "ROAS (venta)",
+          "valor": "7,65x",
           "delta": "—",
           "tipo": "neu"
         },
         {
           "label": "Compras",
-          "valor": "228",
+          "valor": "227",
           "delta": "—",
           "tipo": "neu"
         },
         {
           "label": "CPA",
-          "valor": "$10.597",
+          "valor": "$9.832",
           "delta": "—",
           "tipo": "neu"
         },
@@ -373,8 +374,8 @@
         }
       ],
       "lectura": [
-        "El <b>ROAS de 7,10x</b> lo tracciona la campaña de Ventas.",
-        "El <b>CPA</b> fue $10.597 sobre 228 compras."
+        "El <b>ROAS de venta de 7,65x</b> corresponde a las campañas de venta: mide el retorno real de la adquisición.",
+        "La inversión total del canal fue $2.416.085, con 227 compras atribuidas."
       ],
       "bloques": [
         {
@@ -444,7 +445,7 @@
             [
               {
                 "rank": 1,
-                "texto": "Ventas | 2026 | (tambien remarketing)"
+                "texto": "VENTAS - Prospecting 2026"
               },
               {
                 "stack": [
@@ -460,7 +461,7 @@
             [
               {
                 "rank": 2,
-                "texto": "Tráfico a WhatsApp (TOFU)"
+                "texto": "TRÁFICO - Dirigido a WhatsApp (TOFU)"
               },
               {
                 "stack": [
@@ -476,7 +477,7 @@
             [
               {
                 "rank": 3,
-                "texto": "Tráfico al Instagram"
+                "texto": "TRÁFICO - Dirigido a Instagram · no venta"
               },
               {
                 "stack": [
@@ -492,7 +493,7 @@
             [
               {
                 "rank": 4,
-                "texto": "HOT SALE | Ventas | Max. Valor"
+                "texto": "VENTAS - Hot Sale Max Valor"
               },
               {
                 "stack": [
@@ -508,7 +509,7 @@
             [
               {
                 "rank": 5,
-                "texto": "Tráfico en el sitio web"
+                "texto": "Tráfico en el sitio web · no venta"
               },
               {
                 "stack": [
@@ -640,7 +641,7 @@
             [
               {
                 "rank": 1,
-                "texto": "La verdadera Campaña Pro max 17"
+                "texto": "MAX - Máximo rendimiento"
               },
               {
                 "stack": [
@@ -688,7 +689,7 @@
             [
               {
                 "rank": 4,
-                "texto": "Tienda Online - Búsqueda General"
+                "texto": "SEARCH - Tienda Online"
               },
               {
                 "stack": [
@@ -713,7 +714,7 @@
       "kpis": [
         {
           "label": "Seguidores IG",
-          "valor": "65.266",
+          "valor": "65.312",
           "delta": "—",
           "tipo": "neu"
         },
@@ -743,14 +744,14 @@
         },
         {
           "label": "Seguidores FB",
-          "valor": "9.743",
+          "valor": "9.747",
           "delta": "—",
           "tipo": "neu"
         }
       ],
       "lectura": [
         "Instagram alcanzó <b>270.444</b> cuentas con 1.644 interacciones.",
-        "La cuenta cerró el mes en 65.266 seguidores."
+        "La cuenta cerró el mes en 65.312 seguidores."
       ],
       "bloques": [
         {
