@@ -8,16 +8,16 @@
   },
   "portada": {
     "eyebrow": "Reporte de Mayo · 2026",
-    "titular": "Mes de base: CPL de $36.684 con 11 leads generados",
-    "resumen": "Mayo establece la línea base de la cuenta: <b>11 leads</b> a un CPL de <b>$36.684</b> con una inversión de <b>$403.520</b>. El embudo muestra un CTR sólido pero una conversión clic-a-lead que concentra la oportunidad de mejora inmediata."
+    "titular": "Mayo 2026: línea base establecida",
+    "resumen": "Primer mes completo de pauta para JDR Biomédica. La campaña generó <b>168 conversaciones</b> a un costo de <b>$2.402</b> cada una, sobre una inversión de $403.520. El canal orgánico acompañó con alcance e interacciones consistentes."
   },
   "hero": {
-    "label": "CPL de pauta",
-    "valor": "$36.684",
+    "label": "Costo por Conversación de pauta",
+    "valor": "$2.402",
     "delta": "—",
     "delta_ctx": "línea base",
-    "desc1": "Cada lead costó $36.684 sobre una inversión total de $403.520 en Meta Ads.",
-    "desc2": "Los 11 leads resultaron de 1.936 clics, con una tasa de conversión de 0,57%."
+    "desc1": "168 conversaciones iniciadas vía WhatsApp desde Meta Ads con una inversión de $403.520.",
+    "desc2": "Línea base del negocio: cada contacto comercial costó $2.402 en pauta."
   },
   "banda": [
     {
@@ -28,15 +28,15 @@
       "tipo": "neu"
     },
     {
-      "label": "Leads",
-      "valor": "11",
+      "label": "Conversaciones",
+      "valor": "168",
       "delta": "—",
       "ctx": "línea base",
       "tipo": "neu"
     },
     {
-      "label": "CPL",
-      "valor": "$36.684",
+      "label": "Costo/Conv.",
+      "valor": "$2.402",
       "delta": "—",
       "ctx": "línea base",
       "tipo": "neu"
@@ -51,7 +51,7 @@
   ],
   "embudo": {
     "titulo": "Embudo de conversión · Meta Ads",
-    "sub": "De impresión a lead — Mayo 2026",
+    "sub": "De impresión a conversación — Mayo 2026",
     "pasos": [
       {
         "nombre": "Impresiones",
@@ -64,8 +64,8 @@
         "width": 1.847169613296568
       },
       {
-        "nombre": "Leads",
-        "valor": "11",
+        "nombre": "Conversaciones",
+        "valor": "168",
         "width": 0.6,
         "weak": true
       }
@@ -77,12 +77,12 @@
         "drop": null
       },
       {
-        "rate": "0,57%",
-        "ctx": "Clics → Leads",
+        "rate": "8,68%",
+        "ctx": "Clics → Conversaciones",
         "drop": true
       }
     ],
-    "nota": "El embudo cae abruptamente entre clics y leads: de 1.936 clics solo 11 convirtieron, una tasa de 0,57% que señala fricción en el destino de conversión o en la calificación del tráfico captado."
+    "nota": "El embudo muestra un CTR de 1,85% saludable para el segmento; el quiebre ocurre en el paso clic → conversación (8,68%), donde menos de 1 de cada 10 clics concreta el contacto. Esa brecha es la palanca de optimización más directa del canal."
   },
   "snapshot": [
     {
@@ -105,56 +105,57 @@
     },
     {
       "canal": "Facebook · Seguidores",
-      "valor": "2.937",
+      "valor": "2.940",
       "label": "seguidores página",
       "color": ""
     }
   ],
   "narrativa": [
-    "Mayo es el mes fundacional de la cuenta. Con <b>$403.520</b> de inversión y <b>11 leads</b>, los datos establecen el punto de partida desde el que se medirá todo movimiento futuro.",
-    "El CPL de <b>$36.684</b> es el número central del mes. El embudo llega a 1.936 clics con un CTR de 1,85%, lo que indica que el anuncio capta atención; el problema se ubica aguas abajo.",
-    "La conversión de clic a lead fue de <b>0,57%</b>: la brecha entre clics y leads generados es el principal vector de trabajo. Instagram sumó 15.116 cuentas alcanzadas y 384 interacciones con 5 posteos, aportando presencia de marca en el mismo período.",
-    "Con línea base establecida, el foco está en reducir el CPL mejorando la conversión post-clic. El volumen de impresiones —<b>104.809</b>— confirma que hay audiencia disponible para escalar si se corrige el embudo."
+    "Mayo es el primer período de referencia: no hay comparativo previo, por lo que cada cifra sienta la base contra la cual se medirá el avance de los meses siguientes.",
+    "La pauta invirtió <b>$403.520</b> en una única campaña de interacción por WhatsApp, dirigida a clínicas y hospitales, y produjo <b>168 conversaciones</b> a lo largo del mes.",
+    "El costo por conversación cerró en <b>$2.402</b>, con un CTR de <b>1,85%</b> sobre 104.809 impresiones. El tramo clic → conversación (8,68%) indica que hay margen para mejorar la tasa de contacto sin necesidad de aumentar presupuesto.",
+    "Instagram alcanzó <b>15.116</b> cuentas con 5 posteos y 384 interacciones; la cuenta cerró en 3.770 seguidores. El canal orgánico amplía la presencia de marca ante audiencias que la pauta ya trabajó.",
+    "La tensión central del mes es la conversión post-clic: la pauta entrega el contacto, pero la velocidad y calidad del seguimiento comercial determinan cuántas de esas 168 conversaciones avanzan en el proceso de venta."
   ],
   "highlights": [
     {
-      "valor": "$36.684",
-      "label": "costo por lead"
+      "valor": "$2.402",
+      "label": "costo por conversación"
     },
     {
-      "valor": "11",
-      "label": "leads generados"
+      "valor": "168",
+      "label": "conversaciones iniciadas"
     },
     {
       "valor": "1,85%",
       "label": "CTR de pauta"
     },
     {
-      "valor": "0,57%",
-      "label": "conversión clic a lead"
+      "valor": "8,68%",
+      "label": "conversión clic a conversación"
     }
   ],
   "proximos_pasos": [
     {
       "n": 1,
-      "titulo": "Optimizar conversión post-clic",
-      "diag": "Con 1.936 clics y solo 11 leads, la tasa de 0,57% indica fricción en el destino o en la calificación del tráfico.",
-      "accion": "Revisar y simplificar el formulario o el flujo de WhatsApp; reducir pasos entre el clic y el contacto efectivo.",
-      "impacto": "Aumentar la tasa clic-a-lead reduce el CPL sin incrementar la inversión."
+      "titulo": "Mejorar conversión clic → conversación",
+      "diag": "Solo el 8,68% de los clics derivó en conversación; 1.768 clics no completaron el contacto.",
+      "accion": "Revisar el mensaje de apertura de WhatsApp y el llamado a la acción del anuncio para reducir la fricción de entrada.",
+      "impacto": "Subir esa tasa reduce el costo por conversación sin incrementar la inversión."
     },
     {
       "n": 2,
-      "titulo": "Segmentar campañas por perfil",
-      "diag": "Toda la inversión se concentra en una única campaña, sin diferenciación por perfil de cliente o etapa del funnel.",
-      "accion": "Separar en al menos dos conjuntos de anuncios por segmento de audiencia para identificar qué perfil convierte mejor.",
-      "impacto": "Permite reasignar presupuesto hacia los segmentos de menor CPL en el mes siguiente."
+      "titulo": "Registrar y calificar los 168 contactos",
+      "diag": "La pauta cumplió su función; sin registro del seguimiento no hay forma de medir calidad de lead.",
+      "accion": "Implementar un log de conversaciones con estado (contactado, calificado, cerrado) para cada lead generado.",
+      "impacto": "Permite calcular el costo por lead calificado y orientar la pauta hacia el perfil que convierte."
     },
     {
       "n": 3,
-      "titulo": "Escalar contenido de mayor alcance",
-      "diag": "Instagram logró 15.116 cuentas alcanzadas y 631 visitas al perfil con solo 5 posteos, un ratio por posteo aprovechable.",
-      "accion": "Aumentar la frecuencia de publicación y testear amplificación paga de los reels con mejor performance orgánica.",
-      "impacto": "Mayor tráfico calificado al perfil refuerza la intención de contacto y puede reducir el costo de adquisición."
+      "titulo": "Ampliar cobertura orgánica",
+      "diag": "5 posteos generaron 15.116 de alcance; la frecuencia de publicación tiene margen de crecimiento.",
+      "accion": "Aumentar la cadencia de contenido en Instagram con foco en casos de uso de equipamiento biomédico.",
+      "impacto": "Mayor alcance orgánico reduce la dependencia exclusiva de pauta para la generación de contactos."
     }
   ],
   "metricas": [
@@ -171,14 +172,14 @@
           "tipo": "neu"
         },
         {
-          "label": "Leads",
-          "valor": "11",
+          "label": "Conversaciones",
+          "valor": "168",
           "delta": "—",
           "tipo": "neu"
         },
         {
-          "label": "CPL",
-          "valor": "$36.684",
+          "label": "Costo/Conv.",
+          "valor": "$2.402",
           "delta": "—",
           "tipo": "neu"
         },
@@ -202,7 +203,7 @@
         }
       ],
       "lectura": [
-        "La pauta generó <b>11</b> leads a un CPL de $36.684.",
+        "La pauta generó <b>168</b> conversaciones a un costo por conversación de $2.402.",
         "El CTR fue 1,85% sobre 1.936 clics."
       ],
       "bloques": [
@@ -267,13 +268,13 @@
           "headers": [
             "Campaña",
             "Inversión",
-            "Leads"
+            "Conv."
           ],
           "filas": [
             [
               {
                 "rank": 1,
-                "texto": "Mensajes WhatsApp | Fase 1 | Clínicas y hospitales - Copia 2"
+                "texto": "INTERACCIÓN - WhatsApp F1 - Clínicas y Hospitales"
               },
               {
                 "stack": [
@@ -281,7 +282,7 @@
                   "100% del gasto"
                 ]
               },
-              "11"
+              "168"
             ]
           ]
         }
@@ -295,7 +296,7 @@
       "kpis": [
         {
           "label": "Seguidores IG",
-          "valor": "3.740",
+          "valor": "3.770",
           "delta": "—",
           "tipo": "neu"
         },
@@ -325,14 +326,14 @@
         },
         {
           "label": "Seguidores FB",
-          "valor": "2.937",
+          "valor": "2.940",
           "delta": "—",
           "tipo": "neu"
         }
       ],
       "lectura": [
         "Instagram alcanzó <b>15.116</b> cuentas con 384 interacciones.",
-        "La cuenta cerró el mes en 3.740 seguidores."
+        "La cuenta cerró el mes en 3.770 seguidores."
       ],
       "bloques": [
         {
@@ -405,7 +406,7 @@
                 "texto": "🔧 Servicio técnico y mantenimiento profesional para…"
               },
               "Reel",
-              "25"
+              "26"
             ],
             [
               {
