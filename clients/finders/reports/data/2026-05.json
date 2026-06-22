@@ -13,16 +13,16 @@
   },
   "hero": {
     "label": "ROAS Total",
-    "valor": "0,00x",
+    "valor": "7,22x",
     "delta": "—",
     "delta_ctx": "línea base",
-    "desc1": "La facturación registrada en el período fue $0, lo que lleva el MER a 0,00x independientemente del retorno declarado por las plataformas.",
-    "desc2": "Meta atribuye 215 compras y Google 97; la brecha con las órdenes del e-commerce señala un problema de integración o cierre de transacción, no de demanda."
+    "desc1": "El negocio facturó <b>$14.854.741</b> en 205 órdenes, sobre una inversión publicitaria total de <b>$2.058.596</b> entre Meta y Google. El ROAS Total —cada peso facturado por peso invertido en pauta— cerró en <b>7,22x</b>.",
+    "desc2": "Las plataformas reportan retornos más altos (Meta 11,50x, Google 14,45x) porque cada una se atribuye toda venta que tocó su anuncio. Sumadas declaran más ventas de las que el negocio registró. El 7,22x es el número real: mide todo el negocio, sin que ninguna plataforma se cuelgue crédito ajeno."
   },
   "banda": [
     {
       "label": "Facturación",
-      "valor": "$0",
+      "valor": "$14.854.741",
       "delta": "—",
       "ctx": "línea base",
       "tipo": "neu"
@@ -36,14 +36,14 @@
     },
     {
       "label": "Órdenes",
-      "valor": "0",
+      "valor": "205",
       "delta": "—",
       "ctx": "línea base",
       "tipo": "neu"
     },
     {
       "label": "Ticket Prom.",
-      "valor": "$0",
+      "valor": "$72.462",
       "delta": "—",
       "ctx": "línea base",
       "tipo": "neu"
@@ -61,18 +61,17 @@
       {
         "nombre": "Agregaron al carrito",
         "valor": "2.845",
-        "width": 11.188013685162609
+        "width": 11.19
       },
       {
         "nombre": "Iniciaron checkout",
         "valor": "1.435",
-        "width": 5.643163317472178
+        "width": 5.64
       },
       {
         "nombre": "Órdenes",
-        "valor": "0",
-        "width": 0.6,
-        "weak": true
+        "valor": "205",
+        "width": 3.5
       }
     ],
     "conversiones": [
@@ -87,17 +86,17 @@
         "drop": false
       },
       {
-        "rate": "0,00%",
+        "rate": "14,29%",
         "ctx": "pasa a \"órdenes\"",
         "drop": true
       }
     ],
-    "nota": "El embudo convierte bien hasta checkout —<b>50,44%</b> de quienes agregan al carrito inician el pago— pero registra <b>0,00%</b> de cierre en órdenes. El volumen de sesiones y la tasa de inicio de checkout confirman que la intención de compra existe; el problema está aguas abajo."
+    "nota": "El tráfico y la intención son sólidos: <b>25.429 sesiones</b>, con un 11,19% que llega al carrito y un 50,44% de esos iniciando el checkout. La mayor oportunidad está en el cierre final: de <b>1.435 checkouts iniciados</b> se concretaron <b>205 órdenes</b> (14,29%). Recuperar puntos de cierre sobre ese volumen mueve la facturación sin invertir un peso más en pauta."
   },
   "snapshot": [
     {
       "canal": "E-Commerce",
-      "valor": "$0",
+      "valor": "$14.854.741",
       "label": "Facturación",
       "color": "pos"
     },
@@ -121,11 +120,11 @@
     }
   ],
   "narrativa": [
-    "Mayo operó con <b>$2.058.596</b> de inversión publicitaria distribuida entre Meta y Google, generando tráfico real: <b>25.429 sesiones</b> y más de 2.800 carritos iniciados.",
-    "La facturación registrada fue <b>$0</b> y las órdenes cerraron en cero. Los canales de pauta atribuyen compras, pero el sistema de e-commerce no las confirma: hay una brecha de integración que invalida el ROAS Total del mes.",
-    "Meta operó con <b>ROAS de venta 11,50x</b> sobre $1.602.339 invertidos. La campaña principal —Finders 2026— concentró el 59% del gasto con el mayor retorno atribuido (13,58x); Kids y Outdoor completaron la distribución con retornos positivos.",
-    "Google Ads aportó <b>ROAS 14,45x</b> con $456.257 invertidos. La campaña Search de Básquet lideró con 33,59x sobre el 22% del presupuesto del canal; hay espacio para escalar lo que ya convierte. Redes sostuvo <b>76.944</b> cuentas alcanzadas y 4.094 visitas al perfil.",
-    "La tensión central del mes no es de demanda ni de pauta: es operativa. Con <b>1.435 checkouts iniciados</b> y cero órdenes confirmadas, resolver el registro de transacciones es la prioridad antes de cualquier optimización de inversión."
+    "Mayo cerró con <b>$14.854.741</b> facturados en <b>205 órdenes</b>, sobre una inversión publicitaria de <b>$2.058.596</b> entre Meta y Google. El ROAS Total del negocio —cada peso facturado por peso invertido en pauta— fue de <b>7,22x</b>.",
+    "Las plataformas reportan retornos más altos que ese 7,22x: Meta declara 11,50x y Google 14,45x. La diferencia no es un error. Cada plataforma se atribuye toda venta que tocó uno de sus anuncios, y varias se cuelgan la misma compra; sumadas, declaran más ventas de las que el negocio registró. El <b>ROAS Total de 7,22x</b> es el número honesto: mide el negocio completo, sin que ninguna plataforma se adjudique crédito ajeno.",
+    "Meta operó con <b>ROAS de venta 11,50x</b> sobre $1.602.339. La campaña principal, Finders 2026, concentró el 59% del gasto con el mayor retorno atribuido (13,58x); Kids y Outdoor completaron la distribución con retornos positivos.",
+    "Google Ads aportó <b>14,45x</b> con $456.257 invertidos y dejó la señal más clara del mes: la campaña Search de Básquet rindió <b>33,59x</b> con apenas el 22% del presupuesto del canal. Es la palanca evidente para escalar lo que ya convierte. En redes, el perfil sostuvo <b>76.944</b> cuentas alcanzadas y 4.094 visitas.",
+    "El embudo muestra dónde está la oportunidad real: el tráfico y la intención de compra son sólidos, pero de 1.435 checkouts iniciados se cerraron 205 órdenes. La prioridad del próximo mes es doble: escalar lo que ya rinde —Search de Básquet— y recuperar cierre en el checkout. Ambas mueven facturación sobre la misma inversión."
   ],
   "highlights": [
     {
@@ -137,35 +136,35 @@
       "label": "ROAS de Google Ads"
     },
     {
-      "valor": "$0",
+      "valor": "$72.462",
       "label": "Ticket promedio del mes"
     },
     {
-      "valor": "0",
+      "valor": "205",
       "label": "órdenes del mes"
     }
   ],
   "proximos_pasos": [
     {
       "n": 1,
-      "titulo": "Resolver el registro de órdenes",
-      "diag": "1.435 checkouts iniciados y 0 órdenes confirmadas indican un problema de integración entre la plataforma de pago y el e-commerce.",
-      "accion": "Auditar el flujo de confirmación de orden: píxel, webhooks y conexión entre pasarela de pago y el sistema de gestión.",
-      "impacto": "Sin órdenes registradas no hay ROAS Total válido ni base para optimizar inversión con datos reales."
+      "titulo": "Cerrar la fuga del checkout",
+      "diag": "De 1.435 checkouts iniciados se concretaron 205 órdenes: un cierre del 14,29%, el punto más bajo del embudo y la mayor fuga del recorrido de compra.",
+      "accion": "Validar primero el tracking de checkout en GA4 para descartar sobreconteo, y auditar la experiencia de pago: cantidad de pasos, métodos disponibles, visibilidad del costo de envío y fricción en móvil.",
+      "impacto": "Recuperar unos pocos puntos de cierre sobre 1.435 checkouts incrementa la facturación sin aumentar la inversión publicitaria."
     },
     {
       "n": 2,
       "titulo": "Escalar Search de Básquet en Google",
       "diag": "La campaña SEARCH - Ventas | Básquet rindió 33,59x con solo el 22% del presupuesto de Google ($99.398).",
-      "accion": "Aumentar presupuesto asignado a esta campaña y revisar cobertura de palabras clave para capturar más volumen de búsqueda.",
-      "impacto": "Mayor retorno atribuido por cada peso incremental invertido en el canal de mayor intención del mes."
+      "accion": "Aumentar el presupuesto de esta campaña y ampliar la cobertura de palabras clave para capturar más volumen de búsqueda.",
+      "impacto": "Mayor retorno por cada peso incremental invertido en el canal de mayor intención del mes."
     },
     {
       "n": 3,
       "titulo": "Optimizar la campaña Finders Outdoor",
       "diag": "Outdoor invirtió $466.923 (29% de Meta) con ROAS 8,83x, el más bajo de las tres campañas activas del canal.",
       "accion": "Revisar creatividades y segmentación; testear variantes de audiencia o producto para acercar el retorno al promedio del canal.",
-      "impacto": "Mejorar la eficiencia del segundo mayor bloque de gasto elevaría el ROAS agregado de Meta de forma directa."
+      "impacto": "Mejorar la eficiencia del segundo mayor bloque de gasto eleva el ROAS agregado de Meta de forma directa."
     }
   ],
   "metricas": [
