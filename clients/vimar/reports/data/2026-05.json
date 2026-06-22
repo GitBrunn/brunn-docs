@@ -1,6 +1,6 @@
 {
   "meta": {
-    "cliente": "VIMAR",
+    "cliente": "Vimar",
     "subtitulo": "Reporte de Performance · Community",
     "periodo": "Mayo 2026",
     "periodo_id": "2026-05",
@@ -8,16 +8,16 @@
   },
   "portada": {
     "eyebrow": "Reporte de Mayo · 2026",
-    "titular": "Comunidad en construcción: base, pauta y contenido activados",
-    "resumen": "Mayo estableció la línea base de VIMAR en Instagram: <b>2.765</b> seguidores al cierre, <b>361.026</b> personas alcanzadas por pauta y <b>281.021</b> por contenido orgánico. El mes arrancó con sorteos que concentraron la mayor parte de las interacciones."
+    "titular": "Primer mes de comunidad: base establecida y tracción inicial",
+    "resumen": "Mayo marcó el arranque de la cuenta de Vimar. Con 2.890 seguidores al cierre, 281.021 de alcance orgánico y una pauta que llegó a 361.026 personas, el mes sentó la base operativa de la comunidad y validó el formato sorteo como motor de interacción."
   },
   "hero": {
     "label": "Seguidores al cierre",
-    "valor": "2.765",
+    "valor": "2.890",
     "delta": "—",
     "delta_ctx": "línea base",
-    "desc1": "La cuenta cerró mayo con <b>2.765</b> seguidores, primer registro formal de la comunidad.",
-    "desc2": "Representa el <b>34,6%</b> del camino hacia la meta de 8.000; restan <b>5.235</b> seguidores."
+    "desc1": "La cuenta cerró el mes con 2.890 seguidores, línea base del ciclo de crecimiento.",
+    "desc2": "El objetivo es 8.000 seguidores; mayo cubre el 36,1% de ese camino."
   },
   "banda": [
     {
@@ -52,13 +52,13 @@
   "progreso": {
     "titulo": "Avance hacia la meta de comunidad",
     "sub": "Seguidores Instagram · Meta: 8.000",
-    "actual": "2.765",
-    "pct": 34.6,
-    "neto": "2.765",
+    "actual": "2.890",
+    "pct": 36.1,
+    "neto": "2.890",
     "neto_ctx": "Neto del período",
     "meta": "8.000",
     "meta_ctx": "Meta fijada para la cuenta",
-    "nota": "La barra marca <b>34,6%</b> del objetivo cumplido en el primer mes medido. El ritmo actual implica que la estrategia de captación necesita sostenerse y escalar para alcanzar 8.000 en el plazo previsto."
+    "nota": "El progreso muestra 2.890 de 8.000 seguidores alcanzados (36,1%). Los 5.110 restantes requieren sostener el ritmo de adquisición de este mes y escalar los formatos que ya demostraron tracción."
   },
   "snapshot": [
     {
@@ -75,24 +75,25 @@
     },
     {
       "canal": "Facebook",
-      "valor": "271",
+      "valor": "275",
       "label": "Seguidores página",
       "color": ""
     }
   ],
   "narrativa": [
-    "Mayo es el período base de VIMAR: todos los indicadores parten de cero y establecen el piso desde el cual se medirá el crecimiento. La cuenta cerró en <b>2.765</b> seguidores, con <b>14</b> posteos publicados.",
-    "La pauta invirtió <b>$623.570</b> y alcanzó <b>361.026</b> personas con una frecuencia de <b>1,28</b>, lo que indica exposición amplia y sin saturación. El CTR de <b>2,25%</b> sobre <b>10.428</b> clics señala respuesta activa del segmento impactado.",
-    "El contenido orgánico sumó <b>281.021</b> cuentas alcanzadas y <b>18.162</b> interacciones. Dos posts de sorteo concentraron <b>14.284</b> de esas interacciones, lo que muestra alta dependencia de mecánicas de activación puntual.",
-    "La cuenta lleva el <b>34,6%</b> del camino a la meta de <b>8.000</b> seguidores en un solo mes. La distancia restante de <b>5.235</b> requiere mantener la inversión y diversificar el tipo de contenido que genera comunidad más allá de los sorteos."
+    "Mayo fue el mes de apertura de la comunidad de Vimar: sin historial previo, todos los indicadores funcionan como línea base y referencia para los meses siguientes.",
+    "La cuenta cerró en <b>2.890 seguidores</b> en Instagram, con 14 publicaciones y 275 seguidores en Facebook, estableciendo la estructura inicial de la presencia social de la marca.",
+    "La pauta invirtió <b>$623.570</b> y alcanzó 361.026 personas con una frecuencia de 1,28 y un CTR de 2,25% sobre 10.428 clics; el 83% del gasto se concentró en tráfico hacia el perfil.",
+    "El canal orgánico de Instagram alcanzó <b>281.021 cuentas</b> y generó 18.162 interacciones; dos sorteos vinculados a la Selección concentraron más del 78% de esas interacciones.",
+    "Con el 36,1% de la meta cubierta y 5.110 seguidores por sumar, la tensión del mes es clara: el formato sorteo probó su capacidad de tracción y ahora corresponde evaluar si la comunidad adquirida retiene y qué contenido sostiene el vínculo entre activaciones."
   ],
   "highlights": [
     {
-      "valor": "34,6%",
+      "valor": "36,1%",
       "label": "del camino a la meta"
     },
     {
-      "valor": "5.235",
+      "valor": "5.110",
       "label": "seguidores para el objetivo"
     },
     {
@@ -107,24 +108,24 @@
   "proximos_pasos": [
     {
       "n": 1,
-      "titulo": "Diversificar formatos de captación",
-      "diag": "Dos sorteos generaron el 78% de las interacciones; el resto del contenido aportó marginal.",
-      "accion": "Incorporar reels de producto o proceso que demuestren valor de marca y atraigan seguidores sin mecánica de sorteo.",
-      "impacto": "Reducir dependencia de activaciones puntuales y construir crecimiento orgánico más estable."
+      "titulo": "Retención post-sorteo",
+      "diag": "Los dos sorteos concentraron más del 78% de las interacciones. Resta saber cuántos de esos usuarios sostienen el seguimiento.",
+      "accion": "Publicar contenido de valor en las dos semanas siguientes al sorteo para medir caída de seguidores y tasa de permanencia.",
+      "impacto": "Distingue seguidores reales de participantes circunstanciales y define la base de comunidad activa."
     },
     {
       "n": 2,
-      "titulo": "Optimizar campaña de tráfico a Instagram",
-      "diag": "La campaña de tráfico a Instagram concentró el 83% del gasto con 269.752 personas alcanzadas.",
-      "accion": "Revisar segmentación y creatividades de la campaña principal para mejorar la conversión de alcance a seguidor.",
-      "impacto": "Mayor eficiencia del presupuesto dominante y aceleración del avance hacia los 8.000 seguidores."
+      "titulo": "Escalar tráfico al perfil",
+      "diag": "La campaña de tráfico concentró el 83% de la inversión y explicó la mayor parte del alcance pago con CTR de 2,25%.",
+      "accion": "Ampliar audiencias o incrementar presupuesto en esta campaña para acelerar el ritmo de captación de seguidores.",
+      "impacto": "Reduce el tiempo para alcanzar la meta de 8.000 seguidores manteniendo el costo por seguidor actual."
     },
     {
       "n": 3,
-      "titulo": "Establecer ritmo de contenido consistente",
-      "diag": "El alcance diario mostró picos aislados; varios días registraron cero o mínima actividad.",
-      "accion": "Fijar un calendario de publicación sin huecos, con al menos un posteo activo cada 2 días.",
-      "impacto": "Alcance orgánico más uniforme y mayor visibilidad sostenida de la cuenta mes a mes."
+      "titulo": "Activar contenido de marca propio",
+      "diag": "Fuera de los sorteos, los reels de fábrica y contenido de marca registraron interacciones marginales frente al total del mes.",
+      "accion": "Definir una cadencia fija de contenido de producto o proceso que genere interés sin depender de mecánicas de premio.",
+      "impacto": "Construye identidad de marca y reduce la dependencia de sorteos para sostener el alcance orgánico."
     }
   ],
   "metricas": [
@@ -243,7 +244,7 @@
             [
               {
                 "rank": 1,
-                "texto": "Tráfico a Instagram"
+                "texto": "TRÁFICO - Dirigido a Instagram"
               },
               {
                 "stack": [
@@ -256,7 +257,7 @@
             [
               {
                 "rank": 2,
-                "texto": "Interacción - Primer partido Argentina (16/6)"
+                "texto": "INTERACCIÓN - 1° partido Argentina (16/6)"
               },
               {
                 "stack": [
@@ -269,7 +270,7 @@
             [
               {
                 "rank": 3,
-                "texto": "Reel de Fabrica - Buenos Aires"
+                "texto": "AWARENESS - Reel Fabrica BA"
               },
               {
                 "stack": [
@@ -282,7 +283,7 @@
             [
               {
                 "rank": 4,
-                "texto": "Reel de Fabrica - Resto de Argentina"
+                "texto": "AWARENESS - Reel Fabrica ARG"
               },
               {
                 "stack": [
@@ -304,7 +305,7 @@
       "kpis": [
         {
           "label": "Seguidores IG",
-          "valor": "2.765",
+          "valor": "2.890",
           "delta": "—",
           "tipo": "neu"
         },
@@ -334,14 +335,14 @@
         },
         {
           "label": "Seguidores FB",
-          "valor": "271",
+          "valor": "275",
           "delta": "—",
           "tipo": "neu"
         }
       ],
       "lectura": [
         "Instagram alcanzó <b>281.021</b> cuentas con 18.162 interacciones.",
-        "La cuenta cerró el mes en 2.765 seguidores."
+        "La cuenta cerró el mes en 2.890 seguidores."
       ],
       "bloques": [
         {
