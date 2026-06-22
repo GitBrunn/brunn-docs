@@ -8,16 +8,16 @@
   },
   "portada": {
     "eyebrow": "Reporte de Mayo · 2026",
-    "titular": "Mayo 2026: primer mes de datos",
-    "resumen": "Mayo es el mes base de Finder's: se registran $2.058.596 de inversión publicitaria, un embudo activo con 25.429 sesiones y retornos por canal sólidos. Los números establecen la línea desde la que se medirá todo el crecimiento futuro."
+    "titular": "Mayo 2026: pauta sólida, embudo con freno en el pago",
+    "resumen": "Meta y Google traccionaron con ROAS de canal por encima de 11x. El embudo muestra tráfico y carrito activos, pero las órdenes no se reflejan en facturación: el quiebre está en el checkout y es el dato central del mes."
   },
   "hero": {
     "label": "ROAS Total",
     "valor": "0,00x",
     "delta": "—",
     "delta_ctx": "línea base",
-    "desc1": "El ROAS Total es 0,00x porque la facturación del negocio aún no se integró al tablero: es un dato pendiente, no un resultado de campaña.",
-    "desc2": "La pauta generó retornos atribuidos de 11,50x en Meta y 14,45x en Google; el ROAS Total se completará cuando se conecte la facturación real."
+    "desc1": "La facturación registrada en el período fue $0, lo que lleva el MER a 0,00x independientemente del retorno declarado por las plataformas.",
+    "desc2": "Meta atribuye 215 compras y Google 97; la brecha con las órdenes del e-commerce señala un problema de integración o cierre de transacción, no de demanda."
   },
   "banda": [
     {
@@ -92,7 +92,7 @@
         "drop": true
       }
     ],
-    "nota": "El embudo muestra una tasa de conversión a carrito del 11,19% y un paso a checkout del 50,44%, ambos saludables. La caída a 0,00% en órdenes refleja la ausencia de datos de facturación integrados, no un colapso real de ventas."
+    "nota": "El embudo convierte bien hasta checkout —<b>50,44%</b> de quienes agregan al carrito inician el pago— pero registra <b>0,00%</b> de cierre en órdenes. El volumen de sesiones y la tasa de inicio de checkout confirman que la intención de compra existe; el problema está aguas abajo."
   },
   "snapshot": [
     {
@@ -109,7 +109,7 @@
     },
     {
       "canal": "Instagram",
-      "valor": "14.214",
+      "valor": "14.216",
       "label": "Seguidores",
       "color": ""
     },
@@ -121,11 +121,11 @@
     }
   ],
   "narrativa": [
-    "Mayo 2026 es el período de arranque: todos los deltas aparecen como línea base porque no existe mes anterior contra el que comparar. El tablero queda calibrado para medir evolución desde aquí.",
-    "La facturación y las órdenes registran $0 y 0 respectivamente en el sistema, lo que indica que la conexión entre la plataforma de e-commerce y el reporte aún no está operativa; ese dato es el gap crítico del mes.",
-    "La inversión publicitaria total fue de <b>$2.058.596</b>, distribuida entre Meta ($1.602.339) y Google ($456.257). Los retornos atribuidos fueron <b>11,50x</b> y <b>14,45x</b> respectivamente, señales de eficiencia en adquisición.",
-    "El embudo orgánico registró <b>25.429 sesiones</b>, 2.845 agregados al carrito y 1.435 inicios de checkout. Instagram sumó 76.944 cuentas alcanzadas y cerró en 14.214 seguidores, aportando tráfico de marca consistente.",
-    "La tensión central del mes es una sola: sin facturación integrada, el ROAS Total no se puede calcular y el North Star del negocio queda ciego. Resolver esa conexión es la prioridad inmediata antes del cierre de junio."
+    "Mayo operó con <b>$2.058.596</b> de inversión publicitaria distribuida entre Meta y Google, generando tráfico real: <b>25.429 sesiones</b> y más de 2.800 carritos iniciados.",
+    "La facturación registrada fue <b>$0</b> y las órdenes cerraron en cero. Los canales de pauta atribuyen compras, pero el sistema de e-commerce no las confirma: hay una brecha de integración que invalida el ROAS Total del mes.",
+    "Meta operó con <b>ROAS de venta 11,50x</b> sobre $1.602.339 invertidos. La campaña principal —Finders 2026— concentró el 59% del gasto con el mayor retorno atribuido (13,58x); Kids y Outdoor completaron la distribución con retornos positivos.",
+    "Google Ads aportó <b>ROAS 14,45x</b> con $456.257 invertidos. La campaña Search de Básquet lideró con 33,59x sobre el 22% del presupuesto del canal; hay espacio para escalar lo que ya convierte. Redes sostuvo <b>76.944</b> cuentas alcanzadas y 4.094 visitas al perfil.",
+    "La tensión central del mes no es de demanda ni de pauta: es operativa. Con <b>1.435 checkouts iniciados</b> y cero órdenes confirmadas, resolver el registro de transacciones es la prioridad antes de cualquier optimización de inversión."
   ],
   "highlights": [
     {
@@ -148,24 +148,24 @@
   "proximos_pasos": [
     {
       "n": 1,
-      "titulo": "Integrar facturación al reporte",
-      "diag": "Facturación y órdenes registran $0; el ROAS Total (MER) no se puede calcular sin ese dato conectado.",
-      "accion": "Conectar la fuente de facturación del e-commerce al tablero antes del cierre de junio.",
-      "impacto": "Habilita el North Star del negocio y permite comparar meses con un solo número ejecutivo."
+      "titulo": "Resolver el registro de órdenes",
+      "diag": "1.435 checkouts iniciados y 0 órdenes confirmadas indican un problema de integración entre la plataforma de pago y el e-commerce.",
+      "accion": "Auditar el flujo de confirmación de orden: píxel, webhooks y conexión entre pasarela de pago y el sistema de gestión.",
+      "impacto": "Sin órdenes registradas no hay ROAS Total válido ni base para optimizar inversión con datos reales."
     },
     {
       "n": 2,
-      "titulo": "Escalar Google Search de alta intención",
-      "diag": "La campaña Search Básquet rinde 33,59x con solo $99.398 de inversión, el 22% del presupuesto de Google.",
-      "accion": "Aumentar presupuesto en esa campaña y revisar otras búsquedas de intención similares para replicar estructura.",
-      "impacto": "Mayor volumen de conversiones al costo por clic más bajo del canal ($183 CPC promedio)."
+      "titulo": "Escalar Search de Básquet en Google",
+      "diag": "La campaña SEARCH - Ventas | Básquet rindió 33,59x con solo el 22% del presupuesto de Google ($99.398).",
+      "accion": "Aumentar presupuesto asignado a esta campaña y revisar cobertura de palabras clave para capturar más volumen de búsqueda.",
+      "impacto": "Mayor retorno atribuido por cada peso incremental invertido en el canal de mayor intención del mes."
     },
     {
       "n": 3,
-      "titulo": "Auditar caída de Google a mediados de mes",
-      "diag": "La inversión diaria en Google cae a $0 entre los días 13 y 25; representa casi dos semanas sin actividad.",
-      "accion": "Identificar la causa (límite de presupuesto, pausa manual, error de campaña) y establecer alertas automáticas.",
-      "impacto": "Evita pérdida de ventana de captación en búsquedas activas y sostiene el volumen de conversiones mensual."
+      "titulo": "Optimizar la campaña Finders Outdoor",
+      "diag": "Outdoor invirtió $466.923 (29% de Meta) con ROAS 8,83x, el más bajo de las tres campañas activas del canal.",
+      "accion": "Revisar creatividades y segmentación; testear variantes de audiencia o producto para acercar el retorno al promedio del canal.",
+      "impacto": "Mejorar la eficiencia del segundo mayor bloque de gasto elevaría el ROAS agregado de Meta de forma directa."
     }
   ],
   "metricas": [
@@ -448,7 +448,7 @@
             [
               {
                 "rank": 1,
-                "texto": "Maximo rendimiento"
+                "texto": "Máximo rendimiento (a)"
               },
               {
                 "stack": [
@@ -464,7 +464,7 @@
             [
               {
                 "rank": 2,
-                "texto": "Search | Basquet | Ventas | Finders"
+                "texto": "SEARCH - Ventas | Basquet"
               },
               {
                 "stack": [
@@ -480,7 +480,7 @@
             [
               {
                 "rank": 3,
-                "texto": "Campaña | Tofu"
+                "texto": "TOFU - Finders"
               },
               {
                 "stack": [
@@ -505,7 +505,7 @@
       "kpis": [
         {
           "label": "Seguidores IG",
-          "valor": "14.214",
+          "valor": "14.216",
           "delta": "—",
           "tipo": "neu"
         },
@@ -542,7 +542,7 @@
       ],
       "lectura": [
         "Instagram alcanzó <b>76.944</b> cuentas con 1.222 interacciones.",
-        "La cuenta cerró el mes en 14.214 seguidores."
+        "La cuenta cerró el mes en 14.216 seguidores."
       ],
       "bloques": [
         {
