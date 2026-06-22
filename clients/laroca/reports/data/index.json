@@ -1,6 +1,11 @@
 {
-  "cliente": "La Roca Motors",
-  "subtitulo": "Reporte de Performance · Generación de Leads",
+  "cliente": "La Roca",
+  "subtitulo": "Reporte de Performance · Leads",
   "tipo": "leads",
-  "periodos": []
+  "periodos": [
+    {
+      "id": "2026-05",
+      "label": "Mayo 2026"
+    }
+  ]
 }
