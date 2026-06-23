@@ -8,16 +8,16 @@
   },
   "portada": {
     "eyebrow": "Reporte de Mayo · 2026",
-    "titular": "Un ROAS Total de 9,09x como línea base de mayo",
-    "resumen": "Mayo cierra con <b>$14.767.523</b> de facturación y un <b>ROAS Total de 9,09x</b>: por cada peso invertido en pauta, el negocio retornó nueve. Meta aportó la adquisición con un ROAS de venta de 7,40x sobre 65 compras atribuidas."
+    "titular": "Primer mes con resultados sólidos en todos los frentes",
+    "resumen": "Mayo cerró con <b>$14.767.523</b> de facturación, <b>82 órdenes</b> y un <b>ROAS Total de 9,09x</b>. La pauta en Meta respondió con eficiencia y las redes sostuvieron presencia activa. Un punto de partida robusto para el negocio."
   },
   "hero": {
     "label": "ROAS Total",
     "valor": "9,09x",
     "delta": "—",
     "delta_ctx": "línea base",
-    "desc1": "Por cada peso invertido en pauta, el negocio generó $9,09 de facturación total.",
-    "desc2": "El ROAS Total captura ventas orgánicas y directas que Meta no se adjudica."
+    "desc1": "El negocio generó $9,09 por cada peso invertido en publicidad.",
+    "desc2": "El ROAS Total captura toda la facturación, incluyendo ventas que ninguna plataforma se adjudica."
   },
   "banda": [
     {
@@ -72,7 +72,7 @@
         "drop": true
       }
     ],
-    "nota": "El embudo no registra sesiones en la plataforma este mes, por lo que la tasa de conversión no es calculable. Las 82 órdenes y el ticket de $180.092 confirman actividad real de compra sostenida por packs de indumentaria de nieve."
+    "nota": "El embudo no registró sesiones en la plataforma este mes; las 82 órdenes y los $14,7M de facturación son el dato concreto de operación del negocio."
   },
   "snapshot": [
     {
@@ -89,17 +89,17 @@
     },
     {
       "canal": "Instagram",
-      "valor": "25.980",
+      "valor": "25.965",
       "label": "Seguidores",
       "color": ""
     }
   ],
   "narrativa": [
-    "Mayo 2026 es el primer mes de reporte para BT Importados y opera como línea base: todas las variaciones futuras se medirán contra estos valores sin comparativo previo disponible.",
-    "El negocio facturó <b>$14.767.523</b> en 82 órdenes, con un ticket promedio de <b>$180.092</b> sostenido por la venta de conjuntos y pantalones de nieve; los cinco productos top concentran cerca del 17% de la facturación total.",
-    "La pauta total fue de <b>$1.625.013</b>, administrada en Meta. El <b>ROAS Total de 9,09x</b> refleja el retorno macro del negocio; el ROAS de venta de Meta en 7,40x da cuenta de lo estrictamente atribuido a campañas de compra, con un CTR de 5,93% sobre 99.703 personas alcanzadas.",
-    "Instagram cerró en <b>25.980 seguidores</b> con 45.403 cuentas alcanzadas y 913 interacciones en 15 publicaciones; el contenido de mayor rendimiento fueron Reels y carruseles orientados a la temporada de nieve, coherentes con el catálogo de productos del mes.",
-    "La brecha entre el ROAS Total y el ROAS de Meta señala que una porción de las ventas llega por canales no pagos; establecer el tracking de sesiones es la prioridad operativa inmediata para convertir esta línea base en un diagnóstico completo."
+    "Mayo 2026 es el mes base de BT Importados: todos los indicadores parten de cero comparativo y lo que muestran es el piso real del negocio desde el arranque.",
+    "La facturación cerró en <b>$14.767.523</b> con <b>82 órdenes</b> y un ticket promedio de <b>$180.092</b>, traccionado por la venta de packs y conjuntos de nieve de alto valor unitario.",
+    "La inversión publicitaria de <b>$1.625.013</b> en Meta generó un ROAS de venta de <b>7,40x</b> en campañas con objetivo de venta. El ROAS Total del negocio alcanzó <b>9,09x</b>, incorporando ventas no atribuidas a ninguna plataforma.",
+    "Instagram cerró el mes en <b>25.965 seguidores</b> con un alcance de 45.403 cuentas y 15 posteos publicados. El contenido de formato Reel y carrusel concentró las mayores interacciones del período.",
+    "El mes deja una base operativa clara: pauta eficiente, ticket alto y presencia orgánica activa. La oportunidad está en escalar sobre lo que ya funciona y afinar la lectura del tráfico."
   ],
   "highlights": [
     {
@@ -113,29 +113,33 @@
     {
       "valor": "82",
       "label": "órdenes del mes"
+    },
+    {
+      "valor": "25.965",
+      "label": "seguidores de Instagram"
     }
   ],
   "proximos_pasos": [
     {
       "n": 1,
-      "titulo": "Activar tracking de sesiones",
-      "diag": "Sesiones y usuarios registran cero: el embudo está incompleto y la tasa de conversión no es medible.",
-      "accion": "Verificar e instalar el pixel o conector de analítica en Tiendanube para capturar sesiones reales.",
-      "impacto": "Habilitar el embudo completo y medir conversión permite optimizar pauta con datos reales de tráfico."
+      "titulo": "Escalar campaña de mayor ROAS",
+      "diag": "'Ventas AFA' registró 11,44x con solo $24.687 de inversión, el 2% del gasto total del canal.",
+      "accion": "Aumentar presupuesto asignado a esa campaña y testear creatividades adicionales bajo el mismo objetivo.",
+      "impacto": "Mayor retorno por peso invertido sin alterar la estructura de campañas que ya funciona."
     },
     {
       "n": 2,
-      "titulo": "Escalar campaña AFA",
-      "diag": "La campaña Ventas AFA entregó un ROAS de 11,44x con solo $24.687 invertidos, el 2% del gasto total.",
-      "accion": "Aumentar gradualmente el presupuesto de Ventas AFA y monitorear estabilidad del ROAS al escalar.",
-      "impacto": "Capturar mayor volumen de compras al ROAS más alto del mix sin sacrificar eficiencia general."
+      "titulo": "Activar tracking de sesiones",
+      "diag": "Sesiones y usuarios registraron 0 en la plataforma; la tasa de conversión no se puede calcular.",
+      "accion": "Verificar e instalar correctamente el pixel o código de seguimiento en Tiendanube.",
+      "impacto": "Visibilidad real del embudo completo y capacidad de optimizar campañas por conversión en sitio."
     },
     {
       "n": 3,
-      "titulo": "Reducir peso de campaña sin retorno",
-      "diag": "La campaña de Interacción Mayorista consumió $117.769 con ROAS 0,00x por ser de objetivo no venta.",
-      "accion": "Revisar si el objetivo de esa campaña justifica la inversión o reasignar presupuesto a campañas de venta.",
-      "impacto": "Liberar hasta $117.769 para reforzar adquisición directa y mejorar la eficiencia del gasto total."
+      "titulo": "Crecer la base de seguidores",
+      "diag": "Instagram cerró en 25.965 seguidores con alcance orgánico de 45.403, una relación positiva pero sin meta formal.",
+      "accion": "Definir una meta de seguidores para junio y aumentar frecuencia de Reels, el formato de mayor interacción del mes.",
+      "impacto": "Audiencia propia más grande reduce dependencia de pauta paga en el mediano plazo."
     }
   ],
   "metricas": [
@@ -492,7 +496,7 @@
       "kpis": [
         {
           "label": "Seguidores IG",
-          "valor": "25.980",
+          "valor": "25.965",
           "delta": "—",
           "tipo": "neu"
         },
@@ -522,14 +526,14 @@
         },
         {
           "label": "Seguidores FB",
-          "valor": "11.839",
+          "valor": "11.840",
           "delta": "—",
           "tipo": "neu"
         }
       ],
       "lectura": [
         "Instagram alcanzó <b>45.403</b> cuentas con 913 interacciones.",
-        "La cuenta cerró el mes en 25.980 seguidores."
+        "La cuenta cerró el mes en 25.965 seguidores."
       ],
       "bloques": [
         {
