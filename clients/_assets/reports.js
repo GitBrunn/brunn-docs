@@ -1,6 +1,6 @@
 /* ============================================================
    BRUNN Dashboard Engine — completo (ecommerce)
-   Recibe un data.json y dibuja Resumen + Próximos Pasos + Métricas.
+   Recibe un data.json y dibuja Resumen + Recomendaciones + Métricas.
    ============================================================ */
 
 /* ---------- helpers de formato numérico para el gráfico ---------- */
@@ -222,8 +222,8 @@ function renderDashboard(data){
     '<div class="exec"><div class="narr">'+renderNarrativa(data.narrativa)+'</div>'+
       '<div class="hl-stack">'+renderHighlights(data.highlights)+'</div></div>';
 
-  // Vista RESUMEN — Próximos Pasos
-  var next = data.proximos_pasos ? renderPasos(data.proximos_pasos) : '<p class="section-sub">Sin próximos pasos cargados para este período.</p>';
+  // Vista RESUMEN — Recomendaciones
+  var next = data.recomendaciones ? renderPasos(data.recomendaciones) : '<p class="section-sub">Sin recomendaciones para este período.</p>';
 
   // Vista MÉTRICAS
   var metricas = data.metricas ? renderMetricas(data.metricas, data.meta.periodo) : '<p class="section-sub">Sin métricas cargadas para este período.</p>';
@@ -231,7 +231,7 @@ function renderDashboard(data){
   document.getElementById('dashboard-body').innerHTML =
     '<div class="tabs"><button class="tab active" data-main="resumen">Resumen</button><button class="tab" data-main="metricas">Métricas</button></div>'+
     '<div data-view="resumen" class="show">'+
-      '<div class="subtabs"><button class="subtab active" data-sub="exec">Resumen Ejecutivo</button><button class="subtab" data-sub="next">Próximos Pasos</button></div>'+
+      '<div class="subtabs"><button class="subtab active" data-sub="exec">Resumen Ejecutivo</button><button class="subtab" data-sub="next">Recomendaciones</button></div>'+
       '<div data-view="exec" class="show">'+exec+'</div>'+
       '<div data-view="next">'+next+'</div>'+
     '</div>'+
