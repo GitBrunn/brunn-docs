@@ -8,8 +8,8 @@
   },
   "portada": {
     "eyebrow": "Reporte de Mayo · 2026",
-    "titular": "Mayo 2026: pauta sólida, embudo con freno en el pago",
-    "resumen": "Meta y Google traccionaron con ROAS de canal por encima de 11x. El embudo muestra tráfico y carrito activos, pero las órdenes no se reflejan en facturación: el quiebre está en el checkout y es el dato central del mes."
+    "titular": "Mayo sólido: $14,85M facturados con ROAS Total de 7,22x",
+    "resumen": "El negocio facturó $14.854.741 en 205 órdenes, con un ROAS Total de 7,22x. Las plataformas declaran retornos más altos (Meta 11,50x, Google 14,45x), pero el número real del negocio es 7,22x. La señal más clara del mes la dio Google: la campaña de Search de básquet rindió 33,59x. La mayor oportunidad está en el cierre del checkout —1 de cada 7 que lo inicia completa la compra—: recuperar puntos ahí mueve facturación sin invertir un peso más en pauta."
   },
   "hero": {
     "label": "ROAS Total",
@@ -168,6 +168,156 @@
     }
   ],
   "metricas": [
+    {
+      "id": "ecommerce",
+      "nombre": "E-Commerce",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "WooCommerce · Mayo 2026",
+      "kpis": [
+        {
+          "label": "Facturación",
+          "valor": "$14.854.741",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Órdenes",
+          "valor": "205",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Ticket Prom.",
+          "valor": "$72.462",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Sesiones",
+          "valor": "25.429",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Usuarios",
+          "valor": "16.000",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Conversión",
+          "valor": "0,81%",
+          "delta": "—",
+          "tipo": "neu"
+        }
+      ],
+      "lectura": [
+        "La <b>conversión</b> fue 0,81% sobre 25.429 sesiones. El embudo llega bien hasta el checkout; el punto de mejora es el cierre final, no el tráfico.",
+        "Los <b>cinco productos más vendidos son todos de la línea Body Guard</b> (modelos JR y ATX): la demanda se concentra con fuerza en una familia de calzado."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Facturación Diaria",
+          "sub": "Ingresos por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "$14,9M"
+            ],
+            [
+              "Pico",
+              "$993K"
+            ],
+            [
+              "Promedio/día",
+              "$479K"
+            ]
+          ],
+          "serie": [
+            470,
+            535,
+            374,
+            207,
+            708,
+            754,
+            441,
+            347,
+            475,
+            184,
+            723,
+            456,
+            846,
+            238,
+            528,
+            859,
+            513,
+            785,
+            272,
+            525,
+            280,
+            525,
+            532,
+            241,
+            365,
+            422,
+            993,
+            208,
+            310,
+            366,
+            370
+          ],
+          "color": "pos",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Top Productos",
+          "sub": "Por unidades vendidas.",
+          "headers": [
+            "Producto",
+            "Unidades"
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "Zapatillas Body Guard JR – Celeste"
+              },
+              "16"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "Zapatillas Body Guard ATX – Azul/Blanco/Rojo"
+              },
+              "13"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "Zapatillas Body Guard JR – Blanco/Negro"
+              },
+              "10"
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "Zapatillas Body Guard ATX – Gris"
+              },
+              "7"
+            ],
+            [
+              {
+                "rank": 5,
+                "texto": "Zapatillas Body Guard ATX – Negro/Blanco/Azul"
+              },
+              "7"
+            ]
+          ]
+        }
+      ]
+    },
     {
       "id": "meta",
       "nombre": "Meta Ads",
