@@ -8,21 +8,21 @@
   },
   "portada": {
     "eyebrow": "Reporte de Mayo · 2026",
-    "titular": "Mayo con pauta de alto retorno y audiencia en crecimiento",
-    "resumen": "Meta y Google traccionaron con ROAS por encima de 28x en sus respectivos canales. Instagram sumó más de 200 mil cuentas alcanzadas con 8 posteos. La base está activa y la pauta responde."
+    "titular": "Pauta rentable, conversión por resolver: $13,9M con ROAS Total de 8,21x",
+    "resumen": "El negocio facturó $13.947.388 en 126 órdenes con una inversión en pauta de $1,70M: un ROAS Total de 8,21x. Meta y Google declaran retornos sobre 28x, pero ese es el número de cada plataforma, no el del negocio. El tráfico abunda —29.037 sesiones, en su mayoría de Instagram— y la palanca del próximo mes no es traer más gente, sino convertir mejor la que ya llega."
   },
   "hero": {
     "label": "ROAS Total",
-    "valor": "8,43x",
+    "valor": "8,21x",
     "delta": "—",
     "delta_ctx": "línea base",
-    "desc1": "El negocio facturó <b>$14.327.177</b> en 130 órdenes, sobre una inversión publicitaria total de <b>$1.699.852</b> entre Meta y Google. El ROAS Total —cada peso facturado por peso invertido en pauta— cerró en <b>8,43x</b>.",
-    "desc2": "Las plataformas reportan retornos mucho más altos (Meta 29,43x, Google 28,20x) porque cada una se atribuye toda venta que tocó su anuncio. Sumadas declaran cerca de $50M en ventas, más del triple de lo que el negocio facturó. El 8,43x es el número real: mide todo el negocio, sin que ninguna plataforma se cuelgue crédito ajeno."
+    "desc1": "El negocio facturó <b>$13.947.388</b> en 126 órdenes, sobre una inversión publicitaria total de <b>$1.699.852</b> entre Meta y Google. El ROAS Total —cada peso facturado por peso invertido en pauta— cerró en <b>8,21x</b>.",
+    "desc2": "Las plataformas reportan retornos mucho más altos (Meta 29,43x, Google 28,20x) porque cada una se atribuye toda venta que tocó su anuncio. Sumadas declaran cerca de $50M en ventas, más del triple de lo que el negocio facturó. El 8,21x es el número real: mide todo el negocio, sin que ninguna plataforma se cuelgue crédito ajeno."
   },
   "banda": [
     {
       "label": "Facturación",
-      "valor": "$14.327.177",
+      "valor": "$13.947.388",
       "delta": "—",
       "ctx": "línea base",
       "tipo": "neu"
@@ -36,14 +36,14 @@
     },
     {
       "label": "Órdenes",
-      "valor": "130",
+      "valor": "126",
       "delta": "—",
       "ctx": "línea base",
       "tipo": "neu"
     },
     {
       "label": "Ticket Prom.",
-      "valor": "$110.209",
+      "valor": "$110.694",
       "delta": "—",
       "ctx": "línea base",
       "tipo": "neu"
@@ -70,8 +70,8 @@
       },
       {
         "nombre": "Órdenes",
-        "valor": "130",
-        "width": 0.45
+        "valor": "126",
+        "width": 0.43
       }
     ],
     "conversiones": [
@@ -86,17 +86,17 @@
         "drop": false
       },
       {
-        "rate": "31,25%",
+        "rate": "30,29%",
         "ctx": "pasa a \"órdenes\"",
         "drop": false
       }
     ],
-    "nota": "El tráfico fue alto —<b>29.037 sesiones</b>— y cerró en <b>130 órdenes</b> reales. Los pasos intermedios (carrito y checkout) están registrados muy por debajo de lo esperado para ese volumen de órdenes, lo que apunta a un subconteo de eventos en GA4 más que a una caída real del recorrido. Auditar el tracking daría un embudo confiable para optimizar."
+    "nota": "El tráfico fue alto —<b>29.037 sesiones</b>— y cerró en <b>126 órdenes</b> reales, una conversión final de <b>0,43%</b>. Los pasos intermedios de carrito y checkout están registrados muy por debajo de lo esperado para ese volumen, lo que apunta a un subconteo de eventos en GA4 más que a una caída real del recorrido. Auditar el tracking es el primer paso para leer dónde se gana y se pierde la venta."
   },
   "snapshot": [
     {
       "canal": "E-Commerce",
-      "valor": "$14.327.177",
+      "valor": "$13.947.388",
       "label": "Facturación",
       "color": "pos"
     },
@@ -120,11 +120,11 @@
     }
   ],
   "narrativa": [
-    "Mayo cerró con <b>$14.327.177</b> facturados en <b>130 órdenes</b>, sobre una inversión publicitaria de <b>$1.699.852</b> entre Meta y Google. El ROAS Total del negocio fue de <b>8,43x</b>: cada peso invertido en pauta devolvió 8,43 en facturación.",
-    "Las plataformas reportan retornos mucho más altos: Meta declara 29,43x y Google 28,20x. Sumadas, se atribuyen cerca de $50M en ventas, más del triple de lo que el negocio facturó. No es un error: cada plataforma se cuelga toda venta que tocó un anuncio, y varias se adjudican la misma compra. El <b>ROAS Total de 8,43x</b> es el número honesto, el que mide el negocio completo.",
-    "Meta concentró <b>$1.380.415</b> con 246 compras atribuidas y un CPA de $4.884. Dos campañas de venta explican el 87% del gasto y ambas rinden por encima de 24x según la plataforma; el resto, en awareness, no aporta venta directa.",
-    "Google Ads operó con <b>$319.437</b> —el 19% de la inversión— y captura intención de compra con eficiencia: 63 conversiones y un CPC de $79. Es el canal con más espacio para escalar. En redes, el perfil alcanzó <b>204.919</b> cuentas con 8 posteos y cerró en 13.203 seguidores.",
-    "El embudo necesita atención de medición antes que de optimización: para 29.037 sesiones y 130 órdenes reales, GA4 registró muy pocos eventos intermedios. Auditar ese tracking es la prioridad para leer dónde se gana y se pierde la venta. En paralelo, escalar Google y depurar el gasto de awareness en Meta son las palancas claras del próximo mes."
+    "Mayo cerró con <b>$13.947.388</b> facturados en <b>126 órdenes</b>, sobre una inversión publicitaria de <b>$1.699.852</b> entre Meta y Google. El ROAS Total del negocio fue de <b>8,21x</b>: cada peso invertido en pauta devolvió 8,21 en facturación.",
+    "Las plataformas reportan retornos mucho más altos: Meta declara 29,43x y Google 28,20x. Sumadas, se atribuyen cerca de $50M en ventas, más del triple de lo que el negocio facturó. No es un error: cada plataforma se cuelga toda venta que tocó un anuncio, y varias se adjudican la misma compra. El <b>ROAS Total de 8,21x</b> es el número honesto, el que mide el negocio completo.",
+    "El tráfico está fuertemente concentrado en un canal: de las 29.037 sesiones, cerca de <b>18.000 llegaron por Paid Social</b> (Meta) y otras 4.200 por social orgánico. Google Search aporta poco volumen pero la mayor intención de compra. El negocio depende hoy de un solo grifo pago para llenar el sitio.",
+    "Con tanto tráfico, la conversión fue de <b>0,43%</b> —un cuarto del piso típico de e-commerce (1-2%)—. El problema del mes no es traer gente: es convertir la que ya llega. El <b>ticket de $110.694</b> lo sostiene el calzado de básquet, con la Zapatilla Taichi Lightning como producto más facturado del mes.",
+    "En redes, el perfil alcanzó <b>204.919</b> cuentas con 8 posteos y cerró en 13.203 seguidores. Las palancas del próximo mes son claras: auditar el tracking del embudo, atacar la conversión del sitio y reducir la dependencia de un único canal pago."
   ],
   "highlights": [
     {
@@ -136,38 +136,219 @@
       "label": "ROAS de Google Ads"
     },
     {
-      "valor": "$110.209",
+      "valor": "$110.694",
       "label": "Ticket promedio del mes"
     },
     {
-      "valor": "130",
+      "valor": "126",
       "label": "órdenes del mes"
     }
   ],
   "proximos_pasos": [
     {
       "n": 1,
-      "titulo": "Auditar el tracking del embudo en GA4",
-      "diag": "Para 29.037 sesiones y 130 órdenes reales, GA4 registró apenas 716 agregados al carrito y 416 inicios de checkout: eventos intermedios subregistrados que impiden leer el embudo con precisión.",
-      "accion": "Revisar la configuración de los eventos add_to_cart y begin_checkout en GA4 y su disparo en la tienda, para que el recorrido de compra quede medido de punta a punta.",
-      "impacto": "Un embudo confiable permite ver dónde se pierde la venta y optimizar sobre datos reales en lugar de estimaciones."
+      "titulo": "Atacar la conversión del sitio",
+      "diag": "Con 29.037 sesiones —en su mayoría tráfico pago de bajo costo— el sitio convirtió a 0,43%, un cuarto del piso de e-commerce. El tráfico no es el límite; convertirlo, sí.",
+      "accion": "Auditar el recorrido de compra donde más cae (sesión a carrito): velocidad del sitio, claridad de la ficha de producto y fricción en el checkout.",
+      "impacto": "Llevar la conversión de 0,43% a 0,80% duplicaría las órdenes con la misma inversión en pauta."
     },
     {
       "n": 2,
-      "titulo": "Escalar Google Ads",
-      "diag": "Google operó con $319.437 —el 19% de la inversión total— y captura intención de compra con eficiencia (63 conversiones, CPC $79). Es el canal de menor gasto y mayor margen para crecer.",
-      "accion": "Aumentar presupuesto en las campañas de mayor retorno y ampliar la cobertura de palabras clave de búsqueda.",
-      "impacto": "Más volumen en el canal de mayor intención, sin alterar la estructura que ya convierte."
+      "titulo": "Auditar el tracking del embudo en GA4",
+      "diag": "Para 29.037 sesiones y 126 órdenes reales, GA4 registró apenas 716 agregados al carrito y 416 inicios de checkout: eventos intermedios subregistrados que impiden ver dónde se pierde la venta.",
+      "accion": "Revisar la configuración de los eventos add_to_cart y begin_checkout y su disparo en la tienda, para medir el recorrido de punta a punta.",
+      "impacto": "Un embudo confiable permite optimizar sobre datos reales en lugar de estimaciones, y dirige el trabajo de conversión al punto exacto de caída."
     },
     {
       "n": 3,
-      "titulo": "Depurar el gasto de Awareness en Meta",
-      "diag": "Dos campañas de venta explican el 87% del gasto de Meta con retornos sobre 24x según la plataforma. El resto del presupuesto, en awareness, no aporta venta directa.",
-      "accion": "Medir el aporte incremental de la campaña de awareness; si no sostiene demanda medible, reasignar ese presupuesto a las campañas de venta que ya rinden.",
-      "impacto": "Concentrar inversión en lo que convierte eleva el retorno agregado del canal."
+      "titulo": "Reducir la dependencia de un solo canal",
+      "diag": "Paid Social mueve cerca de 18.000 de las 29.037 sesiones. El negocio queda expuesto a cualquier cambio de costo o algoritmo en Meta. Google opera con el 19% de la inversión y captura la mayor intención de compra.",
+      "accion": "Escalar Google en las campañas de mayor retorno y construir base orgánica y de email para diversificar el origen del tráfico.",
+      "impacto": "Un sistema de adquisición menos frágil y con menor costo marginal por orden."
     }
   ],
   "metricas": [
+    {
+      "id": "ecommerce",
+      "nombre": "E-Commerce",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "WooCommerce · Mayo 2026",
+      "kpis": [
+        {
+          "label": "Facturación",
+          "valor": "$13.947.388",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Órdenes",
+          "valor": "126",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Ticket Prom.",
+          "valor": "$110.694",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Sesiones",
+          "valor": "29.037",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Usuarios",
+          "valor": "18.000",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Conversión",
+          "valor": "0,43%",
+          "delta": "—",
+          "tipo": "neu"
+        }
+      ],
+      "lectura": [
+        "La <b>conversión</b> fue 0,43% sobre 29.037 sesiones: muy por debajo del 1-2% típico de e-commerce. El tráfico no es el problema; convertirlo, sí.",
+        "El <b>ticket promedio</b> de $110.694 lo sostiene el calzado de básquet: el Top 5 por facturación es casi todo zapatillas de performance."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Facturación Diaria",
+          "sub": "Ingresos por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "$13,9M"
+            ],
+            [
+              "Pico",
+              "$1,4M"
+            ],
+            [
+              "Promedio/día",
+              "$450K"
+            ]
+          ],
+          "serie": [
+            82,
+            0,
+            0,
+            1023,
+            758,
+            188,
+            881,
+            318,
+            216,
+            284,
+            1233,
+            807,
+            1358,
+            325,
+            825,
+            149,
+            564,
+            501,
+            546,
+            73,
+            379,
+            248,
+            182,
+            188,
+            444,
+            858,
+            746,
+            314,
+            90,
+            237,
+            130
+          ],
+          "color": "pos",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Top Productos",
+          "sub": "Por facturación · % del total.",
+          "headers": [
+            "Producto",
+            "Facturación",
+            "Unidades"
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "Zapatilla Taichi Lightning 11 Black/Shinning Green"
+              },
+              {
+                "stack": [
+                  "$1.286.813",
+                  "9,2% del total"
+                ]
+              },
+              "11"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "Zapatilla Power P-Motive White/Rose Color"
+              },
+              {
+                "stack": [
+                  "$1.044.913",
+                  "7,5% del total"
+                ]
+              },
+              "15"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "Campera Protocolo ARG"
+              },
+              {
+                "stack": [
+                  "$1.006.834",
+                  "7,2% del total"
+                ]
+              },
+              "9"
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "Zapatilla Power P-Motive Off White/Blue"
+              },
+              {
+                "stack": [
+                  "$591.010",
+                  "4,2% del total"
+                ]
+              },
+              "8"
+            ],
+            [
+              {
+                "rank": 5,
+                "texto": "Basketball Mid.Cut Socks Navy"
+              },
+              {
+                "stack": [
+                  "$56.264",
+                  "0,4% del total"
+                ]
+              },
+              "8"
+            ]
+          ]
+        }
+      ]
+    },
     {
       "id": "meta",
       "nombre": "Meta Ads",
