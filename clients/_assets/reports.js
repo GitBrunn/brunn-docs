@@ -87,7 +87,7 @@ function renderHighlights(hl){
   return hl.map(function(h){ return '<div class="hl"><div class="v">'+h.valor+'</div><div class="l">'+h.label+'</div></div>'; }).join('');
 }
 
-/* ---------- Próximos Pasos ---------- */
+/* ---------- Recomendaciones ---------- */
 function renderPasos(pasos){
   var html='<div class="steps">';
   pasos.forEach(function(s){
@@ -223,7 +223,7 @@ function renderDashboard(data){
       '<div class="hl-stack">'+renderHighlights(data.highlights)+'</div></div>';
 
   // Vista RESUMEN — Recomendaciones
-  var next = data.recomendaciones ? renderPasos(data.recomendaciones) : '<p class="section-sub">Sin recomendaciones para este período.</p>';
+  var next = data.proximos_pasos ? renderPasos(data.proximos_pasos) : '<p class="section-sub">Sin recomendaciones para este período.</p>';
 
   // Vista MÉTRICAS
   var metricas = data.metricas ? renderMetricas(data.metricas, data.meta.periodo) : '<p class="section-sub">Sin métricas cargadas para este período.</p>';
