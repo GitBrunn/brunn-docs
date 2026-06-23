@@ -8,16 +8,16 @@
   },
   "portada": {
     "eyebrow": "Reporte de Mayo · 2026",
-    "titular": "Mayo 2026: línea base del negocio",
-    "resumen": "El mes arrancó operaciones con un <b>ROAS Total de 9,09x</b> sobre $1.625.013 de inversión y $14.767.523 de facturación. Con 82 órdenes y un ticket promedio de $180.092, el negocio establece su punto de partida."
+    "titular": "Un ROAS Total de 9,09x como línea base de mayo",
+    "resumen": "Mayo cierra con <b>$14.767.523</b> de facturación y un <b>ROAS Total de 9,09x</b>: por cada peso invertido en pauta, el negocio retornó nueve. Meta aportó la adquisición con un ROAS de venta de 7,40x sobre 65 compras atribuidas."
   },
   "hero": {
     "label": "ROAS Total",
     "valor": "9,09x",
     "delta": "—",
     "delta_ctx": "línea base",
-    "desc1": "Cada peso invertido en pauta generó $9,09 de facturación total del negocio.",
-    "desc2": "El ROAS Total captura ventas orgánicas, directas y atribuidas que las plataformas no registran por separado."
+    "desc1": "Por cada peso invertido en pauta, el negocio generó $9,09 de facturación total.",
+    "desc2": "El ROAS Total captura ventas orgánicas y directas que Meta no se adjudica."
   },
   "banda": [
     {
@@ -55,18 +55,8 @@
     "pasos": [
       {
         "nombre": "Sesiones",
-        "valor": "14.727",
+        "valor": "0",
         "width": 100
-      },
-      {
-        "nombre": "Agregaron al carrito",
-        "valor": "567",
-        "width": 3.8500712976166223
-      },
-      {
-        "nombre": "Iniciaron checkout",
-        "valor": "214",
-        "width": 1.4531133292591838
       },
       {
         "nombre": "Órdenes",
@@ -77,22 +67,12 @@
     ],
     "conversiones": [
       {
-        "rate": "3,85%",
-        "ctx": "pasa a \"agregaron al carrito\"",
-        "drop": false
-      },
-      {
-        "rate": "37,74%",
-        "ctx": "pasa a \"iniciaron checkout\"",
-        "drop": false
-      },
-      {
-        "rate": "38,32%",
+        "rate": "0,00%",
         "ctx": "pasa a \"órdenes\"",
         "drop": true
       }
     ],
-    "nota": "El embudo muestra una caída abrupta en el paso final: de 214 checkouts iniciados solo 82 se convirtieron en órdenes (38,32%). La pérdida no está en la atracción ni en el interés; está en el cierre de la compra."
+    "nota": "El embudo no registra sesiones en la plataforma este mes, por lo que la tasa de conversión no es calculable. Las 82 órdenes y el ticket de $180.092 confirman actividad real de compra sostenida por packs de indumentaria de nieve."
   },
   "snapshot": [
     {
@@ -109,26 +89,22 @@
     },
     {
       "canal": "Instagram",
-      "valor": "25.962",
+      "valor": "25.980",
       "label": "Seguidores",
       "color": ""
     }
   ],
   "narrativa": [
-    "Mayo 2026 es el mes de inicio de reporte para BT Importados. Sin períodos anteriores como referencia, todos los indicadores funcionan como línea base sobre la que se medirá el crecimiento.",
-    "El negocio facturó <b>$14.767.523</b> en 82 órdenes, con un ticket promedio de <b>$180.092</b> sostenido por la venta de packs y conjuntos de nieve de alto valor unitario.",
-    "La pauta concentrada en Meta generó un <b>ROAS de venta de 7,40x</b> con 65 compras atribuidas. El ROAS Total de <b>9,09x</b> confirma que una porción relevante de la facturación proviene de tráfico no atribuido a ninguna plataforma.",
-    "Instagram cerró el mes en <b>25.962 seguidores</b> con 15 posteos y 45.403 cuentas alcanzadas. El canal orgánico genera visibilidad de marca que alimenta el tráfico directo sin costo de adquisición adicional.",
-    "La conversión del sitio fue <b>0,56%</b> sobre 14.727 sesiones, con 214 checkouts iniciados que no terminaron en compra en el 62% de los casos. Ese abandono de checkout es la principal tensión del mes y la palanca más directa disponible."
+    "Mayo 2026 es el primer mes de reporte para BT Importados y opera como línea base: todas las variaciones futuras se medirán contra estos valores sin comparativo previo disponible.",
+    "El negocio facturó <b>$14.767.523</b> en 82 órdenes, con un ticket promedio de <b>$180.092</b> sostenido por la venta de conjuntos y pantalones de nieve; los cinco productos top concentran cerca del 17% de la facturación total.",
+    "La pauta total fue de <b>$1.625.013</b>, administrada en Meta. El <b>ROAS Total de 9,09x</b> refleja el retorno macro del negocio; el ROAS de venta de Meta en 7,40x da cuenta de lo estrictamente atribuido a campañas de compra, con un CTR de 5,93% sobre 99.703 personas alcanzadas.",
+    "Instagram cerró en <b>25.980 seguidores</b> con 45.403 cuentas alcanzadas y 913 interacciones en 15 publicaciones; el contenido de mayor rendimiento fueron Reels y carruseles orientados a la temporada de nieve, coherentes con el catálogo de productos del mes.",
+    "La brecha entre el ROAS Total y el ROAS de Meta señala que una porción de las ventas llega por canales no pagos; establecer el tracking de sesiones es la prioridad operativa inmediata para convertir esta línea base en un diagnóstico completo."
   ],
   "highlights": [
     {
       "valor": "7,40x",
       "label": "ROAS de Meta · campañas de venta"
-    },
-    {
-      "valor": "0,00x",
-      "label": "ROAS de Google Ads"
     },
     {
       "valor": "$180.092",
@@ -142,24 +118,24 @@
   "proximos_pasos": [
     {
       "n": 1,
-      "titulo": "Recuperar abandonos de checkout",
-      "diag": "214 usuarios iniciaron el checkout y solo 82 compraron. El 62% se perdió en el último paso.",
-      "accion": "Activar flujo de email y/o WhatsApp de recuperación de carrito abandonado dentro de las 24 hs del abandono.",
-      "impacto": "Recuperar una fracción de esos abandonos incrementa órdenes sin aumentar la inversión publicitaria."
+      "titulo": "Activar tracking de sesiones",
+      "diag": "Sesiones y usuarios registran cero: el embudo está incompleto y la tasa de conversión no es medible.",
+      "accion": "Verificar e instalar el pixel o conector de analítica en Tiendanube para capturar sesiones reales.",
+      "impacto": "Habilitar el embudo completo y medir conversión permite optimizar pauta con datos reales de tráfico."
     },
     {
       "n": 2,
-      "titulo": "Escalar la campaña Ventas AFA",
-      "diag": "La campaña Ventas AFA registró el ROAS más alto del mes (11,44x) con solo $24.687 de inversión, el 2% del presupuesto.",
-      "accion": "Aumentar gradualmente la inversión en esta campaña y monitorear si el ROAS se sostiene al escalar el presupuesto.",
-      "impacto": "Mayor retorno por peso invertido si el ROAS resiste la escala, con menor riesgo que redistribuir el presupuesto principal."
+      "titulo": "Escalar campaña AFA",
+      "diag": "La campaña Ventas AFA entregó un ROAS de 11,44x con solo $24.687 invertidos, el 2% del gasto total.",
+      "accion": "Aumentar gradualmente el presupuesto de Ventas AFA y monitorear estabilidad del ROAS al escalar.",
+      "impacto": "Capturar mayor volumen de compras al ROAS más alto del mix sin sacrificar eficiencia general."
     },
     {
       "n": 3,
-      "titulo": "Medir impacto orgánico en facturación",
-      "diag": "El ROAS Total (9,09x) supera al ROAS de Meta (7,40x): hay ventas que ninguna plataforma se adjudica.",
-      "accion": "Rastrear las fuentes de tráfico orgánico y directo en Tiendanube para identificar su peso real en la facturación mensual.",
-      "impacto": "Conocer el mix de adquisición real permite tomar decisiones de inversión con mayor precisión desde el mes siguiente."
+      "titulo": "Reducir peso de campaña sin retorno",
+      "diag": "La campaña de Interacción Mayorista consumió $117.769 con ROAS 0,00x por ser de objetivo no venta.",
+      "accion": "Revisar si el objetivo de esa campaña justifica la inversión o reasignar presupuesto a campañas de venta.",
+      "impacto": "Liberar hasta $117.769 para reforzar adquisición directa y mejorar la eficiencia del gasto total."
     }
   ],
   "metricas": [
@@ -189,25 +165,25 @@
         },
         {
           "label": "Sesiones",
-          "valor": "14.727",
+          "valor": "0",
           "delta": "—",
           "tipo": "neu"
         },
         {
           "label": "Usuarios",
-          "valor": "13.281",
+          "valor": "0",
           "delta": "—",
           "tipo": "neu"
         },
         {
           "label": "Conversión",
-          "valor": "0,56%",
+          "valor": "0,00%",
           "delta": "—",
           "tipo": "neu"
         }
       ],
       "lectura": [
-        "La <b>conversión</b> del mes fue 0,56% sobre 14.727 sesiones.",
+        "La <b>conversión</b> del mes fue 0,00% sobre 0 sesiones.",
         "El <b>ticket promedio</b> de $180.092 está sostenido por la venta de packs."
       ],
       "bloques": [
@@ -516,7 +492,7 @@
       "kpis": [
         {
           "label": "Seguidores IG",
-          "valor": "25.962",
+          "valor": "25.980",
           "delta": "—",
           "tipo": "neu"
         },
@@ -546,14 +522,14 @@
         },
         {
           "label": "Seguidores FB",
-          "valor": "11.840",
+          "valor": "11.839",
           "delta": "—",
           "tipo": "neu"
         }
       ],
       "lectura": [
         "Instagram alcanzó <b>45.403</b> cuentas con 913 interacciones.",
-        "La cuenta cerró el mes en 25.962 seguidores."
+        "La cuenta cerró el mes en 25.980 seguidores."
       ],
       "bloques": [
         {
