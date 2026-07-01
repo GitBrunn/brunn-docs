@@ -1,0 +1,932 @@
+{
+  "meta": {
+    "cliente": "El Che Almohadón",
+    "subtitulo": "Reporte de Performance · E-Commerce",
+    "periodo": "Junio 2026",
+    "periodo_id": "2026-06",
+    "tipo": "ecommerce"
+  },
+  "portada": {
+    "eyebrow": "Reporte de Junio · 2026",
+    "titular": "Menos inversión, mejor retorno",
+    "resumen": "Junio cerró con un <b>ROAS Total de 9,88x</b>, el mejor ratio del bimestre. La reducción de pauta fue deliberada y el negocio respondió con mayor eficiencia: cada peso invertido rindió más que en Mayo."
+  },
+  "hero": {
+    "label": "ROAS Total",
+    "valor": "9,88x",
+    "delta": "↑ 29%",
+    "delta_ctx": "vs Mayo",
+    "desc1": "Por cada $1 invertido en pauta, el negocio generó $9,88 de facturación total.",
+    "desc2": "El ROAS Total subió 29% respecto a Mayo, con una inversión 40% menor."
+  },
+  "banda": [
+    {
+      "label": "Facturación",
+      "valor": "$15.435.735",
+      "delta": "↓ 23%",
+      "ctx": "vs Mayo",
+      "tipo": "neg"
+    },
+    {
+      "label": "Inversión Total",
+      "valor": "$1.563.031",
+      "delta": "↓ 40%",
+      "ctx": "vs Mayo",
+      "tipo": "neu"
+    },
+    {
+      "label": "Órdenes",
+      "valor": "229",
+      "delta": "↓ 14%",
+      "ctx": "vs Mayo",
+      "tipo": "neg"
+    },
+    {
+      "label": "Ticket Prom.",
+      "valor": "$67.405",
+      "delta": "↓ 10%",
+      "ctx": "vs Mayo",
+      "tipo": "neg"
+    }
+  ],
+  "embudo": {
+    "titulo": "Embudo de Conversión",
+    "sub": "Del tráfico a la compra, paso por paso.",
+    "pasos": [
+      {
+        "nombre": "Sesiones",
+        "valor": "11.378",
+        "width": 100
+      },
+      {
+        "nombre": "Órdenes",
+        "valor": "229",
+        "width": 2.012656002812445,
+        "weak": true
+      }
+    ],
+    "conversiones": [
+      {
+        "rate": "2,01%",
+        "ctx": "pasa a \"órdenes\"",
+        "drop": true
+      }
+    ],
+    "nota": "El embudo convirtió al 2,01% sobre 11.378 sesiones, casi el doble de la tasa de Mayo (1,14%). El volumen de tráfico bajó, pero la calidad del que llegó fue notablemente superior."
+  },
+  "snapshot": [
+    {
+      "canal": "E-Commerce",
+      "valor": "$15.435.735",
+      "label": "Facturación",
+      "color": "pos"
+    },
+    {
+      "canal": "Meta Ads",
+      "valor": "8,61x",
+      "label": "ROAS (venta)",
+      "color": ""
+    },
+    {
+      "canal": "Instagram",
+      "valor": "65.874",
+      "label": "Seguidores",
+      "color": ""
+    },
+    {
+      "canal": "Google Ads",
+      "valor": "21,51x",
+      "label": "ROAS",
+      "color": ""
+    }
+  ],
+  "narrativa": [
+    "Junio operó con una lógica distinta a Mayo: menos presupuesto, tráfico más acotado y un negocio que respondió convirtiendo mejor. El resultado macro es el más eficiente del bimestre.",
+    "La facturación cerró en <b>$15.435.735</b> con 229 órdenes y un ticket promedio de $67.405. Los packs de almohadones chenille concentraron los cinco productos más vendidos y sostuvieron el valor medio del carrito.",
+    "La pauta totalizó <b>$1.563.031</b> de inversión. Meta operó con ROAS de venta de 8,61x y CPA de $7.903, mejorando 20% respecto a Mayo. Google Ads capturó intención con un ROAS de 21,51x sobre una inversión acotada de $139.944.",
+    "Instagram cerró en <b>65.874 seguidores</b> con crecimiento sostenido. El email mantuvo apertura de 29,51% en 9 campañas, con líneas de asunto vinculadas al Mundial que traccionaron las aperturas más altas del mes.",
+    "La tensión del mes es clara: la conversión mejoró, pero las sesiones cayeron 51%. Escalar tráfico calificado sin perder la tasa de conversión ganada es la palanca de crecimiento para julio."
+  ],
+  "highlights": [
+    {
+      "valor": "8,61x",
+      "label": "ROAS de Meta · campañas de venta"
+    },
+    {
+      "valor": "21,51x",
+      "label": "ROAS de Google Ads"
+    },
+    {
+      "valor": "$67.405",
+      "label": "Ticket promedio del mes"
+    },
+    {
+      "valor": "229",
+      "label": "órdenes del mes"
+    }
+  ],
+  "proximos_pasos": [
+    {
+      "n": 1,
+      "titulo": "Escalar tráfico sin perder conversión",
+      "diag": "Sesiones cayeron 51% vs Mayo; la conversión subió a 2,01%. El volumen es el limitante actual del negocio.",
+      "accion": "Aumentar inversión en Meta Prospecting y Google MAX de forma gradual, priorizando los segmentos que ya convirtieron en junio.",
+      "impacto": "Más sesiones con la misma tasa de conversión se traducen directamente en más órdenes y mayor facturación."
+    },
+    {
+      "n": 2,
+      "titulo": "Capitalizar el ROAS de Google Ads",
+      "diag": "Google cerró en 21,51x con solo $139.944 invertidos, 100% concentrado en una campaña MAX.",
+      "accion": "Incrementar el presupuesto de Google MAX y evaluar activar la campaña de Search de marca para capturar demanda adicional.",
+      "impacto": "El canal con mejor ROAS del mes opera con inversión mínima; escalar captura retorno probado sin riesgo de eficiencia."
+    },
+    {
+      "n": 3,
+      "titulo": "Convertir aperturas de email en clics",
+      "diag": "El email tiene 29,51% de apertura pero un CTR de 0,48% y solo 3 conversiones atribuidas en junio.",
+      "accion": "Revisar estructura de CTAs y ofertas dentro de las campañas; testear emails con un único llamado a la acción por envío.",
+      "impacto": "Una base que ya abre los correos es el activo más barato para generar órdenes incrementales sin inversión en pauta."
+    }
+  ],
+  "metricas": [
+    {
+      "id": "ecommerce",
+      "nombre": "E-Commerce",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Tiendanube · Junio 2026",
+      "kpis": [
+        {
+          "label": "Facturación",
+          "valor": "$15.435.735",
+          "delta": "↓ 23%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Órdenes",
+          "valor": "229",
+          "delta": "↓ 14%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Ticket Prom.",
+          "valor": "$67.405",
+          "delta": "↓ 10%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Sesiones",
+          "valor": "11.378",
+          "delta": "↓ 51%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Usuarios",
+          "valor": "10.251",
+          "delta": "↓ 52%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Conversión",
+          "valor": "2,01%",
+          "delta": "↑ 0,87 pp",
+          "tipo": "pos"
+        }
+      ],
+      "lectura": [
+        "La <b>conversión</b> del mes fue 2,01% sobre 11.378 sesiones.",
+        "El <b>ticket promedio</b> de $67.405 está sostenido por la venta de packs."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Facturación Diaria",
+          "sub": "Ingresos por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "$15,4M"
+            ],
+            [
+              "Pico",
+              "$905K"
+            ],
+            [
+              "Promedio/día",
+              "$515K"
+            ]
+          ],
+          "serie": [
+            712,
+            565,
+            719,
+            905,
+            218,
+            635,
+            653,
+            618,
+            449,
+            377,
+            271,
+            419,
+            444,
+            407,
+            604,
+            855,
+            316,
+            452,
+            519,
+            403,
+            96,
+            653,
+            515,
+            597,
+            712,
+            361,
+            368,
+            525,
+            514,
+            553
+          ],
+          "color": "pos",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Top Productos",
+          "sub": "Por facturación · % del total.",
+          "headers": [
+            "Producto",
+            "Facturación",
+            "Unidades"
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "Almohadones Para Silla Chenille Antimancha C/ Cierre Pack X6 (CRUDO)"
+              },
+              {
+                "stack": [
+                  "$1.341.780",
+                  "8,7% del total"
+                ]
+              },
+              "20"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "Almohadones Para Silla Chenille Antimancha C/ Cierre Pack X8 (VISON)"
+              },
+              {
+                "stack": [
+                  "$1.162.850",
+                  "7,5% del total"
+                ]
+              },
+              "13"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "Almohadones Para Silla Chenille Antimancha C/ Cierre Pack X6 (VISON OSCURO)"
+              },
+              {
+                "stack": [
+                  "$1.140.513",
+                  "7,4% del total"
+                ]
+              },
+              "17"
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "Almohadones Para Silla Chenille Antimancha C/ Cierre Pack X6 (GRIS)"
+              },
+              {
+                "stack": [
+                  "$1.140.513",
+                  "7,4% del total"
+                ]
+              },
+              "17"
+            ],
+            [
+              {
+                "rank": 5,
+                "texto": "Almohadones Para Silla Chenille Antimancha C/ Cierre Pack X6 (VISON)"
+              },
+              {
+                "stack": [
+                  "$1.073.424",
+                  "7,0% del total"
+                ]
+              },
+              "16"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "nombre": "Meta Ads",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Meta Ads · Junio 2026",
+      "kpis": [
+        {
+          "label": "Inversión",
+          "valor": "$1.423.087",
+          "delta": "↓ 41%",
+          "tipo": "neu"
+        },
+        {
+          "label": "ROAS (venta)",
+          "valor": "8,61x",
+          "delta": "↑ 13%",
+          "tipo": "pos"
+        },
+        {
+          "label": "Compras",
+          "valor": "173",
+          "delta": "↓ 24%",
+          "tipo": "neg"
+        },
+        {
+          "label": "CPA",
+          "valor": "$7.903",
+          "delta": "↓ 20%",
+          "tipo": "pos"
+        },
+        {
+          "label": "CTR",
+          "valor": "3,10%",
+          "delta": "↓ 0,12 pp",
+          "tipo": "neg"
+        },
+        {
+          "label": "Alcance",
+          "valor": "161.273",
+          "delta": "↓ 66%",
+          "tipo": "neg"
+        }
+      ],
+      "lectura": [
+        "El <b>ROAS de venta de 8,61x</b> corresponde a las campañas de venta: mide el retorno real de la adquisición.",
+        "La inversión total del canal fue $1.423.087, con 173 compras atribuidas."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Inversión Diaria",
+          "sub": "Gasto por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "$1,4M"
+            ],
+            [
+              "Pico",
+              "$87K"
+            ],
+            [
+              "Promedio/día",
+              "$47K"
+            ]
+          ],
+          "serie": [
+            87,
+            64,
+            65,
+            44,
+            40,
+            42,
+            47,
+            47,
+            44,
+            45,
+            42,
+            38,
+            47,
+            51,
+            47,
+            41,
+            44,
+            42,
+            42,
+            41,
+            56,
+            45,
+            47,
+            48,
+            38,
+            45,
+            31,
+            50,
+            50,
+            50
+          ],
+          "color": "accent",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Campañas",
+          "sub": "Ordenadas por inversión.",
+          "headers": [
+            "Campaña",
+            "Inversión",
+            "ROAS"
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "VENTAS - Prospecting 2026"
+              },
+              {
+                "stack": [
+                  "$1.136.582",
+                  "80% del gasto"
+                ]
+              },
+              {
+                "pct": "9,84x",
+                "tipo": "pos"
+              }
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "TRÁFICO - Dirigido a WhatsApp (TOFU)"
+              },
+              {
+                "stack": [
+                  "$195.365",
+                  "14% del gasto"
+                ]
+              },
+              {
+                "pct": "0,52x",
+                "tipo": "neg"
+              }
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "TRÁFICO - Dirigido a Instagram · no venta"
+              },
+              {
+                "stack": [
+                  "$55.794",
+                  "4% del gasto"
+                ]
+              },
+              {
+                "pct": "0,00x",
+                "tipo": "neg"
+              }
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "VENTAS - Remarketing - Catalogo Advantage+"
+              },
+              {
+                "stack": [
+                  "$35.235",
+                  "2% del gasto"
+                ]
+              },
+              {
+                "pct": "13,89x",
+                "tipo": "pos"
+              }
+            ],
+            [
+              {
+                "rank": 5,
+                "texto": "VENTAS - Catalogo Advantage+"
+              },
+              {
+                "stack": [
+                  "$111",
+                  "0% del gasto"
+                ]
+              },
+              {
+                "pct": "0,00x",
+                "tipo": "neg"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "googleads",
+      "nombre": "Google Ads",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Google Ads · Junio 2026",
+      "kpis": [
+        {
+          "label": "Inversión",
+          "valor": "$139.944",
+          "delta": "↓ 30%",
+          "tipo": "neu"
+        },
+        {
+          "label": "ROAS",
+          "valor": "21,51x",
+          "delta": "↑ 294%",
+          "tipo": "pos"
+        },
+        {
+          "label": "Conversiones",
+          "valor": "49",
+          "delta": "↑ 227%",
+          "tipo": "pos"
+        },
+        {
+          "label": "CPC Prom.",
+          "valor": "$102",
+          "delta": "↑ 26%",
+          "tipo": "neg"
+        },
+        {
+          "label": "CTR",
+          "valor": "3,66%",
+          "delta": "↓ 0,91 pp",
+          "tipo": "neg"
+        },
+        {
+          "label": "Clics",
+          "valor": "1.368",
+          "delta": "↓ 45%",
+          "tipo": "neg"
+        }
+      ],
+      "lectura": [
+        "Google Ads rinde <b>ROAS 21,51x</b> capturando búsquedas de intención.",
+        "Inversión acotada ($139.944): hay espacio para escalar lo que convierte."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Inversión Diaria",
+          "sub": "Gasto por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "$140K"
+            ],
+            [
+              "Pico",
+              "$13K"
+            ],
+            [
+              "Promedio/día",
+              "$5K"
+            ]
+          ],
+          "serie": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            4,
+            6,
+            5,
+            6,
+            10,
+            13,
+            7,
+            6,
+            8,
+            5,
+            4,
+            9,
+            6,
+            8,
+            7,
+            7,
+            6,
+            7,
+            6,
+            7
+          ],
+          "color": "accent",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Campañas",
+          "sub": "Ordenadas por inversión.",
+          "headers": [
+            "Campaña",
+            "Inversión",
+            "ROAS"
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "MAX - Máximo rendimiento"
+              },
+              {
+                "stack": [
+                  "$139.944",
+                  "100% del gasto"
+                ]
+              },
+              {
+                "pct": "21,51x",
+                "tipo": "pos"
+              }
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "D) ELA | BOFU | Search | Marca general"
+              },
+              {
+                "stack": [
+                  "$0",
+                  "0% del gasto"
+                ]
+              },
+              {
+                "pct": "0,00x",
+                "tipo": "neg"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "redes",
+      "nombre": "Redes",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Instagram + Facebook · Junio 2026",
+      "kpis": [
+        {
+          "label": "Seguidores IG",
+          "valor": "65.874",
+          "delta": "↑ 0,9%",
+          "tipo": "pos"
+        },
+        {
+          "label": "Alcance",
+          "valor": "92.634",
+          "delta": "↓ 66%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Interacciones",
+          "valor": "1.584",
+          "delta": "↓ 3,6%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Visitas Perfil",
+          "valor": "4.530",
+          "delta": "↓ 30%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Posteos",
+          "valor": "15",
+          "delta": "↓ 17%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Seguidores FB",
+          "valor": "9.771",
+          "delta": "↑ 0,2%",
+          "tipo": "pos"
+        }
+      ],
+      "lectura": [
+        "Instagram alcanzó <b>92.634</b> cuentas con 1.584 interacciones.",
+        "La cuenta cerró el mes en 65.874 seguidores."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Alcance Diario (IG)",
+          "sub": "Cuentas alcanzadas por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "92.634"
+            ],
+            [
+              "Pico",
+              "16.929"
+            ],
+            [
+              "Promedio/día",
+              "5.891"
+            ]
+          ],
+          "serie": [
+            17,
+            6,
+            8,
+            6,
+            6,
+            10,
+            6,
+            8,
+            6,
+            5,
+            5,
+            4,
+            5,
+            5,
+            5,
+            4,
+            5,
+            5,
+            7,
+            6,
+            7,
+            5,
+            6,
+            6,
+            2,
+            5,
+            3,
+            6,
+            8,
+            0
+          ],
+          "color": "accent",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Top Contenido",
+          "sub": "Posteos del mes por interacciones.",
+          "headers": [
+            "Contenido",
+            "Tipo",
+            "Interac."
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "🏆 SORTEO EL CHE ALMOHADÓN 🏆  ¡Falta muy poco para …"
+              },
+              "Reel",
+              "250"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "Para las girlies que aman el rosa 💗✨  Texturas suav…"
+              },
+              "Reel",
+              "49"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "El secreto está en los detalles 🤍✨  Texturas suaves…"
+              },
+              "Reel",
+              "17"
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "⚽️Se viene el mundial y tenes que estar cómodo en tu…"
+              },
+              "Reel",
+              "14"
+            ],
+            [
+              {
+                "rank": 5,
+                "texto": "Tu espacio, pero más cálido, suave y acogedor ✨  Por…"
+              },
+              "Reel",
+              "13"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "email",
+      "nombre": "Email",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Perfit · Junio 2026",
+      "kpis": [
+        {
+          "label": "Enviados",
+          "valor": "36.137",
+          "delta": "↓ 44%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Apertura",
+          "valor": "29,51%",
+          "delta": "↑ 0,62 pp",
+          "tipo": "pos"
+        },
+        {
+          "label": "CTR",
+          "valor": "0,48%",
+          "delta": "↓ 0,06 pp",
+          "tipo": "neg"
+        },
+        {
+          "label": "Conversiones",
+          "valor": "3",
+          "delta": "↓ 79%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Ingresos",
+          "valor": "$184.266",
+          "delta": "↓ 81%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Campañas",
+          "valor": "9",
+          "delta": "↓ 59%",
+          "tipo": "neg"
+        }
+      ],
+      "lectura": [
+        "Se enviaron <b>36.137</b> emails en 9 campañas, con 29,51% de apertura.",
+        "El <b>CTR de 0,48%</b> es la oportunidad: la base abre, falta mejorar el clic al sitio."
+      ],
+      "bloques": [
+        {
+          "tipo": "tabla",
+          "titulo": "Campañas del Mes",
+          "sub": "Ordenadas por envíos.",
+          "headers": [
+            "Campaña",
+            "Enviados",
+            "Aperturas"
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "27JUNIO - 22:00 — PARTIDO MUNDIAL"
+              },
+              "5.077",
+              "1.080"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "25JUNIO - 18:00 — ALMOHADON PARA SILLA"
+              },
+              "5.074",
+              "1.169"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "22JUNIO - 22:00 — PARTIDO ARGENTINA"
+              },
+              "5.061",
+              "1.191"
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "20JUNIO - 12:00 — ENVIOS A TODO EL PAÍS"
+              },
+              "5.060",
+              "1.180"
+            ],
+            [
+              {
+                "rank": 5,
+                "texto": "16JUNIO - 19:00 — MUNDIAL"
+              },
+              "5.049",
+              "1.203"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
