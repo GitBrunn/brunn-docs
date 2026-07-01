@@ -1,0 +1,459 @@
+{
+  "meta": {
+    "cliente": "La Roca",
+    "subtitulo": "Reporte de Performance · Leads",
+    "periodo": "Junio 2026",
+    "periodo_id": "2026-06",
+    "tipo": "leads"
+  },
+  "portada": {
+    "eyebrow": "Reporte de Junio · 2026",
+    "titular": "Junio cierra con el costo por conversación más bajo del bimestre",
+    "resumen": "Con una inversión 39% menor que mayo, la pauta de Meta sostuvo 995 conversaciones y redujo el costo por contacto a $744, un 24% menos. La eficiencia del gasto mejoró en forma sostenida mientras las redes orgánicas sumaron más de 129.000 cuentas alcanzadas."
+  },
+  "hero": {
+    "label": "Costo por Conversación de pauta",
+    "valor": "$744",
+    "delta": "↓ 24%",
+    "delta_ctx": "vs Mayo",
+    "desc1": "La inversión cayó 39% respecto de mayo, pero el costo por conversación bajó 24%: cada peso trabajó mejor.",
+    "desc2": "995 conversaciones generadas en el mes a $744 cada una, el valor más bajo registrado en el bimestre."
+  },
+  "banda": [
+    {
+      "label": "Inversión",
+      "valor": "$740.752",
+      "delta": "↓ 39%",
+      "ctx": "vs Mayo",
+      "tipo": "neu"
+    },
+    {
+      "label": "Conversaciones",
+      "valor": "995",
+      "delta": "↓ 20%",
+      "ctx": "vs Mayo",
+      "tipo": "neg"
+    },
+    {
+      "label": "Costo/Conv.",
+      "valor": "$744",
+      "delta": "↓ 24%",
+      "ctx": "vs Mayo",
+      "tipo": "pos"
+    },
+    {
+      "label": "CTR",
+      "valor": "3,64%",
+      "delta": "↑ 0,12 pp",
+      "ctx": "vs Mayo",
+      "tipo": "pos"
+    }
+  ],
+  "embudo": {
+    "titulo": "Embudo de conversión · Meta Ads",
+    "sub": "De impresión a conversación — Junio 2026",
+    "pasos": [
+      {
+        "nombre": "Impresiones",
+        "valor": "245.507",
+        "width": 100
+      },
+      {
+        "nombre": "Clics",
+        "valor": "8.932",
+        "width": 3.6381854692534223
+      },
+      {
+        "nombre": "Conversaciones",
+        "valor": "995",
+        "width": 0.6,
+        "weak": true
+      }
+    ],
+    "conversiones": [
+      {
+        "rate": "3,64%",
+        "ctx": "Impresiones → Clics (CTR)",
+        "drop": null
+      },
+      {
+        "rate": "11,14%",
+        "ctx": "Clics → Conversaciones",
+        "drop": true
+      }
+    ],
+    "nota": "El embudo muestra un CTR sólido de 3,64%, pero el paso de clic a conversación se completa solo en el 11,14% de los casos. Ahí vive la oportunidad de mayor volumen sin necesidad de aumentar la inversión."
+  },
+  "snapshot": [
+    {
+      "canal": "Meta Ads · Alcance",
+      "valor": "83.245",
+      "label": "usuarios únicos impactados",
+      "color": ""
+    },
+    {
+      "canal": "Instagram · Alcance orgánico",
+      "valor": "129.416",
+      "label": "cuentas alcanzadas en el mes",
+      "color": ""
+    },
+    {
+      "canal": "Instagram · Interacciones",
+      "valor": "7.746",
+      "label": "interacciones totales",
+      "color": ""
+    },
+    {
+      "canal": "Facebook · Seguidores",
+      "valor": "5.397",
+      "label": "seguidores página",
+      "color": ""
+    }
+  ],
+  "narrativa": [
+    "Junio operó con una inversión de $740.752, un 39% por debajo de mayo. A menor presupuesto, la pauta mantuvo su capacidad de generar contacto calificado y mejoró su eficiencia en forma medible.",
+    "El negocio recibió 995 conversaciones iniciadas durante el mes. El volumen cayó un 20% frente a mayo, pero esa caída es proporcional a la reducción de inversión: el sistema no perdió efectividad, ajustó su escala.",
+    "El costo por conversación cerró en $744, 24% por debajo del mes anterior. La campaña VENTAS - Whatsapp Usados concentró el 93% del gasto y generó 985 de las 995 conversaciones, lo que confirma la concentración eficiente del presupuesto.",
+    "Instagram alcanzó 129.416 cuentas con 53 posteos y 7.746 interacciones. Facebook sumó 5.397 seguidores. Ambas cuentas crecieron en seguidores respecto de mayo, con presencia orgánica activa a lo largo del mes.",
+    "La tensión del mes está en la conversión clic a conversación: 11,14% implica que casi 9 de cada 10 clics no abren conversación. Resolver esa fuga es el principal vector de crecimiento disponible sin incrementar la inversión."
+  ],
+  "highlights": [
+    {
+      "valor": "995",
+      "label": "conversaciones iniciadas"
+    },
+    {
+      "valor": "$744",
+      "label": "costo por conversación"
+    },
+    {
+      "valor": "3,64%",
+      "label": "CTR de pauta"
+    },
+    {
+      "valor": "11,14%",
+      "label": "conversión clic a conversación"
+    }
+  ],
+  "proximos_pasos": [
+    {
+      "n": 1,
+      "titulo": "Mejorar conversión post-clic",
+      "diag": "Solo el 11,14% de los clics se convierte en conversación. 7.937 clics no generaron contacto en junio.",
+      "accion": "Revisar la experiencia de aterrizaje del anuncio: CTA, primera respuesta automática y fricción en el inicio de chat.",
+      "impacto": "Subir esa tasa recupera volumen de conversaciones sin aumentar inversión ni costo por contacto."
+    },
+    {
+      "n": 2,
+      "titulo": "Sostener eficiencia al escalar",
+      "diag": "El CPL bajó a $744 con menos presupuesto. La relación inversión-conversaciones es favorable para escalar.",
+      "accion": "Evaluar incremento gradual de inversión en la campaña VENTAS - Whatsapp Usados, que probó concentración eficiente.",
+      "impacto": "Mayor volumen de conversaciones manteniendo el costo por contacto dentro del rango actual."
+    },
+    {
+      "n": 3,
+      "titulo": "Capitalizar el alcance orgánico",
+      "diag": "129.416 cuentas alcanzadas en IG con 53 posteos. El Reel del Ford Focus ST generó 1.633 interacciones solo.",
+      "accion": "Identificar el patrón de los contenidos de mayor rendimiento y replicar formato y estructura en los próximos posteos.",
+      "impacto": "Mayor alcance e interacción orgánica reduce la dependencia exclusiva de pauta para generar visibilidad."
+    }
+  ],
+  "metricas": [
+    {
+      "id": "meta",
+      "nombre": "Meta Ads",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Meta Ads · Junio 2026",
+      "kpis": [
+        {
+          "label": "Inversión",
+          "valor": "$740.752",
+          "delta": "↓ 39%",
+          "tipo": "neu"
+        },
+        {
+          "label": "Conversaciones",
+          "valor": "995",
+          "delta": "↓ 20%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Costo/Conv.",
+          "valor": "$744",
+          "delta": "↓ 24%",
+          "tipo": "pos"
+        },
+        {
+          "label": "CTR",
+          "valor": "3,64%",
+          "delta": "↑ 0,12 pp",
+          "tipo": "pos"
+        },
+        {
+          "label": "Alcance",
+          "valor": "83.245",
+          "delta": "↓ 31%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Clics",
+          "valor": "8.932",
+          "delta": "↓ 33%",
+          "tipo": "neg"
+        }
+      ],
+      "lectura": [
+        "La pauta generó <b>995</b> conversaciones a un costo por conversación de $744.",
+        "El CTR fue 3,64% sobre 8.932 clics."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Inversión Diaria",
+          "sub": "Gasto por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "$741K"
+            ],
+            [
+              "Pico",
+              "$35K"
+            ],
+            [
+              "Promedio/día",
+              "$25K"
+            ]
+          ],
+          "serie": [
+            35,
+            31,
+            29,
+            34,
+            29,
+            28,
+            32,
+            31,
+            33,
+            34,
+            33,
+            30,
+            31,
+            31,
+            35,
+            33,
+            35,
+            11,
+            3,
+            19,
+            18,
+            19,
+            23,
+            16,
+            14,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "color": "accent",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Campañas",
+          "sub": "Ordenadas por inversión.",
+          "headers": [
+            "Campaña",
+            "Inversión",
+            "Conv."
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "VENTAS - Whatsapp Usados 2026"
+              },
+              {
+                "stack": [
+                  "$689.025",
+                  "93% del gasto"
+                ]
+              },
+              "985"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "TRÁFICO - Dirigido a Instagram 2026"
+              },
+              {
+                "stack": [
+                  "$51.727",
+                  "7% del gasto"
+                ]
+              },
+              "10"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "redes",
+      "nombre": "Redes",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Instagram + Facebook · Junio 2026",
+      "kpis": [
+        {
+          "label": "Seguidores IG",
+          "valor": "5.626",
+          "delta": "↑ 14%",
+          "tipo": "pos"
+        },
+        {
+          "label": "Alcance",
+          "valor": "129.416",
+          "delta": "↓ 36%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Interacciones",
+          "valor": "7.746",
+          "delta": "↓ 58%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Visitas Perfil",
+          "valor": "4.386",
+          "delta": "↓ 39%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Posteos",
+          "valor": "53",
+          "delta": "↑ 20%",
+          "tipo": "pos"
+        },
+        {
+          "label": "Seguidores FB",
+          "valor": "5.397",
+          "delta": "↑ 5,8%",
+          "tipo": "pos"
+        }
+      ],
+      "lectura": [
+        "Instagram alcanzó <b>129.416</b> cuentas con 7.746 interacciones.",
+        "La cuenta cerró el mes en 5.626 seguidores."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Alcance Diario (IG)",
+          "sub": "Cuentas alcanzadas por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "129.416"
+            ],
+            [
+              "Pico",
+              "23.344"
+            ],
+            [
+              "Promedio/día",
+              "6.712"
+            ]
+          ],
+          "serie": [
+            9,
+            7,
+            7,
+            7,
+            7,
+            9,
+            7,
+            23,
+            19,
+            12,
+            9,
+            8,
+            8,
+            7,
+            7,
+            6,
+            6,
+            3,
+            3,
+            4,
+            5,
+            4,
+            4,
+            3,
+            4,
+            3,
+            2,
+            3,
+            4,
+            0
+          ],
+          "color": "accent",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Top Contenido",
+          "sub": "Posteos del mes por interacciones.",
+          "headers": [
+            "Contenido",
+            "Tipo",
+            "Interac."
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "Ford Focus ST 120.000 km de pura diversión. ✓ Llanta…"
+              },
+              "Reel",
+              "1.633"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "Si me preguntás por un auto para recomendar toda la …"
+              },
+              "Reel",
+              "81"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "Volkswagen Vento 2016 . Motor 1.4 Turbo de 150 CV Ca…"
+              },
+              "Reel",
+              "70"
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "Difícil de encontrar un auto negro SIN DETALLES Buen…"
+              },
+              "Reel",
+              "59"
+            ],
+            [
+              {
+                "rank": 5,
+                "texto": "Con 14 años encima, sigue llamando más la atención q…"
+              },
+              "Reel",
+              "58"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
