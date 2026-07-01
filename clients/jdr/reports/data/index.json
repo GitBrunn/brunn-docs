@@ -4,6 +4,10 @@
   "tipo": "leads",
   "periodos": [
     {
+      "id": "2026-06",
+      "label": "Junio 2026"
+    },
+    {
       "id": "2026-05",
       "label": "Mayo 2026"
     }
