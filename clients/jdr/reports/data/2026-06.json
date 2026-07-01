@@ -1,0 +1,427 @@
+{
+  "meta": {
+    "cliente": "JDR Biomédica",
+    "subtitulo": "Reporte de Performance · Leads",
+    "periodo": "Junio 2026",
+    "periodo_id": "2026-06",
+    "tipo": "leads"
+  },
+  "portada": {
+    "eyebrow": "Reporte de Junio · 2026",
+    "titular": "Junio con más alcance, menos conversaciones",
+    "resumen": "La pauta alcanzó <b>41.223</b> usuarios únicos y generó <b>107</b> conversaciones a un costo de <b>$4.122</b> por contacto. El volumen de conversaciones cayó <b>36%</b> respecto a mayo con una inversión apenas <b>9,3%</b> mayor."
+  },
+  "hero": {
+    "label": "Costo por Conversación de pauta",
+    "valor": "$4.122",
+    "delta": "↑ 72%",
+    "delta_ctx": "vs Mayo",
+    "desc1": "Con <b>$441.042</b> invertidos, cada conversación iniciada vía WhatsApp costó <b>$4.122</b>, un <b>72%</b> más que en mayo.",
+    "desc2": "El volumen bajó de 168 a <b>107</b> conversaciones mientras el presupuesto creció: la eficiencia de conversión se deterioró en el mes."
+  },
+  "banda": [
+    {
+      "label": "Inversión",
+      "valor": "$441.042",
+      "delta": "↑ 9,3%",
+      "ctx": "vs Mayo",
+      "tipo": "neu"
+    },
+    {
+      "label": "Conversaciones",
+      "valor": "107",
+      "delta": "↓ 36%",
+      "ctx": "vs Mayo",
+      "tipo": "neg"
+    },
+    {
+      "label": "Costo/Conv.",
+      "valor": "$4.122",
+      "delta": "↑ 72%",
+      "ctx": "vs Mayo",
+      "tipo": "neg"
+    },
+    {
+      "label": "CTR",
+      "valor": "1,94%",
+      "delta": "↑ 0,09 pp",
+      "ctx": "vs Mayo",
+      "tipo": "pos"
+    }
+  ],
+  "embudo": {
+    "titulo": "Embudo de conversión · Meta Ads",
+    "sub": "De impresión a conversación — Junio 2026",
+    "pasos": [
+      {
+        "nombre": "Impresiones",
+        "valor": "109.820",
+        "width": 100
+      },
+      {
+        "nombre": "Clics",
+        "valor": "2.134",
+        "width": 1.9431797486796576
+      },
+      {
+        "nombre": "Conversaciones",
+        "valor": "107",
+        "width": 0.6,
+        "weak": true
+      }
+    ],
+    "conversiones": [
+      {
+        "rate": "1,94%",
+        "ctx": "Impresiones → Clics (CTR)",
+        "drop": null
+      },
+      {
+        "rate": "5,01%",
+        "ctx": "Clics → Conversaciones",
+        "drop": true
+      }
+    ],
+    "nota": "El embudo muestra una caída pronunciada entre clics y conversaciones: de <b>2.134</b> clics solo <b>107</b> derivaron en contacto, una tasa del <b>5,01%</b> que señala fricción en el paso final del embudo y es el nodo crítico a intervenir."
+  },
+  "snapshot": [
+    {
+      "canal": "Meta Ads · Alcance",
+      "valor": "41.223",
+      "label": "usuarios únicos impactados",
+      "color": ""
+    },
+    {
+      "canal": "Instagram · Alcance orgánico",
+      "valor": "31.082",
+      "label": "cuentas alcanzadas en el mes",
+      "color": ""
+    },
+    {
+      "canal": "Instagram · Interacciones",
+      "valor": "286",
+      "label": "interacciones totales",
+      "color": ""
+    },
+    {
+      "canal": "Facebook · Seguidores",
+      "valor": "2.940",
+      "label": "seguidores página",
+      "color": ""
+    }
+  ],
+  "narrativa": [
+    "Junio cerró con <b>109.820</b> impresiones y un alcance de <b>41.223</b> usuarios únicos, <b>75%</b> más que en mayo. El volumen de exposición creció; la conversión al contacto no acompañó ese crecimiento.",
+    "La inversión de <b>$441.042</b> representó un aumento del <b>9,3%</b> sobre mayo, concentrada en la campaña de WhatsApp que absorbió el <b>95%</b> del gasto y generó <b>106</b> de las <b>107</b> conversaciones totales.",
+    "El costo por conversación subió a <b>$4.122</b> (<b>+72%</b> vs mayo), con el volumen cayendo de 168 a <b>107</b> contactos. El CTR mejoró levemente a <b>1,94%</b>, lo que ubica el problema aguas abajo: en la tasa clic a conversación del <b>5,01%</b>.",
+    "Instagram alcanzó <b>31.082</b> cuentas con un solo posteo activo en el mes, el doble del alcance de mayo. Las visitas al perfil crecieron <b>63%</b> hasta <b>1.031</b>, aunque las interacciones bajaron a <b>286</b> por la reducción de publicaciones.",
+    "La tensión del mes es clara: más exposición y más tráfico al perfil, pero menos conversaciones a mayor costo. El margen de mejora está en la conversión del clic en contacto, no en ampliar la inversión."
+  ],
+  "highlights": [
+    {
+      "valor": "107",
+      "label": "conversaciones iniciadas"
+    },
+    {
+      "valor": "$4.122",
+      "label": "costo por conversación"
+    },
+    {
+      "valor": "1,94%",
+      "label": "CTR de pauta"
+    },
+    {
+      "valor": "5,01%",
+      "label": "conversión clic a conversación"
+    }
+  ],
+  "proximos_pasos": [
+    {
+      "n": 1,
+      "titulo": "Reducir fricción en el paso clic → conversación",
+      "diag": "Con 2.134 clics y solo 107 conversaciones, el 95% del tráfico se pierde antes de iniciar el contacto.",
+      "accion": "Revisar el mensaje de apertura de WhatsApp y el CTA del anuncio; testear variantes que reduzcan la fricción de inicio.",
+      "impacto": "Mejorar esa tasa del 5,01% baja el costo por conversación sin aumentar inversión."
+    },
+    {
+      "n": 2,
+      "titulo": "Recuperar cadencia de contenido orgánico",
+      "diag": "Un solo posteo en junio limitó las interacciones a 286, un 26% menos que mayo pese al mayor alcance.",
+      "accion": "Sostener al menos 3 posteos mensuales para mantener señales de actividad y capitalizar el alcance ganado.",
+      "impacto": "Mayor frecuencia de publicación retiene audiencia y reduce la dependencia exclusiva de pauta para generar contacto."
+    },
+    {
+      "n": 3,
+      "titulo": "Evaluar segmentación de la campaña principal",
+      "diag": "El costo por conversación subió 72% con un presupuesto prácticamente igual; la segmentación puede estar saturando la audiencia actual.",
+      "accion": "Analizar frecuencia y solapamiento de audiencias en la campaña de WhatsApp; explorar segmentos nuevos dentro del target clínicas y hospitales.",
+      "impacto": "Ampliar o refrescar la audiencia estabiliza el costo por conversación y reactiva el volumen."
+    }
+  ],
+  "metricas": [
+    {
+      "id": "meta",
+      "nombre": "Meta Ads",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Meta Ads · Junio 2026",
+      "kpis": [
+        {
+          "label": "Inversión",
+          "valor": "$441.042",
+          "delta": "↑ 9,3%",
+          "tipo": "neu"
+        },
+        {
+          "label": "Conversaciones",
+          "valor": "107",
+          "delta": "↓ 36%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Costo/Conv.",
+          "valor": "$4.122",
+          "delta": "↑ 72%",
+          "tipo": "neg"
+        },
+        {
+          "label": "CTR",
+          "valor": "1,94%",
+          "delta": "↑ 0,09 pp",
+          "tipo": "pos"
+        },
+        {
+          "label": "Alcance",
+          "valor": "41.223",
+          "delta": "↑ 75%",
+          "tipo": "pos"
+        },
+        {
+          "label": "Clics",
+          "valor": "2.134",
+          "delta": "↑ 10%",
+          "tipo": "pos"
+        }
+      ],
+      "lectura": [
+        "La pauta generó <b>107</b> conversaciones a un costo por conversación de $4.122.",
+        "El CTR fue 1,94% sobre 2.134 clics."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Inversión Diaria",
+          "sub": "Gasto por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "$441K"
+            ],
+            [
+              "Pico",
+              "$18K"
+            ],
+            [
+              "Promedio/día",
+              "$15K"
+            ]
+          ],
+          "serie": [
+            12,
+            15,
+            15,
+            16,
+            13,
+            14,
+            14,
+            15,
+            15,
+            14,
+            14,
+            13,
+            13,
+            13,
+            15,
+            15,
+            18,
+            16,
+            16,
+            16,
+            14,
+            16,
+            18,
+            17,
+            16,
+            14,
+            13,
+            12,
+            14,
+            16
+          ],
+          "color": "accent",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Campañas",
+          "sub": "Ordenadas por inversión.",
+          "headers": [
+            "Campaña",
+            "Inversión",
+            "Conv."
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "INTERACCIÓN - WhatsApp F1 - Clínicas y Hospitales"
+              },
+              {
+                "stack": [
+                  "$420.088",
+                  "95% del gasto"
+                ]
+              },
+              "106"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "INTERACCIÓN - Perfil de Instagram"
+              },
+              {
+                "stack": [
+                  "$20.954",
+                  "5% del gasto"
+                ]
+              },
+              "1"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "redes",
+      "nombre": "Redes",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Instagram + Facebook · Junio 2026",
+      "kpis": [
+        {
+          "label": "Seguidores IG",
+          "valor": "3.849",
+          "delta": "↑ 2,1%",
+          "tipo": "pos"
+        },
+        {
+          "label": "Alcance",
+          "valor": "31.082",
+          "delta": "↑ 106%",
+          "tipo": "pos"
+        },
+        {
+          "label": "Interacciones",
+          "valor": "286",
+          "delta": "↓ 26%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Visitas Perfil",
+          "valor": "1.031",
+          "delta": "↑ 63%",
+          "tipo": "pos"
+        },
+        {
+          "label": "Posteos",
+          "valor": "1",
+          "delta": "↓ 80%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Seguidores FB",
+          "valor": "2.940",
+          "delta": "0,0%",
+          "tipo": "neu"
+        }
+      ],
+      "lectura": [
+        "Instagram alcanzó <b>31.082</b> cuentas con 286 interacciones.",
+        "La cuenta cerró el mes en 3.849 seguidores."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Alcance Diario (IG)",
+          "sub": "Cuentas alcanzadas por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "31.082"
+            ],
+            [
+              "Pico",
+              "3.543"
+            ],
+            [
+              "Promedio/día",
+              "1.799"
+            ]
+          ],
+          "serie": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            3,
+            4,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "color": "accent",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Top Contenido",
+          "sub": "Posteos del mes por interacciones.",
+          "headers": [
+            "Contenido",
+            "Tipo",
+            "Interac."
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "🚨 SORTEO MES DEL BIOQUÍMICO 🚨 En JDR Biomédica que…"
+              },
+              "Carrusel",
+              "54"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
