@@ -1,0 +1,455 @@
+{
+  "meta": {
+    "cliente": "Vimar",
+    "subtitulo": "Reporte de Performance · Community",
+    "periodo": "Junio 2026",
+    "periodo_id": "2026-06",
+    "tipo": "community"
+  },
+  "portada": {
+    "eyebrow": "Reporte de Junio · 2026",
+    "titular": "Junio duplicó la comunidad y superó la mitad del camino a la meta",
+    "resumen": "Vimar cerró junio con <b>4.420 seguidores</b>, un crecimiento del <b>53%</b> respecto a mayo. Las interacciones se multiplicaron por casi tres y el alcance orgánico sumó más de 324.000 cuentas. La cuenta supera hoy el 55% del objetivo anual."
+  },
+  "hero": {
+    "label": "Seguidores al cierre",
+    "valor": "4.420",
+    "delta": "↑ 53%",
+    "delta_ctx": "vs Mayo",
+    "desc1": "La cuenta ganó <b>2.182 seguidores netos</b> en el mes, el mayor salto registrado hasta ahora.",
+    "desc2": "El crecimiento combina pauta de tráfico dirigida a Instagram con contenido de sorteos y activaciones de coyuntura."
+  },
+  "banda": [
+    {
+      "label": "Inversión Meta",
+      "valor": "$606.074",
+      "delta": "↓ 2,8%",
+      "ctx": "vs Mayo",
+      "tipo": "neu"
+    },
+    {
+      "label": "Alcance de Pauta",
+      "valor": "393.060",
+      "delta": "↑ 8,9%",
+      "ctx": "vs Mayo",
+      "tipo": "pos"
+    },
+    {
+      "label": "Interacciones IG",
+      "valor": "51.268",
+      "delta": "↑ 182%",
+      "ctx": "vs Mayo",
+      "tipo": "pos"
+    },
+    {
+      "label": "Visitas de Perfil",
+      "valor": "18.004",
+      "delta": "↑ 25%",
+      "ctx": "vs Mayo",
+      "tipo": "pos"
+    }
+  ],
+  "progreso": {
+    "titulo": "Avance hacia la meta de comunidad",
+    "sub": "Seguidores Instagram · Meta: 8.000",
+    "actual": "4.420",
+    "pct": 55.3,
+    "neto": "2.182",
+    "neto_ctx": "Neto del período",
+    "meta": "8.000",
+    "meta_ctx": "Meta fijada para la cuenta",
+    "nota": "La cuenta recorrió el <b>55,3%</b> del camino a los 8.000 seguidores; a este ritmo, el tramo restante de <b>3.580</b> seguidores es alcanzable antes del cierre del año si se sostiene la cadencia de contenido y pauta del mes."
+  },
+  "snapshot": [
+    {
+      "canal": "Instagram",
+      "valor": "324.630",
+      "label": "Alcance orgánico",
+      "color": "pos"
+    },
+    {
+      "canal": "Meta Ads",
+      "valor": "393.060",
+      "label": "Alcance pago",
+      "color": "pos"
+    },
+    {
+      "canal": "Facebook",
+      "valor": "282",
+      "label": "Seguidores página",
+      "color": ""
+    }
+  ],
+  "narrativa": [
+    "Junio fue el mes de mayor crecimiento de la cuenta desde su lanzamiento. La combinación de activaciones por el Mundial y sorteos flash generó un volumen de interacciones sin precedente en el historial de la marca.",
+    "La comunidad pasó de <b>2.890 a 4.420 seguidores</b>, un salto neto de 2.182 en treinta días. La cuenta supera ahora el <b>55,3%</b> de la meta de 8.000 y acorta el tramo restante a 3.580 seguidores.",
+    "La pauta de Meta concentró el 68% del gasto en tráfico dirigido a Instagram, con <b>393.060 personas alcanzadas</b> a una frecuencia de 1,43. La campaña de interacción por el partido del 16/6 aportó 58.267 alcances adicionales con el 21% del presupuesto.",
+    "El canal orgánico alcanzó <b>324.630 cuentas</b> con 27 posteos, el doble de publicaciones respecto a mayo. Las interacciones subieron un <b>182%</b> hasta 51.268, traccionadas por los sorteos que encabezan el ranking de contenido del mes.",
+    "El CTR de pauta bajó 0,43 puntos porcentuales hasta el 1,82%, señal de que el inventario actual tiene margen de optimización creativa. Ese es el vector de trabajo para julio si se quiere sostener el ritmo de adquisición con eficiencia."
+  ],
+  "highlights": [
+    {
+      "valor": "55,3%",
+      "label": "del camino a la meta"
+    },
+    {
+      "valor": "3.580",
+      "label": "seguidores para el objetivo"
+    },
+    {
+      "valor": "+2.182",
+      "label": "seguidores netos del mes"
+    },
+    {
+      "valor": "324.630",
+      "label": "alcance orgánico IG"
+    }
+  ],
+  "proximos_pasos": [
+    {
+      "n": 1,
+      "titulo": "Optimizar CTR de pauta",
+      "diag": "El CTR cayó a 1,82% con clics en ligera baja; la audiencia responde al alcance pero la creatividad no convierte al mismo ritmo.",
+      "accion": "Rotar piezas creativas en la campaña de tráfico a Instagram y testear al menos dos formatos nuevos en julio.",
+      "impacto": "Recuperar CTR reduce el costo por seguidor adquirido y mantiene el ritmo de crecimiento sin aumentar inversión."
+    },
+    {
+      "n": 2,
+      "titulo": "Sostener cadencia editorial",
+      "diag": "Los 27 posteos de junio (+93% vs mayo) coinciden con el mayor mes de interacciones; la correlación es directa.",
+      "accion": "Mantener un mínimo de 25 posteos en julio con mix de reels, sorteos y contenido de marca sin depender solo de coyuntura.",
+      "impacto": "Asegura un piso alto de alcance orgánico y reduce la dependencia del presupuesto pago para sostener el engagement."
+    },
+    {
+      "n": 3,
+      "titulo": "Planificar el tramo final a meta",
+      "diag": "Faltan 3.580 seguidores para llegar a 8.000; el ritmo de junio lo acorta, pero requiere sostener la estrategia.",
+      "accion": "Definir un calendario de activaciones de captación para el segundo semestre con hitos mensuales hacia los 8.000.",
+      "impacto": "Convierte el objetivo anual en un plan trazable y permite anticipar inversión y contenido por período."
+    }
+  ],
+  "metricas": [
+    {
+      "id": "meta",
+      "nombre": "Meta Ads",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Meta Ads · Junio 2026",
+      "kpis": [
+        {
+          "label": "Inversión",
+          "valor": "$606.074",
+          "delta": "↓ 2,8%",
+          "tipo": "neu"
+        },
+        {
+          "label": "Alcance",
+          "valor": "393.060",
+          "delta": "↑ 8,9%",
+          "tipo": "pos"
+        },
+        {
+          "label": "Impresiones",
+          "valor": "561.640",
+          "delta": "↑ 21%",
+          "tipo": "pos"
+        },
+        {
+          "label": "Frecuencia",
+          "valor": "1,43",
+          "delta": "↑ 12%",
+          "tipo": "neu"
+        },
+        {
+          "label": "Clics",
+          "valor": "10.246",
+          "delta": "↓ 1,7%",
+          "tipo": "neg"
+        },
+        {
+          "label": "CTR",
+          "valor": "1,82%",
+          "delta": "↓ 0,43 pp",
+          "tipo": "neg"
+        }
+      ],
+      "lectura": [
+        "La pauta alcanzó <b>393.060</b> personas con 561.640 impresiones.",
+        "El CTR fue 1,82% sobre 10.246 clics."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Inversión Diaria",
+          "sub": "Gasto por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "$606K"
+            ],
+            [
+              "Pico",
+              "$124K"
+            ],
+            [
+              "Promedio/día",
+              "$20K"
+            ]
+          ],
+          "serie": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            22,
+            24,
+            22,
+            23,
+            24,
+            31,
+            27,
+            23,
+            81,
+            124,
+            30,
+            39,
+            24,
+            39,
+            30,
+            28,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "color": "accent",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Campañas",
+          "sub": "Ordenadas por inversión.",
+          "headers": [
+            "Campaña",
+            "Inversión",
+            "Alcance"
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "TRÁFICO - Dirigido a Instagram"
+              },
+              {
+                "stack": [
+                  "$411.668",
+                  "68% del gasto"
+                ]
+              },
+              "165.619"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "INTERACCIÓN - 1° partido Argentina (16/6)"
+              },
+              {
+                "stack": [
+                  "$127.684",
+                  "21% del gasto"
+                ]
+              },
+              "58.267"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "AWARENESS - Reel Fabrica BA"
+              },
+              {
+                "stack": [
+                  "$33.465",
+                  "6% del gasto"
+                ]
+              },
+              "107.066"
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "AWARENESS - Reel Fabrica ARG"
+              },
+              {
+                "stack": [
+                  "$33.256",
+                  "5% del gasto"
+                ]
+              },
+              "109.408"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "redes",
+      "nombre": "Redes",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Instagram + Facebook · Junio 2026",
+      "kpis": [
+        {
+          "label": "Seguidores IG",
+          "valor": "4.420",
+          "delta": "↑ 53%",
+          "tipo": "pos"
+        },
+        {
+          "label": "Alcance",
+          "valor": "324.630",
+          "delta": "↑ 16%",
+          "tipo": "pos"
+        },
+        {
+          "label": "Interacciones",
+          "valor": "51.268",
+          "delta": "↑ 182%",
+          "tipo": "pos"
+        },
+        {
+          "label": "Visitas Perfil",
+          "valor": "18.004",
+          "delta": "↑ 25%",
+          "tipo": "pos"
+        },
+        {
+          "label": "Posteos",
+          "valor": "27",
+          "delta": "↑ 93%",
+          "tipo": "pos"
+        },
+        {
+          "label": "Seguidores FB",
+          "valor": "282",
+          "delta": "↑ 2,5%",
+          "tipo": "pos"
+        }
+      ],
+      "lectura": [
+        "Instagram alcanzó <b>324.630</b> cuentas con 51.268 interacciones.",
+        "La cuenta cerró el mes en 4.420 seguidores."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Alcance Diario (IG)",
+          "sub": "Cuentas alcanzadas por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "324.630"
+            ],
+            [
+              "Pico",
+              "62.647"
+            ],
+            [
+              "Promedio/día",
+              "14.522"
+            ]
+          ],
+          "serie": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            24,
+            13,
+            8,
+            16,
+            15,
+            16,
+            14,
+            20,
+            63,
+            55,
+            20,
+            29,
+            25,
+            30,
+            29,
+            22,
+            11,
+            3,
+            5,
+            4,
+            2,
+            5,
+            0
+          ],
+          "color": "accent",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Top Contenido",
+          "sub": "Posteos del mes por interacciones.",
+          "headers": [
+            "Contenido",
+            "Tipo",
+            "Interac."
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "SORTEO FINALIZADO Felicitaciones @siempree.terrazaa …"
+              },
+              "Post",
+              "892"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "🚨 SORTEO FLASH: PRODE DE VIMAR ⚽🔥  ¿Te animás a pr…"
+              },
+              "Post",
+              "792"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "🚨 SORTEO FLASH: PRODE DE VIMAR ⚽🔥  ¿Te animás a pr…"
+              },
+              "Post",
+              "762"
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "Las grandes selecciones no se arman por casualidad. …"
+              },
+              "Reel",
+              "395"
+            ],
+            [
+              {
+                "rank": 5,
+                "texto": "Jan ya eligió su alfajor mundialista… ¿Y vos?"
+              },
+              "Reel",
+              "344"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
