@@ -1,0 +1,649 @@
+{
+  "meta": {
+    "cliente": "BT Importados",
+    "subtitulo": "Reporte de Performance · E-Commerce",
+    "periodo": "Junio 2026",
+    "periodo_id": "2026-06",
+    "tipo": "ecommerce"
+  },
+  "portada": {
+    "eyebrow": "Reporte de Junio · 2026",
+    "titular": "Junio cierra con el mejor ROAS del año",
+    "resumen": "El negocio facturó <b>$17.298.478</b> con una inversión <b>14% menor</b> que mayo. El <b>ROAS Total de 12,44x</b> marca el retorno más alto registrado: más ventas, menos gasto, mejor eficiencia en cada canal."
+  },
+  "hero": {
+    "label": "ROAS Total",
+    "valor": "12,44x",
+    "delta": "↑ 37%",
+    "delta_ctx": "vs Mayo",
+    "desc1": "Por cada peso invertido en pauta, el negocio generó $12,44 de facturación total.",
+    "desc2": "El salto del 37% vs mayo combina más facturación con una inversión 14% más baja."
+  },
+  "banda": [
+    {
+      "label": "Facturación",
+      "valor": "$17.298.478",
+      "delta": "↑ 17%",
+      "ctx": "vs Mayo",
+      "tipo": "pos"
+    },
+    {
+      "label": "Inversión Total",
+      "valor": "$1.390.655",
+      "delta": "↓ 14%",
+      "ctx": "vs Mayo",
+      "tipo": "neu"
+    },
+    {
+      "label": "Órdenes",
+      "valor": "94",
+      "delta": "↑ 15%",
+      "ctx": "vs Mayo",
+      "tipo": "pos"
+    },
+    {
+      "label": "Ticket Prom.",
+      "valor": "$184.026",
+      "delta": "↑ 2,2%",
+      "ctx": "vs Mayo",
+      "tipo": "pos"
+    }
+  ],
+  "embudo": {
+    "titulo": "Embudo de Conversión",
+    "sub": "Del tráfico a la compra, paso por paso.",
+    "pasos": [
+      {
+        "nombre": "Sesiones",
+        "valor": "11.648",
+        "width": 100
+      },
+      {
+        "nombre": "Agregaron al carrito",
+        "valor": "581",
+        "width": 4.987980769230769
+      },
+      {
+        "nombre": "Iniciaron checkout",
+        "valor": "273",
+        "width": 2.34375
+      },
+      {
+        "nombre": "Órdenes",
+        "valor": "94",
+        "width": 0.8070054945054946,
+        "weak": true
+      }
+    ],
+    "conversiones": [
+      {
+        "rate": "4,99%",
+        "ctx": "pasa a \"agregaron al carrito\"",
+        "drop": false
+      },
+      {
+        "rate": "46,99%",
+        "ctx": "pasa a \"iniciaron checkout\"",
+        "drop": false
+      },
+      {
+        "rate": "34,43%",
+        "ctx": "pasa a \"órdenes\"",
+        "drop": true
+      }
+    ],
+    "nota": "El embudo muestra una caída pronunciada en el paso final: de 273 checkouts iniciados solo 94 se convirtieron en órdenes, una tasa de cierre del 34,43%. Ahí vive la mayor oportunidad de crecimiento sin tocar la inversión."
+  },
+  "snapshot": [
+    {
+      "canal": "E-Commerce",
+      "valor": "$17.298.478",
+      "label": "Facturación",
+      "color": "pos"
+    },
+    {
+      "canal": "Meta Ads",
+      "valor": "11,56x",
+      "label": "ROAS (venta)",
+      "color": ""
+    },
+    {
+      "canal": "Instagram",
+      "valor": "26.244",
+      "label": "Seguidores",
+      "color": ""
+    }
+  ],
+  "narrativa": [
+    "Junio 2026 fue el mes de mayor eficiencia registrada para BT Importados: <b>$17.298.478</b> de facturación con una inversión publicitaria de <b>$1.390.655</b>, 14% por debajo de mayo.",
+    "El negocio generó <b>94 órdenes</b> a un ticket promedio de <b>$184.026</b>, con el Conjunto Nieve Mujer concentrando las posiciones más altas del ranking de productos por facturación.",
+    "Meta Ads operó con un <b>ROAS de venta de 11,56x</b> sobre $1.206.476 invertidos en campañas de venta. El ROAS Total de <b>12,44x</b> supera ese número porque captura ventas orgánicas, directas y de recompra que la plataforma no atribuye.",
+    "Instagram cerró el mes en <b>26.244 seguidores</b> con 12 posteos publicados. El alcance y las interacciones bajaron respecto a mayo, aunque el volumen de contenido también fue menor.",
+    "El embudo revela que el checkout es el cuello de botella: 273 sesiones iniciaron el proceso y solo 94 completaron la compra. Resolver ese 34,43% de cierre es la palanca más directa para crecer sin aumentar pauta."
+  ],
+  "highlights": [
+    {
+      "valor": "11,56x",
+      "label": "ROAS de Meta · campañas de venta"
+    },
+    {
+      "valor": "$184.026",
+      "label": "Ticket promedio del mes"
+    },
+    {
+      "valor": "94",
+      "label": "órdenes del mes"
+    },
+    {
+      "valor": "0,81%",
+      "label": "conversión del sitio"
+    }
+  ],
+  "proximos_pasos": [
+    {
+      "n": 1,
+      "titulo": "Recuperar abandonos de checkout",
+      "diag": "Solo el 34,43% de quienes inician el checkout completan la compra; 179 órdenes potenciales se pierden cada mes.",
+      "accion": "Activar flujo de emails y/o notificaciones de carrito abandonado con incentivo en el tramo de pago.",
+      "impacto": "Cada punto de mejora en esa tasa representa órdenes adicionales sin incrementar inversión publicitaria."
+    },
+    {
+      "n": 2,
+      "titulo": "Escalar campañas de venta con margen disponible",
+      "diag": "El CPA bajó a $15.875 y el ROAS de venta subió a 11,56x; hay eficiencia comprobada para aumentar presupuesto.",
+      "accion": "Reasignar parte del presupuesto de interacción hacia la campaña de ventas activa y testear nuevos públicos.",
+      "impacto": "Más inversión en el canal más eficiente del mes con un piso de retorno ya validado en 11,56x."
+    },
+    {
+      "n": 3,
+      "titulo": "Recuperar alcance orgánico en Instagram",
+      "diag": "El alcance cayó 42% vs mayo y los posteos bajaron de 15 a 12; la cuenta tiene 26.244 seguidores sin activar.",
+      "accion": "Aumentar frecuencia de publicación y priorizar formatos carrusel, que concentran las mayores interacciones del mes.",
+      "impacto": "Mayor alcance orgánico reduce la dependencia de pauta para sostener visibilidad y visitas al perfil."
+    }
+  ],
+  "metricas": [
+    {
+      "id": "ecommerce",
+      "nombre": "E-Commerce",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Tiendanube · Junio 2026",
+      "kpis": [
+        {
+          "label": "Facturación",
+          "valor": "$17.298.478",
+          "delta": "↑ 17%",
+          "tipo": "pos"
+        },
+        {
+          "label": "Órdenes",
+          "valor": "94",
+          "delta": "↑ 15%",
+          "tipo": "pos"
+        },
+        {
+          "label": "Ticket Prom.",
+          "valor": "$184.026",
+          "delta": "↑ 2,2%",
+          "tipo": "pos"
+        },
+        {
+          "label": "Sesiones",
+          "valor": "11.648",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Usuarios",
+          "valor": "10.239",
+          "delta": "—",
+          "tipo": "neu"
+        },
+        {
+          "label": "Conversión",
+          "valor": "0,81%",
+          "delta": "↑ 0,81 pp",
+          "tipo": "pos"
+        }
+      ],
+      "lectura": [
+        "La <b>conversión</b> del mes fue 0,81% sobre 11.648 sesiones.",
+        "El <b>ticket promedio</b> de $184.026 está sostenido por la venta de packs."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Facturación Diaria",
+          "sub": "Ingresos por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "$17,3M"
+            ],
+            [
+              "Pico",
+              "$1,4M"
+            ],
+            [
+              "Promedio/día",
+              "$577K"
+            ]
+          ],
+          "serie": [
+            555,
+            509,
+            875,
+            281,
+            292,
+            0,
+            684,
+            547,
+            1149,
+            372,
+            325,
+            0,
+            0,
+            648,
+            649,
+            1177,
+            180,
+            693,
+            1444,
+            684,
+            544,
+            112,
+            479,
+            1282,
+            860,
+            880,
+            214,
+            212,
+            297,
+            1352
+          ],
+          "color": "pos",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Top Productos",
+          "sub": "Por facturación · % del total.",
+          "headers": [
+            "Producto",
+            "Facturación",
+            "Unidades"
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "Conjunto Nieve Mujer (4 colores) (Lila , M)"
+              },
+              {
+                "stack": [
+                  "$1.199.940",
+                  "6,9% del total"
+                ]
+              },
+              "6"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "Conjunto Nieve Mujer (4 colores) (Lila , L)"
+              },
+              {
+                "stack": [
+                  "$799.960",
+                  "4,6% del total"
+                ]
+              },
+              "4"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "Conjunto Nieve Mujer (4 colores) (Fucsia, 2XL)"
+              },
+              {
+                "stack": [
+                  "$599.970",
+                  "3,5% del total"
+                ]
+              },
+              "3"
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "Conjunto Nieve Mujer (4 colores) (Rosa, S)"
+              },
+              {
+                "stack": [
+                  "$599.970",
+                  "3,5% del total"
+                ]
+              },
+              "3"
+            ],
+            [
+              {
+                "rank": 5,
+                "texto": "Conjunto Nieve Unisex beige (Beige, M)"
+              },
+              {
+                "stack": [
+                  "$599.970",
+                  "3,5% del total"
+                ]
+              },
+              "3"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "nombre": "Meta Ads",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Meta Ads · Junio 2026",
+      "kpis": [
+        {
+          "label": "Inversión",
+          "valor": "$1.390.655",
+          "delta": "↓ 14%",
+          "tipo": "neu"
+        },
+        {
+          "label": "ROAS (venta)",
+          "valor": "11,56x",
+          "delta": "↑ 56%",
+          "tipo": "pos"
+        },
+        {
+          "label": "Compras",
+          "valor": "76",
+          "delta": "↑ 17%",
+          "tipo": "pos"
+        },
+        {
+          "label": "CPA",
+          "valor": "$15.875",
+          "delta": "↓ 32%",
+          "tipo": "pos"
+        },
+        {
+          "label": "CTR",
+          "valor": "6,78%",
+          "delta": "↑ 0,85 pp",
+          "tipo": "pos"
+        },
+        {
+          "label": "Alcance",
+          "valor": "67.941",
+          "delta": "↓ 32%",
+          "tipo": "neg"
+        }
+      ],
+      "lectura": [
+        "El <b>ROAS de venta de 11,56x</b> corresponde a las campañas de venta: mide el retorno real de la adquisición.",
+        "La inversión total del canal fue $1.390.655, con 76 compras atribuidas."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Inversión Diaria",
+          "sub": "Gasto por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "$1,4M"
+            ],
+            [
+              "Pico",
+              "$58K"
+            ],
+            [
+              "Promedio/día",
+              "$46K"
+            ]
+          ],
+          "serie": [
+            53,
+            48,
+            47,
+            40,
+            41,
+            45,
+            58,
+            50,
+            45,
+            41,
+            42,
+            39,
+            46,
+            49,
+            54,
+            45,
+            47,
+            44,
+            41,
+            41,
+            57,
+            50,
+            49,
+            41,
+            46,
+            41,
+            37,
+            53,
+            44,
+            55
+          ],
+          "color": "accent",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Campañas",
+          "sub": "Ordenadas por inversión.",
+          "headers": [
+            "Campaña",
+            "Inversión",
+            "ROAS"
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "VENTAS - Tráfico Argentina"
+              },
+              {
+                "stack": [
+                  "$1.206.476",
+                  "87% del gasto"
+                ]
+              },
+              {
+                "pct": "11,56x",
+                "tipo": "pos"
+              }
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "INTERACCIÓN - Mayorista · no venta"
+              },
+              {
+                "stack": [
+                  "$184.180",
+                  "13% del gasto"
+                ]
+              },
+              {
+                "pct": "0,00x",
+                "tipo": "neg"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "redes",
+      "nombre": "Redes",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Instagram + Facebook · Junio 2026",
+      "kpis": [
+        {
+          "label": "Seguidores IG",
+          "valor": "26.244",
+          "delta": "↑ 1,1%",
+          "tipo": "pos"
+        },
+        {
+          "label": "Alcance",
+          "valor": "26.241",
+          "delta": "↓ 42%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Interacciones",
+          "valor": "713",
+          "delta": "↓ 22%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Visitas Perfil",
+          "valor": "4.104",
+          "delta": "↓ 4,4%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Posteos",
+          "valor": "12",
+          "delta": "↓ 20%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Seguidores FB",
+          "valor": "11.842",
+          "delta": "↑ 0,0%",
+          "tipo": "pos"
+        }
+      ],
+      "lectura": [
+        "Instagram alcanzó <b>26.241</b> cuentas con 713 interacciones.",
+        "La cuenta cerró el mes en 26.244 seguidores."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Alcance Diario (IG)",
+          "sub": "Cuentas alcanzadas por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "26.241"
+            ],
+            [
+              "Pico",
+              "3.264"
+            ],
+            [
+              "Promedio/día",
+              "2.013"
+            ]
+          ],
+          "serie": [
+            3,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            2,
+            3,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            0
+          ],
+          "color": "accent",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Top Contenido",
+          "sub": "Posteos del mes por interacciones.",
+          "headers": [
+            "Contenido",
+            "Tipo",
+            "Interac."
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "Hay una razón por la que este conjunto es uno de los…"
+              },
+              "Carrusel",
+              "11"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "El invierno pide un conjunto que realmente esté a la…"
+              },
+              "Carrusel",
+              "9"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "El invierno se disfruta mejor cuando tenés el equipo…"
+              },
+              "Carrusel",
+              "8"
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "El invierno exige más que solo abrigo ❄️🏔️  Este co…"
+              },
+              "Carrusel",
+              "8"
+            ],
+            [
+              {
+                "rank": 5,
+                "texto": "Una campera que combina estilo, comodidad y funciona…"
+              },
+              "Carrusel",
+              "6"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
