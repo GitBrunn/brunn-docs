@@ -1,0 +1,686 @@
+{
+  "meta": {
+    "cliente": "Finder's",
+    "subtitulo": "Reporte de Performance · E-Commerce",
+    "periodo": "Junio 2026",
+    "periodo_id": "2026-06",
+    "tipo": "ecommerce"
+  },
+  "portada": {
+    "eyebrow": "Reporte de Junio · 2026",
+    "titular": "Junio con pauta activa y facturación en cero",
+    "resumen": "Las plataformas registraron retornos sólidos por canal, pero el sitio no procesó órdenes: <b>1.000 usuarios iniciaron checkout</b> y ninguno completó la compra. La inversión de $1.725.406 no generó facturación medible."
+  },
+  "hero": {
+    "label": "ROAS Total",
+    "valor": "0,00x",
+    "delta": "↓ 100%",
+    "delta_ctx": "vs Mayo",
+    "desc1": "Sin órdenes completadas en el sitio, la facturación del negocio fue $0 sobre una inversión de $1.725.406.",
+    "desc2": "Las plataformas atribuyeron compras, pero el e-commerce no registró transacciones: el MER refleja esa brecha."
+  },
+  "banda": [
+    {
+      "label": "Facturación",
+      "valor": "$0",
+      "delta": "↓ 100%",
+      "ctx": "vs Mayo",
+      "tipo": "neg"
+    },
+    {
+      "label": "Inversión Total",
+      "valor": "$1.725.406",
+      "delta": "↓ 16%",
+      "ctx": "vs Mayo",
+      "tipo": "neu"
+    },
+    {
+      "label": "Órdenes",
+      "valor": "0",
+      "delta": "↓ 100%",
+      "ctx": "vs Mayo",
+      "tipo": "neg"
+    },
+    {
+      "label": "Ticket Prom.",
+      "valor": "$0",
+      "delta": "↓ 100%",
+      "ctx": "vs Mayo",
+      "tipo": "neg"
+    }
+  ],
+  "embudo": {
+    "titulo": "Embudo de Conversión",
+    "sub": "Del tráfico a la compra, paso por paso.",
+    "pasos": [
+      {
+        "nombre": "Sesiones",
+        "valor": "17.252",
+        "width": 100
+      },
+      {
+        "nombre": "Agregaron al carrito",
+        "valor": "2.025",
+        "width": 11.737769533967077
+      },
+      {
+        "nombre": "Iniciaron checkout",
+        "valor": "1.000",
+        "width": 5.796429399489914
+      },
+      {
+        "nombre": "Órdenes",
+        "valor": "0",
+        "width": 0.6,
+        "weak": true
+      }
+    ],
+    "conversiones": [
+      {
+        "rate": "11,74%",
+        "ctx": "pasa a \"agregaron al carrito\"",
+        "drop": false
+      },
+      {
+        "rate": "49,38%",
+        "ctx": "pasa a \"iniciaron checkout\"",
+        "drop": false
+      },
+      {
+        "rate": "0,00%",
+        "ctx": "pasa a \"órdenes\"",
+        "drop": true
+      }
+    ],
+    "nota": "El embudo cae a <b>0,00%</b> de conversión en el último paso: 1.000 usuarios iniciaron checkout y ninguno completó la orden. La ruptura está en el cierre de la transacción, no en la captación ni en la intención de compra."
+  },
+  "snapshot": [
+    {
+      "canal": "E-Commerce",
+      "valor": "$0",
+      "label": "Facturación",
+      "color": "pos"
+    },
+    {
+      "canal": "Meta Ads",
+      "valor": "7,68x",
+      "label": "ROAS (venta)",
+      "color": ""
+    },
+    {
+      "canal": "Instagram",
+      "valor": "14.597",
+      "label": "Seguidores",
+      "color": ""
+    },
+    {
+      "canal": "Google Ads",
+      "valor": "9,64x",
+      "label": "ROAS",
+      "color": ""
+    }
+  ],
+  "narrativa": [
+    "Junio cerró con <b>$0 de facturación</b> y <b>0 órdenes</b>, contra 205 órdenes y $14.854.741 en Mayo. El sitio recibió tráfico y generó intención, pero no procesó ninguna transacción.",
+    "El embudo muestra 17.252 sesiones, 2.025 agregados al carrito y 1.000 inicios de checkout. La tasa de conversión final fue <b>0,00%</b>: el problema está en el paso de pago, no en la captación.",
+    "Meta y Google operaron con retornos altos por plataforma: <b>7,68x</b> y <b>9,64x</b> respectivamente. Sin embargo, el ROAS Total —que mide el negocio real— fue <b>0,00x</b> porque ninguna compra se registró en el sitio.",
+    "Las redes sociales sostuvieron presencia: Instagram cerró en <b>14.597 seguidores</b> con 67.517 cuentas alcanzadas. El contenido de voley y hockey concentró las principales interacciones del mes.",
+    "La tensión central de junio es técnica, no de medios: la pauta trajo tráfico calificado con intención real de compra. Resolver el quiebre en el checkout es la condición para que cualquier inversión futura convierta."
+  ],
+  "highlights": [
+    {
+      "valor": "7,68x",
+      "label": "ROAS de Meta · campañas de venta"
+    },
+    {
+      "valor": "9,64x",
+      "label": "ROAS de Google Ads"
+    },
+    {
+      "valor": "0,00%",
+      "label": "conversión del sitio"
+    },
+    {
+      "valor": "14.597",
+      "label": "seguidores de Instagram"
+    }
+  ],
+  "proximos_pasos": [
+    {
+      "n": 1,
+      "titulo": "Diagnosticar el quiebre en checkout",
+      "diag": "1.000 usuarios iniciaron el proceso de pago y ninguno lo completó. Falla técnica o de configuración en el paso final.",
+      "accion": "Auditar el flujo de checkout: pasarela de pagos, errores de plataforma y configuración de métodos disponibles.",
+      "impacto": "Recuperar la conversión sobre tráfico ya captado, sin incrementar inversión publicitaria."
+    },
+    {
+      "n": 2,
+      "titulo": "Revisar Google Ads Performance Max",
+      "diag": "La campaña Máximo rendimiento concentró 83% del gasto de Google con ROAS de 2,97x, por debajo del canal.",
+      "accion": "Analizar segmentos y creatividades de la campaña; reasignar presupuesto hacia TOFU que rindió 94,14x.",
+      "impacto": "Mejorar el retorno atribuido de Google sin aumentar la inversión total del canal."
+    },
+    {
+      "n": 3,
+      "titulo": "Reactivar inversión con sitio validado",
+      "diag": "Meta redujo inversión 8,9% y Google 42% vs Mayo; el ROAS por canal cayó 33% en ambos con el sitio sin conversiones.",
+      "accion": "Una vez resuelto el checkout, restituir presupuesto en campañas de mayor ROAS: VENTAS Finders 2026 (9,23x) y TOFU Google.",
+      "impacto": "Recuperar volumen de órdenes sobre una base técnica estable y retornos por canal ya validados."
+    }
+  ],
+  "metricas": [
+    {
+      "id": "meta",
+      "nombre": "Meta Ads",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Meta Ads · Junio 2026",
+      "kpis": [
+        {
+          "label": "Inversión",
+          "valor": "$1.458.961",
+          "delta": "↓ 8,9%",
+          "tipo": "neu"
+        },
+        {
+          "label": "ROAS (venta)",
+          "valor": "7,68x",
+          "delta": "↓ 33%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Compras",
+          "valor": "127",
+          "delta": "↓ 41%",
+          "tipo": "neg"
+        },
+        {
+          "label": "CPA",
+          "valor": "$11.329",
+          "delta": "↑ 52%",
+          "tipo": "neg"
+        },
+        {
+          "label": "CTR",
+          "valor": "4,29%",
+          "delta": "↓ 0,91 pp",
+          "tipo": "neg"
+        },
+        {
+          "label": "Alcance",
+          "valor": "124.104",
+          "delta": "↑ 3,6%",
+          "tipo": "pos"
+        }
+      ],
+      "lectura": [
+        "El <b>ROAS de venta de 7,68x</b> corresponde a las campañas de venta: mide el retorno real de la adquisición.",
+        "La inversión total del canal fue $1.458.961, con 127 compras atribuidas."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Inversión Diaria",
+          "sub": "Gasto por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "$1,5M"
+            ],
+            [
+              "Pico",
+              "$71K"
+            ],
+            [
+              "Promedio/día",
+              "$49K"
+            ]
+          ],
+          "serie": [
+            54,
+            53,
+            52,
+            52,
+            47,
+            46,
+            62,
+            57,
+            50,
+            53,
+            51,
+            51,
+            52,
+            70,
+            71,
+            57,
+            57,
+            58,
+            54,
+            59,
+            63,
+            34,
+            29,
+            30,
+            31,
+            28,
+            26,
+            35,
+            35,
+            42
+          ],
+          "color": "accent",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Campañas",
+          "sub": "Ordenadas por inversión.",
+          "headers": [
+            "Campaña",
+            "Inversión",
+            "ROAS"
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "VENTAS - Finders 2026 - Activar nuevamete"
+              },
+              {
+                "stack": [
+                  "$828.090",
+                  "57% del gasto"
+                ]
+              },
+              {
+                "pct": "9,23x",
+                "tipo": "pos"
+              }
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "VENTAS - Dia del Padre"
+              },
+              {
+                "stack": [
+                  "$241.739",
+                  "17% del gasto"
+                ]
+              },
+              {
+                "pct": "4,47x",
+                "tipo": "pos"
+              }
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "VENTAS - Finders Outdoor 2026"
+              },
+              {
+                "stack": [
+                  "$189.183",
+                  "13% del gasto"
+                ]
+              },
+              {
+                "pct": "5,95x",
+                "tipo": "pos"
+              }
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "VENTAS - Finders Kids (17/4) - Activar nuevamete"
+              },
+              {
+                "stack": [
+                  "$179.795",
+                  "12% del gasto"
+                ]
+              },
+              {
+                "pct": "6,68x",
+                "tipo": "pos"
+              }
+            ],
+            [
+              {
+                "rank": 5,
+                "texto": "Tráfico Web - Pixel viejo · no venta"
+              },
+              {
+                "stack": [
+                  "$20.154",
+                  "1% del gasto"
+                ]
+              },
+              {
+                "pct": "0,00x",
+                "tipo": "neg"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "googleads",
+      "nombre": "Google Ads",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Google Ads · Junio 2026",
+      "kpis": [
+        {
+          "label": "Inversión",
+          "valor": "$266.445",
+          "delta": "↓ 42%",
+          "tipo": "neu"
+        },
+        {
+          "label": "ROAS",
+          "valor": "9,64x",
+          "delta": "↓ 33%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Conversiones",
+          "valor": "100",
+          "delta": "↑ 3,1%",
+          "tipo": "pos"
+        },
+        {
+          "label": "CPC Prom.",
+          "valor": "$270",
+          "delta": "↑ 48%",
+          "tipo": "neg"
+        },
+        {
+          "label": "CTR",
+          "valor": "1,87%",
+          "delta": "↓ 1,22 pp",
+          "tipo": "neg"
+        },
+        {
+          "label": "Clics",
+          "valor": "986",
+          "delta": "↓ 60%",
+          "tipo": "neg"
+        }
+      ],
+      "lectura": [
+        "Google Ads rinde <b>ROAS 9,64x</b> capturando búsquedas de intención.",
+        "Inversión acotada ($266.445): hay espacio para escalar lo que convierte."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Inversión Diaria",
+          "sub": "Gasto por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "$266K"
+            ],
+            [
+              "Pico",
+              "$29K"
+            ],
+            [
+              "Promedio/día",
+              "$9K"
+            ]
+          ],
+          "serie": [
+            23,
+            23,
+            26,
+            18,
+            14,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            20,
+            28,
+            28,
+            29,
+            26,
+            19,
+            11,
+            0,
+            0
+          ],
+          "color": "accent",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Campañas",
+          "sub": "Ordenadas por inversión.",
+          "headers": [
+            "Campaña",
+            "Inversión",
+            "ROAS"
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "Máximo rendimiento (a)"
+              },
+              {
+                "stack": [
+                  "$222.454",
+                  "83% del gasto"
+                ]
+              },
+              {
+                "pct": "2,97x",
+                "tipo": "neg"
+              }
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "SEARCH - Ventas | Basquet"
+              },
+              {
+                "stack": [
+                  "$23.744",
+                  "9% del gasto"
+                ]
+              },
+              {
+                "pct": "0,00x",
+                "tipo": "neg"
+              }
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "TOFU - Finders"
+              },
+              {
+                "stack": [
+                  "$20.247",
+                  "8% del gasto"
+                ]
+              },
+              {
+                "pct": "94,14x",
+                "tipo": "pos"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "redes",
+      "nombre": "Redes",
+      "panel_titulo": "Total del Canal",
+      "panel_sub": "Instagram + Facebook · Junio 2026",
+      "kpis": [
+        {
+          "label": "Seguidores IG",
+          "valor": "14.597",
+          "delta": "↑ 2,7%",
+          "tipo": "pos"
+        },
+        {
+          "label": "Alcance",
+          "valor": "67.517",
+          "delta": "↓ 12%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Interacciones",
+          "valor": "907",
+          "delta": "↓ 26%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Visitas Perfil",
+          "valor": "3.315",
+          "delta": "↓ 19%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Posteos",
+          "valor": "10",
+          "delta": "↓ 9,1%",
+          "tipo": "neg"
+        },
+        {
+          "label": "Seguidores FB",
+          "valor": "1.604",
+          "delta": "↑ 0,9%",
+          "tipo": "pos"
+        }
+      ],
+      "lectura": [
+        "Instagram alcanzó <b>67.517</b> cuentas con 907 interacciones.",
+        "La cuenta cerró el mes en 14.597 seguidores."
+      ],
+      "bloques": [
+        {
+          "tipo": "chart",
+          "titulo": "Alcance Diario (IG)",
+          "sub": "Cuentas alcanzadas por día (miles).",
+          "stats": [
+            [
+              "Total",
+              "67.517"
+            ],
+            [
+              "Pico",
+              "8.658"
+            ],
+            [
+              "Promedio/día",
+              "5.552"
+            ]
+          ],
+          "serie": [
+            7,
+            5,
+            5,
+            5,
+            5,
+            6,
+            7,
+            7,
+            5,
+            6,
+            5,
+            6,
+            6,
+            9,
+            8,
+            7,
+            6,
+            7,
+            6,
+            9,
+            9,
+            3,
+            3,
+            4,
+            4,
+            3,
+            3,
+            5,
+            4,
+            0
+          ],
+          "color": "accent",
+          "suffix": "K"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Top Contenido",
+          "sub": "Posteos del mes por interacciones.",
+          "headers": [
+            "Contenido",
+            "Tipo",
+            "Interac."
+          ],
+          "filas": [
+            [
+              {
+                "rank": 1,
+                "texto": "Chaser ARG 🇦🇷 | Voley Deslizá para ver todas las e…"
+              },
+              "Carrusel",
+              "36"
+            ],
+            [
+              {
+                "rank": 2,
+                "texto": "Chaser ARG 🇦🇷 | Voley Alentá a la selección con Fi…"
+              },
+              "Reel",
+              "23"
+            ],
+            [
+              {
+                "rank": 3,
+                "texto": "Trophy Arg 🇦🇷 | Hockey  Este calzado fue hecho par…"
+              },
+              "Carrusel",
+              "19"
+            ],
+            [
+              {
+                "rank": 4,
+                "texto": "CUP 26 | ARG ⭐️⭐️⭐️  Alentá a la selección dentro de…"
+              },
+              "Carrusel",
+              "15"
+            ],
+            [
+              {
+                "rank": 5,
+                "texto": "Chaser ARG 🇦🇷  Si jugás al Voley, este calzado es …"
+              },
+              "Carrusel",
+              "11"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
